@@ -1,0 +1,106 @@
+{
+  /* The name of the board */
+  "name": "ESP32 DevKit V1",
+
+  /* Board version. Increment it whenever you make changes. */
+  "version": 1,
+
+  /* One-liner description of the board, it's capabilities, etc. */
+  "description": "A common ESP32 dev board by DOIT",
+
+  /* The name of the person who created this file */
+  "author": "Uri Shaked",
+
+  /* Microcontroller name. Valid values: atmega328p, atmega2560, attiny85, rp2040, esp32 */
+  "mcu": "esp32",
+
+  /* Fully Qualified Board Name (FQBN) for the Arduino CLI */
+  "fqbn": "esp32:esp32:esp32doit-devkit-v1",
+
+  /* Width of the board graphics, in mm. Must match the width defined in board.svg */
+  "width": 28.2,
+
+  /* Height of the board graphics, in mm. Must match the height defined in board.svg */
+  "height": 53,
+
+  /* The pins available on the board.
+     "x"/"y" positions are in mm, and are relative to the top-left corner of the board.
+     "target" is either:
+     - an MCU pin name
+     - "GND" for ground
+     - "power(n)" for power supply pins, where n is the voltage. e.g. "power(3.3)"
+  */
+  "pins": {
+    "EN": { "x": 1.27, "y": 5.8, "target": "CHIP_PU" },
+    "VN": { "x": 1.27, "y": 8.34, "target": "GPIO39" },
+    "VP": { "x": 1.27, "y": 10.88, "target": "GPIO36" },
+    "D34": { "x": 1.27, "y": 13.42, "target": "GPIO34" },
+    "D35": { "x": 1.27, "y": 15.96, "target": "GPIO35" },
+    "D32": { "x": 1.27, "y": 18.5, "target": "GPIO32" },
+    "D33": { "x": 1.27, "y": 21.04, "target": "GPIO33" },
+    "D25": { "x": 1.27, "y": 23.58, "target": "GPIO25" },
+    "D26": { "x": 1.27, "y": 26.12, "target": "GPIO26" },
+    "D27": { "x": 1.27, "y": 28.66, "target": "GPIO27" },
+    "D14": { "x": 1.27, "y": 31.2, "target": "GPIO14" },
+    "D12": { "x": 1.27, "y": 33.74, "target": "GPIO12" },
+    "D13": { "x": 1.27, "y": 36.28, "target": "GPIO13" },
+    "GND.2": { "x": 1.27, "y": 38.82, "target": "GND" },
+    "VIN": { "x": 1.27, "y": 41.36, "target": "power(5)" },
+    "3V3": { "x": 26.8, "y": 41.36, "target": "power(3.3)" },
+    "GND.1": { "x": 26.8, "y": 38.82, "target": "GND" },
+    "D15": { "x": 26.8, "y": 36.28, "target": "15" },
+    "D2": { "x": 26.8, "y": 33.74, "target": "GPIO2" },
+    "D4": { "x": 26.8, "y": 31.2, "target": "GPIO4" },
+    "RX2": { "x": 26.8, "y": 28.66, "target": "GPIO16" },
+    "TX2": { "x": 26.8, "y": 26.12, "target": "GPIO17" },
+    "D5": { "x": 26.8, "y": 23.58, "target": "GPIO5" },
+    "D18": { "x": 26.8, "y": 21.04, "target": "GPIO18" },
+    "D19": { "x": 26.8, "y": 18.5, "target": "GPIO19" },
+    "D21": { "x": 26.8, "y": 15.96, "target": "GPIO21" },
+    "RX0": { "x": 26.8, "y": 13.42, "target": "GPIO3" },
+    "TX0": { "x": 26.8, "y": 10.88, "target": "GPIO1" },
+    "D22": { "x": 26.8, "y": 8.34, "target": "GPIO22" },
+    "D23": { "x": 26.8, "y": 5.8, "target": "GPIO23" }
+  },
+
+  /* On-board LED definitions. These only draw the light of the LED when it's on. 
+     You should draw the body of the LED in your .svg file. */
+  "leds": [
+    {
+      /* A unique identifier of the LED on the board */
+      "id": "power",
+
+      /* x/y positions of the LED center, in mm. Relative to the top-left corner of the board */
+      "x": 9.77,
+      "y": 29.8,
+
+      /* Supported LED types: 0603, WS2812, APA102, RGB */
+      "type": "0603",
+
+      /* LED color - only relevant for 0603 LEDs */
+      "color": "red",
+
+      /* The PINs object defines how the LED pins connect to the MCU pins. The LED pin names depend on the type of the LED:
+         - 0603 - "A" for Anode, "C" for cathode
+         - WS2812 - "DI" for data input
+         - APA102 - "DI" for data input, "CI" for clock output
+         - RGB - "R" for red input, "G" for green input, "B" for blue input, "C" for cathode, "A" for anode (define either A or C, not both)
+      */
+      "pins": {
+        "A": "3V3", // This is a power LED, so it's always on
+        "C": "GND.1"
+      }
+    },
+    {
+      "id": "led1",
+      "x": 18.9,
+      "y": 29.8,
+      "type": "0603",
+      "color": "blue",
+      "pins": {
+        "A": "D2", // The LED connects to GPIO pin 2
+        "C": "GND.1"
+      }
+    }
+  ]
+}
