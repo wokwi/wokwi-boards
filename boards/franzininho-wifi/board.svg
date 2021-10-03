@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="29.88mm" height="69.7mm" version="1.1" viewBox="0 0 29.88 69.7" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+   <pattern id="pins-female" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="2.54" height="2.54" fill="#333"></rect>
+    <rect x="1.079" y="0.896" width="0.762" height="0.762" style="fill: #191919"></rect>
+    <path
+      transform="translate(1.079, 1.658) rotate(180 0 0)"
+      d="m 0 0 v 0.762 l 0.433,0.433 c 0.046,-0.046 0.074,-0.109 0.074,-0.179 v -1.27 c 0,-0.070 -0.028,-0.133 -0.074,-0.179 z"
+      style="opacity: 0.25"
+    ></path>
+    <path
+      transform="translate(1.841, 1.658) rotate(90 0 0)"
+      d="m 0 0 v 0.762 l 0.433,0.433 c 0.046,-0.046 0.074,-0.109 0.074,-0.179 v -1.27 c 0,-0.070 -0.028,-0.133 -0.074,-0.179 z"
+      style="opacity: 0.3; fill: #fff"
+    ></path>
+    <path
+      transform="translate(1.841, 0.896)"
+      d="m 0 0 v 0.762 l 0.433,0.433 c 0.046,-0.046 0.074,-0.109 0.074,-0.179 v -1.27 c 0,-0.070 -0.028,-0.133 -0.074,-0.179 z"
+      style="opacity: 0.15; fill: #fff"
+    ></path>
+    <path
+      transform="translate(1.079, 0.896) rotate(270 0 0)"
+      d="m 0 0 v 0.762 l 0.433,0.433 c 0.046,-0.046 0.074,-0.109 0.074,-0.179 v -1.27 c 0,-0.070 -0.028,-0.133 -0.074,-0.179 z"
+      style="opacity: 0.35"
+    ></path>
+  </pattern>
+ </defs>
+ <g fill="#4d4d4d">
+  <rect x="17.734" y="52.95" width="1.282" height="1.1071" opacity=".4"/>
+  <rect x="11.125" y="52.879" width="1.282" height="1.1071" opacity=".4"/>
+  <rect x="13.225" y="52.917" width="1.282" height="1.1071" opacity=".4"/>
+  <rect x="15.463" y="53.016" width="1.282" height="1.1071" opacity=".4"/>
+ </g>
+ <rect x=".059642" y="6.4764" width="29.761" height="50.686" fill="#277738" stroke="#277738" stroke-linecap="round" stroke-linejoin="round" stroke-width=".11848"/>
+ <g fill="#ffffff" font-family="sans-serif">
+   <text font-size="1.47px">
+    <tspan x="25.088837" y="8.6634178">46</tspan> 
+    <tspan x="25.204098" y="11.05038">45</tspan>
+    <tspan x="24.961161" y="13.594517">RX</tspan>
+    <tspan x="25.059805" y="16.093834">TX</tspan>
+    <tspan x="25.224237" y="18.56028">42</tspan>
+    <tspan x="25.290016" y="21.092485">41</tspan>
+    <tspan x="25.224237" y="23.591806">40</tspan>
+    <tspan x="25.191351" y="26.058241">39</tspan>
+    <tspan x="25.188307" y="28.568707">38</tspan>
+    <tspan x="25.155426" y="31.068031">37</tspan>
+    <tspan x="25.221195" y="33.633106">36</tspan>
+    <tspan x="25.221195" y="36.132442">35</tspan>
+    <tspan x="25.221195" y="38.66465">34</tspan>
+    <tspan x="25.221195" y="41.196854">33</tspan>
+    <tspan x="25.18832" y="43.663284">26</tspan>
+    <tspan x="25.221195" y="46.195503">21</tspan>
+    <tspan x="25.155426" y="48.727695">20</tspan>
+   </text>
+ </g>
+ <rect transform="rotate(-89.896)" x="-38.446" y="18.479" width="4.9215" height="4.9215" fill="#f2f2f2" stroke-width=".98431"/>
+ <g fill="#eaeaea" stroke-width=".98431">
+  <rect transform="rotate(-89.896)" x="-38.757" y="18.9" width=".34563" height=".88588"/>
+  <rect transform="rotate(-89.896)" x="-38.774" y="22.073" width=".34563" height=".88588"/>
+  <rect transform="rotate(-89.896)" x="-33.545" y="22.057" width=".34563" height=".88588"/>
+  <rect transform="rotate(-89.896)" x="-33.545" y="18.867" width=".34563" height=".88588"/>
+ </g>
+ <circle transform="rotate(-89.896)" cx="-35.985" cy="20.94" r="2.067" fill="#ddd" stroke-width=".98431"/>
+ <circle transform="rotate(-89.896)" cx="-35.985" cy="20.94" r="1.7053" fill="#e6e6e6" stroke-width=".98431"/>
+ <g transform="matrix(.0017817 -.98431 .98431 .0017817 18.409 38.807)" fill="#bfbfbf">
+  <path d="m4.3488 3.3308s-0.0889-0.087-0.0889-0.1341c0-0.047-6e-3 -1.1533-6e-3 -1.1533s-0.0591-0.1772-0.2008-0.1772c-0.14174 0-0.81501 0.012-0.81501 0.012s-0.24805 0.024-0.23624 0.3071c0.0118 0.2835 0.032 2.0345 0.032 2.0345 0.54707-0.046 1.0487-0.3494 1.3146-0.8888z"/>
+  <path d="m4.34 1.6405h-1.0805s-0.24325 0.019-0.26204-0.2423l6e-3 -0.6241c0.57782 0.075 1.0332 0.3696 1.3366 0.8706z"/>
+  <path d="m2.7778 2.6103-0.17127 0.124-0.8091-0.012c-0.17122-0.019-0.17062-0.2078-0.17062-0.2078-1e-3 -0.3746 1e-3 -0.2831-9e-3 -0.8122l-0.31248-0.018s0.43453-0.9216 1.4786-0.9174c-1.1e-4 0.6144-4e-3 1.2289-6e-3 1.8434z"/>
+  <path d="m2.7808 3.0828-0.0915-0.095h-0.96857l-0.0915 0.1447-3e-3 0.1127c0 0.065-0.12108 0.08-0.12108 0.08h-0.20909c0.55906 0.9376 1.4867 0.9155 1.4867 0.9155 1e-3 -0.3845-2e-3 -0.7692-2e-3 -1.1537z"/>
+ </g>
+ <path d="m20.249 34.821c-2.54e-4 0.13953 0.01132 0.80218 0.01132 0.80218s0.02315 0.24412 0.30314 0.23301c0.07578-0.0029 0.31844-0.0049 0.54277-0.0078l0.0022-1.2274c-0.32482 9.68e-4 -0.68332 0.0029-0.68332 0.0029s-0.1754 0.05809-0.17566 0.19754z" fill="#666" stroke-width=".98431"/>
+ <circle transform="matrix(.0017817 -.98431 .98431 .0017817 -177.3 134.12)" cx="99.694" cy="200.95" r=".3" fill="#f00" filter="url(#light1)" opacity="0"/>
+ <circle transform="matrix(.0017817 -.98431 .98431 .0017817 -177.3 134.12)" cx="100.69" cy="201.85" r=".3" fill="#008000" filter="url(#light1)" opacity="0"/>
+ <circle transform="matrix(.0017817 -.98431 .98431 .0017817 -177.3 134.12)" cx="100.49" cy="200.1" r=".3" fill="#00f" filter="url(#light1)" opacity="0"/>
+ <g stroke="#277738" stroke-linecap="round" stroke-linejoin="round">
+  <rect x=".059638" y="6.5256" width="2.3251" height="50.637" ry="0" opacity=".71" stroke-width=".11897"/>
+  <rect x="27.495" y="6.5256" width="2.3251" height="50.637" ry="0" opacity=".71" stroke-width=".11897"/>
+  <rect x="6.1978" y=".059235" width="17.392" height="30.598" fill="#333" stroke-width=".11848"/>
+ </g>
+ <path d="m8.2439 5.1744v-4.4641h1.767l0.09301 2.4181 2.4181 0.093001v-2.5111h2.4181l0.09302 2.4181h2.0461l0.09301-2.4181h4.5571v4.6501l0.09301 0.186" fill="none" stroke="#fefefe" stroke-opacity=".11726" stroke-width=".4769"/>
+ <path d="m19.311 0.80326v4.5571" fill="none" stroke="#4a4a4a" stroke-width=".4769"/>
+ <g>
+  <rect x="7.7789" y="7.0344" width="14.136" height="22.321" fill="#c5c5c5"/>
+  <rect x="16.8" y="7.0344" width="5.1151" height="3.7201" fill="#151515" opacity=".8"/>
+  <text x="9.3259306" y="8.8483677" fill="#000000" font-family="sans-serif" font-size="1.2777px" stroke-width=".031943" style="line-height:1.25" xml:space="preserve"><tspan x="9.3259306" y="8.8483677">ESPRESSIF</tspan><tspan x="9.3259306" y="10.44553"/></text>
+  <text x="8.1539488" y="9.9499722" fill="#000000" font-family="sans-serif" font-size=".89826px" stroke-width=".022457" style="line-height:1.25" xml:space="preserve"><tspan x="8.1539488" y="9.9499722" stroke-width=".022457">ESP32-S2 WROOM</tspan></text>
+  <circle cx="8.5522" cy="8.3658" r=".58729" fill="#151515" opacity=".8"/>
+  <rect x="7.7789" y="42.84" width="6.0452" height="3.8131" fill="#151515"/>
+ </g>
+ <g fill="#808080">
+  <rect x="8.0579" y="41.166" width="1.0497" height="1.6857"/>
+  <rect x="10.253" y="41.172" width="1.0497" height="1.6857"/>
+  <rect x="12.52" y="41.161" width="1.0497" height="1.6857"/>
+ </g>
+ <g>
+  <rect x="9.3529" y="46.667" width="3.1393" height="1.7208" fill="#808080"/>
+  <rect x="19.806" y="44.805" width="4.308" height="1.7758" fill="#f9f9f9"/>
+  <rect x="20.496" y="44.427" width="2.8611" height="2.4993" fill="#808080"/>
+  <circle cx="21.919" cy="45.702" r=".7717" fill="#333"/>
+  <rect x="19.773" y="48.324" width="4.308" height="1.7758" fill="#f9f9f9"/>
+  <rect x="20.463" y="47.946" width="2.8611" height="2.4993" fill="#808080"/>
+  <circle cx="21.886" cy="49.22" r=".7717" fill="#333"/>
+  <rect x="13.409" y="36.683" width=".98657" height="2.4993" fill="#b3b3b3"/>
+  <rect x="13.454" y="37.439" width=".87648" height=".95369" fill="#f9f9f9"/>
+ </g>
+ <g fill="#ffffff" font-family="sans-serif">
+  <text font-size="1.4802px">
+   <tspan x="2.9723873" y="8.5488358">0</tspan>
+   <tspan x="2.9218245" y="11.037772">1</tspan>
+   <tspan x="2.916954" y="13.659083">2</tspan>
+   <tspan x="2.9538455" y="16.029499">3</tspan>
+   <tspan x="3.027163" y="18.570387">4</tspan>
+   <tspan x="3.0093122" y="21.077677">5</tspan>
+   <tspan x="3.0164649" y="23.61694">6</tspan>
+   <tspan x="2.9867043" y="26.148397">7</tspan>
+   <tspan x="2.9506586" y="28.766958">8</tspan>
+   <tspan x="2.9826126" y="31.183544">9</tspan>
+   <tspan x="2.8981574" y="33.731976">10</tspan>
+   <tspan x="2.9304993" y="36.310562">11</tspan>
+   <tspan x="2.9046974" y="38.744099">12</tspan>
+   <tspan x="2.9836464" y="41.154942">13</tspan>
+   <tspan x="2.9249749" y="43.758141">14</tspan>
+   <tspan x="2.9114037" y="46.209133">15</tspan>
+   <tspan x="2.9547021" y="48.664795">16</tspan>
+   <tspan x="2.9461901" y="51.191399">17</tspan>
+   <tspan x="2.8687332" y="53.676411">GND</tspan>
+   <tspan x="3.0079641" y="56.292633">3V3</tspan>
+  </text>
+  <g font-size="1.4718px" stroke-width=".036794">
+   <text x="25.188307" y="51.19413" style="line-height:1.25" xml:space="preserve"><tspan x="25.188307" y="51.19413" fill="#ffffff" stroke-width=".036794">19</tspan></text>
+   <text x="23.609798" y="53.660568" style="line-height:1.25" xml:space="preserve"><tspan x="23.609798" y="53.660568" fill="#ffffff" stroke-width=".036794">GND</tspan></text>
+   <text x="24.892342" y="56.159897" style="line-height:1.25" xml:space="preserve"><tspan x="24.892342" y="56.159897" fill="#ffffff" stroke-width=".036794">5V</tspan></text>
+  </g>
+ </g>
+ <rect x="10.022" y="53.882" width="10.162" height="15.818" fill="#808080"/>
+ <rect x="10.022" y="55.031" width="9.2409" height="14.669" fill="#ccc"/>
+ <g fill="#808080">
+  <rect x="11.206" y="65.655" width="2.006" height="1.4799"/>
+  <rect x="16.386" y="65.704" width="2.006" height="1.4799"/>
+  <rect x="14.445" y="57.516" width=".89157" height=".65772"/>
+ </g>
+ <g>
+  <text transform="rotate(269.85)" x="-50.053913" y="19.276651" fill="#ffffff" font-family="sans-serif" font-size=".91004px" stroke-width=".022751" style="line-height:1.25" xml:space="preserve"><tspan x="-50.053913" y="19.276651" fill="#ffffff" stroke-width=".022751">RST</tspan></text>
+  <text transform="rotate(269.85)" x="-46.675674" y="19.3629" fill="#ffffff" font-family="sans-serif" font-size=".91004px" stroke-width=".022751" style="line-height:1.25" xml:space="preserve"><tspan x="-46.675674" y="19.3629" fill="#ffffff" stroke-width=".022751">BOOT</tspan></text>
+  <rect x="19.796" y="7.1936" width="1.893" height="3.07" fill="#ffb768"/>
+  <rect x="19.839" y="7.644" width="1.8033" height="2.2565" fill="#383838"/>
+  <text transform="matrix(-.0035913 -.99986 1.0001 -.016905 0 0)" x="-50.499222" y="6.8326049" fill="#ffffff" font-family="sans-serif" font-size="1.3442px" stroke-width=".033605" style="line-height:1.25" xml:space="preserve"><tspan x="-50.499222" y="6.8326049">FRANZININHO</tspan><tspan x="-50.499222" y="8.5128422">WIFI</tspan></text>
+ </g>
+ <g transform="translate(2.497 6.45) rotate(90)" >
+  <rect width="50.5" height="2.54" fill="url(#pins-female)"></rect>
+ </g>
+ <g transform="translate(29.87 6.45) rotate(90)" >
+  <rect width="50.5" height="2.54" fill="url(#pins-female)"></rect>
+ </g>
+</svg>
