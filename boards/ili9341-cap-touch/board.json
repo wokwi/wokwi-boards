@@ -1,0 +1,44 @@
+{
+  "name": "ILI9341 LCD with Capacitive Touch",
+  "version": 1,
+  "description": "Color LCD with FT6206 Capacitive Touch Input",
+  "author": "Uri Shaked",
+  "width": 46.5,
+  "height": 77.6,
+
+  "pins": {
+    /* Power pins */
+    "VCC": { "x": 10.26, "y": 76, "target": ["lcd1:VCC", "touch1:VCC"] },
+    "GND": { "x": 12.8, "y": 76, "target": ["lcd1:GND", "touch1:GND"] },
+
+    /* Display pins */
+    "CS": { "x": 15.34, "y": 76, "target": "lcd1:CS" },
+    "RST": { "x": 17.88, "y": 76, "target": "lcd1:RST" },
+    "D/C": { "x": 20.42, "y": 76, "target": "lcd1:D/C" },
+    "MOSI": { "x": 22.96, "y": 76, "target": "lcd1:MOSI" },
+    "SCK": { "x": 25.5, "y": 76, "target": "lcd1:SCK" },
+    "LED": { "x": 28.04, "y": 76, "target": "lcd1:LED" },
+    "MISO": { "x": 30.58, "y": 76, "target": "lcd1:MISO" },
+
+    /* Touch pins */
+    "SCL": { "x": 33.12, "y": 76, "target": "touch1:SCL" },
+    "SDA": { "x": 35.66, "y": 76, "target": "touch1:SDA" }
+  },
+
+  "displays": [
+    {
+      "id": "lcd1",
+      "x": 2,
+      "y": 7,
+      "width": 42.5,
+      "height": 56,
+      "pixelWidth": 240,
+      "pixelHeight": 320,
+      "chip": "ili9341",
+      "touch": {
+        "id": "touch1",
+        "chip": "ft6206"
+      }
+    }
+  ]
+}

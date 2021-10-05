@@ -1,0 +1,30 @@
+<svg width="46.5mm" height="77.6mm" version="1.1" viewBox="0 0 46.5 77.6" xmlns="http://www.w3.org/2000/svg">
+  <!-- Board -->
+  <path d="M 0,0 V 77.6 H 46.5 V 0 Z M 43.1,1.78 c 1,0 1.8,0.81 1.8,1.8 0,1 -0.81,1.8 -1.8,1.8 -1,0 -1.8,-0.81 -1.8,-1.8 0,-1 0.81,-1.8 1.8,-1.8 z m -39.40,0.1 c 1,0 1.8,0.81 1.8,1.8 0,1 -0.81,1.8 -1.8,1.8 -1,0 -1.8,-0.81 -1.8,-1.8 0,-1 0.81,-1.8 1.8,-1.8 z m 0,70.7 c 1,0 1.8,0.81 1.8,1.8 0,1 -0.81,1.8 -1.8,1.8 -1,0 -1.8,-0.81 -1.8,-1.8 0,-1 0.81,-1.8 1.8,-1.8 z m 39.40,0.0946 c 1,0 1.8,0.81 1.8,1.8 0,1 -0.81,1.8 -1.8,1.8 -1,0 -1.8,-0.81 -1.8,-1.8 0,-1 0.81,-1.8 1.8,-1.8 z" fill="#931917" stroke-width="0" />
+
+  <!-- LCD Panel -->
+  <path d="m0.17 5.65v64.6h46.1v-64.6zm6.46 62.9h34.7v1.7h-34.7z" fill="#f6e1f1" />
+  <rect x="11.2" y="66.7" width="24.2" height="6.24" rx="1" ry="1" fill="#bdab16" opacity=".4" />
+  <rect x="1.62" y="6.79" width="43.3" height="61.9" />
+
+  <!-- Pins -->
+  <rect x="8.26" y="74.6" width="29.28" height="2.83" fill="none" stroke="#fff" stroke-width=".27" />
+  <g fill="#ccc">
+    <rect x="9.26" y="75" height="2" width="2" />
+    <circle id="round-pin" cx="10.26" cy="76" r="0.75" fill="#fff" stroke-width="0.4" stroke="#ccc" />
+    <use href="#round-pin" x="2.54" />
+    <use href="#round-pin" x="5.08" />
+    <use href="#round-pin" x="7.62" />
+    <use href="#round-pin" x="10.16" />
+    <use href="#round-pin" x="12.7" />
+    <use href="#round-pin" x="15.24" />
+    <use href="#round-pin" x="17.78" />
+    <use href="#round-pin" x="20.32" />
+    <use href="#round-pin" x="22.86" />
+    <use href="#round-pin" x="25.4" />
+  </g>
+  <text font-family="monospace" font-size="3.5px" fill="#fff">
+    <tspan x="6" y="76.9">1</tspan>
+    <tspan x="9.5" y="4.3" font-size="3px">ILI9341 Cap Touch</tspan>
+  </text>
+</svg>
