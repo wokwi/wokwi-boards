@@ -74,7 +74,7 @@
       "x": 9.77,
       "y": 29.8,
 
-      /* Supported LED types: 0603, WS2812, APA102, RGB */
+      /* Supported LED types: 0603, ws2812, apa102, rgb */
       "type": "0603",
 
       /* LED color - only relevant for 0603 LEDs */
@@ -82,9 +82,9 @@
 
       /* The PINs object defines how the LED pins connect to the MCU pins. The LED pin names depend on the type of the LED:
          - 0603 - "A" for Anode, "C" for cathode
-         - WS2812 - "DI" for data input
-         - APA102 - "DI" for data input, "CI" for clock output
-         - RGB - "R" for red input, "G" for green input, "B" for blue input, "C" for cathode, "A" for anode (define either A or C, not both)
+         - ws2812 - "DI" for data input
+         - apa102 - "DI" for data input, "CI" for clock output
+         - rgb - "R" for red input, "G" for green input, "B" for blue input, "C" for cathode, "A" for anode (define either A or C, not both)
       */
       "pins": {
         "A": "3V3", // This is a power LED, so it's always on
