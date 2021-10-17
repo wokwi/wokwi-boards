@@ -23,6 +23,13 @@
   /* Height of the board graphics, in mm. Must match the height defined in board.svg */
   "height": 69.7,
 
+  "environments": {
+    "circuitpython": {
+      "firmware": "https://wokwi.github.io/firmware-assets/circuitpython/adafruit-circuitpython-franzininho_wifi_wroom-en_US-$VERSION.bin",
+      "defaultVersion": "7.0.0"
+    }
+  },
+
   /* The pins available on the board.
      "x"/"y" positions are in mm, and are relative to the top-left corner of the board.
      "target" is either:
