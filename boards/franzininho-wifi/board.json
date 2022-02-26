@@ -26,7 +26,7 @@
   "environments": {
     "circuitpython": {
       "firmware": "https://wokwi.github.io/firmware-assets/circuitpython/adafruit-circuitpython-franzininho_wifi_wroom-en_US-$VERSION.bin",
-      "defaultVersion": "7.0.0"
+      "defaultVersion": "7.2.0"
     }
   },
 
