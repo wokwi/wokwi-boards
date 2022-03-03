@@ -1,0 +1,116 @@
+{
+  /* The name of the board */
+  "name": "ESP32-C3-DevKitM-1",
+
+  /* Board version. Increment it whenever you make changes. */
+  "version": 1,
+
+  /* One-liner description of the board, it's capabilities, etc. */
+  "description": "An entry-level ESP32-C3 development board",
+
+  /* The name of the person who created this file */
+  "author": "Uri Shaked",
+
+  /* Microcontroller name. Valid values: atmega328p, atmega2560, attiny85, rp2040, esp32 */
+  "mcu": "esp32-c3",
+
+  /* Fully Qualified Board Name (FQBN) for the Arduino CLI */
+  "fqbn": "esp32:esp32:esp32c3",
+
+  /* Width of the board graphics, in mm. Must match the width defined in board.svg */
+  "width": 25.4,
+
+  /* Height of the board graphics, in mm. Must match the height defined in board.svg */
+  "height": 42.91,
+
+  /* The pins available on the board.
+     "x"/"y" positions are in mm, and are relative to the top-left corner of the board.
+     "target" is either:
+     - an MCU pin name
+     - "GND" for ground
+     - "power(n)" for power supply pins, where n is the voltage. e.g. "power(3.3)"
+  */
+  "pins": {
+    "GND.1": { "x": 1, "y": 5.16, "target": "GND" },
+    "3V3.1": { "x": 1, "y": 7.7, "target": "power(3.3)" },
+    "3V3.2": { "x": 1, "y": 10.24, "target": "power(3.3)" },
+    "2": { "x": 1, "y": 12.78, "target": "GPIO2" },
+    "3": { "x": 1, "y": 15.32, "target": "GPIO3" },
+    "GND.2": { "x": 1, "y": 17.86, "target": "GND" },
+    "RST": { "x": 1, "y": 20.4, "target": "CHIP_PU" },
+    "GND.3": { "x": 1, "y": 22.94, "target": "GND" },
+    "0": { "x": 1, "y": 25.48, "target": "GPIO0" },
+    "1": { "x": 1, "y": 28.02, "target": "GPIO1" },
+    "10": { "x": 1, "y": 30.56, "target": "GPIO10" },
+    "GND.4": { "x": 1, "y": 33.1, "target": "GND" },
+    "5V.1": { "x": 1, "y": 35.64, "target": "power(5)" },
+    "5V.2": { "x": 1, "y": 38.18, "target": "power(5)" },
+    "GND.5": { "x": 1, "y": 40.72, "target": "GND" },
+    "GND.6": { "x": 24.5, "y": 40.72, "target": "GND" },
+    "19": { "x": 24.5, "y": 38.18, "target": "GPIO19" },
+    "18": { "x": 24.5, "y": 35.64, "target": "GPIO18" },
+    "GND.7": { "x": 24.5, "y": 33.1, "target": "GND" },
+    "4": { "x": 24.5, "y": 30.56, "target": "GPIO4" },
+    "5": { "x": 24.5, "y": 28.02, "target": "GPIO5" },
+    "6": { "x": 24.5, "y": 25.48, "target": "GPIO6" },
+    "7": { "x": 24.5, "y": 22.94, "target": "GPIO7" },
+    "GND.8": { "x": 24.5, "y": 20.4, "target": "GPIO10" },
+    "8": { "x": 24.5, "y": 17.86, "target": "GPIO8" },
+    "9": { "x": 24.5, "y": 15.32, "target": "GPIO9" },
+    "GND.9": { "x": 24.5, "y": 12.78, "target": "GND" },
+    "RX": { "x": 24.5, "y": 10.24, "target": "GPIO20" },
+    "TX": { "x": 24.5, "y": 7.7, "target": "GPIO21" },
+    "GND.10": { "x": 24.5, "y": 5.16, "target": "GND" }
+  },
+
+  /* On-board LED definitions. These only draw the light of the LED when it's on. 
+     You should draw the body of the LED in your .svg file. */
+  "leds": [
+    {
+      /* A unique identifier of the LED on the board */
+      "id": "power",
+
+      /* x/y positions of the LED center, in mm. Relative to the top-left corner of the board */
+      "x": 4.2,
+      "y": 31.54,
+
+      /* Supported LED types: 0603, ws2812, apa102, rgb */
+      "type": "0603",
+
+      /* LED color - only relevant for 0603 LEDs */
+      "color": "red",
+
+      /* The PINs object defines how the LED pins connect to the MCU pins. The LED pin names depend on the type of the LED:
+         - 0603 - "A" for Anode, "C" for cathode
+         - ws2812 - "DI" for data input
+         - apa102 - "DI" for data input, "CI" for clock output
+         - rgb - "R" for red input, "G" for green input, "B" for blue input, "C" for cathode, "A" for anode (define either A or C, not both)
+      */
+      "pins": {
+        "A": "3V3.1", // This is a power LED, so it's always on
+        "C": "GND.1"
+      }
+    },
+    {
+      /* A unique identifier of the LED on the board */
+      "id": "rgb1",
+
+      /* x/y positions of the LED center, in mm. Relative to the top-left corner of the board */
+      "x": 19.31,
+      "y": 21.28,
+
+      /* Supported LED types: 0603, ws2812, apa102, rgb */
+      "type": "ws2812",
+
+      /* The PINs object defines how the LED pins connect to the MCU pins. The LED pin names depend on the type of the LED:
+         - 0603 - "A" for Anode, "C" for cathode
+         - ws2812 - "DI" for data input
+         - apa102 - "DI" for data input, "CI" for clock output
+         - rgb - "R" for red input, "G" for green input, "B" for blue input, "C" for cathode, "A" for anode (define either A or C, not both)
+      */
+      "pins": {
+        "DI": "8"        
+      }
+    }
+  ]
+}
