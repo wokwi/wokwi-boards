@@ -60,7 +60,11 @@
     "RX0": { "x": 26.8, "y": 13.42, "target": "GPIO3" },
     "TX0": { "x": 26.8, "y": 10.88, "target": "GPIO1" },
     "D22": { "x": 26.8, "y": 8.34, "target": "GPIO22" },
-    "D23": { "x": 26.8, "y": 5.8, "target": ["GPIO23", "lcd1:MOSI"] }
+    "D23": { "x": 26.8, "y": 5.8, "target": ["GPIO23", "lcd1:MOSI"] },
+    "$kite1": { "target": "$dummy1" },
+    "$kite2": { "target": "$dummy2" },
+    "$kite3": { "target": "$dummy3" },
+    "$kite4": { "target": "$dummy4" }
   },
 
   "leds": [
@@ -73,6 +77,55 @@
       "pins": {
         "A": "3V3", // This is a power LED, so it's always on
         "C": "GND.1"
+      }
+    },
+    {
+      "id": "kite1",
+      "x": 32.95,
+      "y": 22.83,
+      "type": "ws2812",
+      "pins": {
+        "DI": "D5",
+        "DO": "$kite1"
+      }
+    },
+    {
+      "id": "kite2",
+      "x": 36.6,
+      "y": 14.55,
+      "type": "ws2812",
+      "pins": {
+        "DI": "$kite1",
+        "DO": "$kite2"
+      }
+    },
+    {
+      "id": "kite3",
+      "x": 23.61,
+      "y": 8.75,
+      "type": "ws2812",
+      "pins": {
+        "DI": "$kite2",
+        "DO": "$kite3"
+      }
+    },
+    {
+      "id": "kite4",
+      "x": 40.52,
+      "y": 6.7,
+      "type": "ws2812",
+      "pins": {
+        "DI": "$kite3",
+        "DO": "$kite4"
+      }
+    },
+    {
+      "id": "kite5",
+      "x": 57.2,
+      "y": 23,
+      "type": "ws2812",
+      "pins": {
+        "DI": "$kite4"
       }
     }
   ],
