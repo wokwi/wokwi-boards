@@ -1,0 +1,93 @@
+{
+  /* The name of the board */
+  "name": "MCH2022 Badge",
+
+  /* Board version. Increment it whenever you make changes. */
+  "version": 1,
+
+  /* One-liner description of the board, it's capabilities, etc. */
+  "description": "A very capable badge by Badge.team",
+
+  /* The name of the person who created this file */
+  "author": "Uri Shaked",
+
+  /* Microcontroller name. Valid values: atmega328p, atmega2560, attiny85, rp2040, esp32 */
+  "mcu": "esp32",
+
+  /* Fully Qualified Board Name (FQBN) for the Arduino CLI */
+  "fqbn": "esp32:esp32:esp32doit-devkit-v1",
+
+  /* Width of the board graphics, in mm. Must match the width defined in board.svg */
+  "width": 150,
+
+  /* Height of the board graphics, in mm. Must match the height defined in board.svg */
+  "height": 98.2,
+
+  /* The pins available on the board.
+     "x"/"y" positions are in mm, and are relative to the top-left corner of the board.
+     "target" is either:
+     - an MCU pin name
+     - "GND" for ground
+     - "power(n)" for power supply pins, where n is the voltage. e.g. "power(3.3)"
+  */
+  "pins": {
+    "EN": { "x": 1.27, "y": 5.8, "target": "CHIP_PU" },
+    "VN": { "x": 1.27, "y": 8.34, "target": "GPIO39" },
+    "VP": { "x": 1.27, "y": 10.88, "target": "GPIO36" },
+    "D34": { "x": 1.27, "y": 13.42, "target": "GPIO34" },
+    "D35": { "x": 1.27, "y": 15.96, "target": "GPIO35" },
+    "D32": { "x": 1.27, "y": 18.5, "target": ["GPIO32", "lcd1:CS"] },
+    "D33": { "x": 1.27, "y": 21.04, "target": ["GPIO33", "lcd1:D/C"] },
+    "D25": { "x": 1.27, "y": 23.58, "target": "GPIO25" },
+    "D26": { "x": 1.27, "y": 26.12, "target": "GPIO26" },
+    "D27": { "x": 1.27, "y": 28.66, "target": "GPIO27" },
+    "D14": { "x": 1.27, "y": 31.2, "target": "GPIO14" },
+    "D12": { "x": 1.27, "y": 33.74, "target": "GPIO12" },
+    "D13": { "x": 1.27, "y": 36.28, "target": "GPIO13" },
+    "GND.2": { "x": 1.27, "y": 38.82, "target": ["GND", "lcd1:GND"] },
+    "VIN": { "x": 1.27, "y": 41.36, "target": "power(5)" },
+    "3V3": { "x": 26.8, "y": 41.36, "target": ["power(3.3)", "lcd1:VCC"] },
+    "GND.1": { "x": 26.8, "y": 38.82, "target": "GND" },
+    "D15": { "x": 26.8, "y": 36.28, "target": "15" },
+    "D2": { "x": 26.8, "y": 33.74, "target": "GPIO2" },
+    "D4": { "x": 26.8, "y": 31.2, "target": "GPIO4" },
+    "RX2": { "x": 26.8, "y": 28.66, "target": "GPIO16" },
+    "TX2": { "x": 26.8, "y": 26.12, "target": "GPIO17" },
+    "D5": { "x": 26.8, "y": 23.58, "target": "GPIO5" },
+    "D18": { "x": 26.8, "y": 21.04, "target": ["GPIO18", "lcd1:SCK"] },
+    "D19": { "x": 26.8, "y": 18.5, "target": "GPIO19" },
+    "D21": { "x": 26.8, "y": 15.96, "target": "GPIO21" },
+    "RX0": { "x": 26.8, "y": 13.42, "target": "GPIO3" },
+    "TX0": { "x": 26.8, "y": 10.88, "target": "GPIO1" },
+    "D22": { "x": 26.8, "y": 8.34, "target": "GPIO22" },
+    "D23": { "x": 26.8, "y": 5.8, "target": ["GPIO23", "lcd1:MOSI"] }
+  },
+
+  "leds": [
+    {
+      "id": "power",
+      "x": 108.7,
+      "y": 38,
+      "type": "0603",
+      "color": "red",
+      "pins": {
+        "A": "3V3", // This is a power LED, so it's always on
+        "C": "GND.1"
+      }
+    }
+  ],
+
+  "displays": [
+    {
+      "id": "lcd1",
+      "x": 53.348,
+      "y": 22.456,
+      "width": 42.92,
+      "height": 60.39,
+      "pixelWidth": 240,
+      "pixelHeight": 320,
+      "rotate": 90,
+      "chip": "ili9341"
+    }
+  ]
+}
