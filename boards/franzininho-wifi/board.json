@@ -99,7 +99,7 @@
       "type": "0603",
       "color": "#16ed48",
       "pins": {
-        "A": "5V", // This is a power LED, so it's always on
+        "A": "5V.1", // This is a power LED, so it's always on
         "C": "GND.1"
       }
     },
