@@ -110,7 +110,7 @@
       "type": "0603",
       "color": "#ffc100",
       "pins": {
-        "A": "5V", // This is LED 33
+        "A": "33", // This is LED 33
         "C": "GND.1"
       }
     },
@@ -121,7 +121,7 @@
       "type": "0603",
       "color": "#70baff",
       "pins": {
-        "A": "5V", // This is LED 21
+        "A": "21", // This is LED 21
         "C": "GND.1"
       }
     }
