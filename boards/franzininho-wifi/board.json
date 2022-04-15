@@ -9,7 +9,7 @@
   "description": "Development board to evaluate ESP32-S2 Modules",
 
   /* The name of the person who created this file */
-  "author": "Ariella Eliassaf",
+  "author": "Anderson Costa",
 
   /* Microcontroller name. Valid values: atmega328p, atmega2560, attiny85, rp2040, esp32 */
   "mcu": "esp32-s2",
@@ -18,10 +18,10 @@
   "fqbn": "esp32:esp32:franzininho_wifi_esp32s2",
 
   /* Width of the board graphics, in mm. Must match the width defined in board.svg */
-  "width": 29.88,
+  "width": 64.2,
 
   /* Height of the board graphics, in mm. Must match the height defined in board.svg */
-  "height": 69.7,
+  "height": 25.3,
 
   "environments": {
     "circuitpython": {
@@ -38,73 +38,91 @@
      - "power(n)" for power supply pins, where n is the voltage. e.g. "power(3.3)"
   */
   "pins": {
-    "0": { "x": 1.27, "y": 7.94, "target": "GPIO0" },
-    "1": { "x": 1.27, "y": 10.48, "target": "GPIO1" },
-    "2": { "x": 1.27, "y": 13.02, "target": "GPIO2" },
-    "3": { "x": 1.27, "y": 15.56, "target": "GPIO3" },
-    "4": { "x": 1.27, "y": 18.1, "target": "GPIO4" },
-    "5": { "x": 1.27, "y": 20.64, "target": "GPIO5" },
-    "6": { "x": 1.27, "y": 23.18, "target": "GPIO6" },
-    "7": { "x": 1.27, "y": 25.72, "target": "GPIO7" },
-    "8": { "x": 1.27, "y": 28.26, "target": "GPIO8" },
-    "9": { "x": 1.27, "y": 30.8, "target": "GPIO9" },
-    "10": { "x": 1.27, "y": 33.34, "target": "GPIO10" },
-    "11": { "x": 1.27, "y": 35.88, "target": "GPIO11" },
-    "12": { "x": 1.27, "y": 38.42, "target": "GPIO12" },
-    "13": { "x": 1.27, "y": 40.96, "target": "GPIO13" },
-    "14": { "x": 1.27, "y": 43.5, "target": "GPIO14" },
-    "15": { "x": 1.27, "y": 46.04, "target": "GPIO15" },
-    "16": { "x": 1.27, "y": 48.58, "target": "GPIO16" },
-    "17": { "x": 1.27, "y": 51.12, "target": "GPIO17" },
-    "GND.1": { "x": 1.27, "y": 53.66, "target": "GND" },
-    "3V3": { "x": 1.27, "y": 55.9, "target": "power(3.3)" },
-
-    "46": { "x": 28.6, "y": 7.94, "target": "GPIO46" },
-    "45": { "x": 28.6, "y": 10.48, "target": "GPIO45" },
-    "RX": { "x": 28.6, "y": 13.02, "target": "GPIO44" },
-    "TX": { "x": 28.6, "y": 15.56, "target": "GPIO43" },
-    "42": { "x": 28.6, "y": 18.1, "target": "GPIO42" },
-    "41": { "x": 28.6, "y": 20.64, "target": "GPIO41" },
-    "40": { "x": 28.6, "y": 23.18, "target": "GPIO40" },
-    "39": { "x": 28.6, "y": 25.72, "target": "GPIO39" },
-    "38": { "x": 28.6, "y": 28.26, "target": "GPIO38" },
-    "37": { "x": 28.6, "y": 30.8, "target": "GPIO37" },
-    "36": { "x": 28.6, "y": 33.34, "target": "GPIO36" },
-    "35": { "x": 28.6, "y": 35.88, "target": "GPIO35" },
-    "34": { "x": 28.6, "y": 38.42, "target": "GPIO34" },
-    "33": { "x": 28.6, "y": 40.96, "target": "GPIO33" },
-    "26": { "x": 28.6, "y": 43.5, "target": "GPIO26" },
-    "21": { "x": 28.6, "y": 46.04, "target": "GPIO21" },
-    "20": { "x": 28.6, "y": 48.58, "target": "GPIO20" },
-    "19": { "x": 28.6, "y": 51.12, "target": "GPIO19" },
-    "GND.2": { "x": 28.6, "y": 53.66, "target": "GND" },
-    "5V": { "x": 28.6, "y": 55.9, "target": "power(5)" },
-
-    /* Virtual pins */
-    "GPIO18": { "target": "GPIO18" }
+    "0" : { "x": 56.25, "y": 1.22, "target": "GPIO0" },
+    "1" : { "x": 53.85, "y": 1.22, "target": "GPIO1" },
+    "2" : { "x": 51.45, "y": 1.22, "target": "GPIO2" },
+    "3" : { "x": 49.05, "y": 1.22, "target": "GPIO3" },
+    "4" : { "x": 46.64, "y": 1.22, "target": "GPIO4" },
+    "5" : { "x": 44.12, "y": 1.22, "target": "GPIO5" },
+    "6" : { "x": 41.60, "y": 1.22, "target": "GPIO6" },
+    "7" : { "x": 39.20, "y": 1.22, "target": "GPIO7" },
+    "10": { "x": 36.50, "y": 1.22, "target": "GPIO10" },
+    "11": { "x": 34.25, "y": 1.22, "target": "GPIO11" },
+    "12": { "x": 31.75, "y": 1.22, "target": "GPIO12" },
+    "13": { "x": 29.15, "y": 1.22, "target": "GPIO13" },
+    "14": { "x": 26.65, "y": 1.22, "target": "GPIO14" },
+    "15": { "x": 24.15, "y": 1.22, "target": "GPIO15" },
+    "16": { "x": 21.65, "y": 1.22, "target": "GPIO16" },
+    "17": { "x": 19.25, "y": 1.22, "target": "GPIO17" },
+    "8": { "x": 16.85, "y": 1.22, "target": "GPIO8" },
+    "9": { "x": 14.35, "y": 1.22, "target": "GPIO9" },
+    "3V3.1": { "x": 11.80, "y": 1.22, "target": "power(3.3)" },
+    "GND.1": { "x": 9.35, "y": 1.22, "target": "GND" },
+    "3V3.2": { "x": 11.80, "y": 6.25, "target": "power(3.3)" },
+    "GND.7": { "x": 9.35, "y": 6.25, "target": "GND" },
+    "SDA": { "x": 16.85, "y": 6.25, "target": "GPIO8" },
+    "SCL": { "x": 14.35, "y": 6.25, "target": "GPIO9" },
+    "46": { "x": 56.25, "y": 23.55, "target": "GPIO46" },
+    "45": { "x": 53.85, "y": 23.55, "target": "GPIO45" },
+    "44": { "x": 51.45, "y": 23.55, "target": "GPIO44" },
+    "43": { "x": 49.05, "y": 23.55, "target": "GPIO43" },
+    "42": { "x": 46.64, "y": 23.55, "target": "GPIO42" },
+    "41": { "x": 44.12, "y": 23.55, "target": "GPIO41" },
+    "40": { "x": 41.60, "y": 23.55, "target": "GPIO40" },
+    "39": { "x": 39.20, "y": 23.55, "target": "GPIO39" },
+    "38": { "x": 36.50, "y": 23.55, "target": "GPIO38" },
+    "37": { "x": 34.25, "y": 23.55, "target": "GPIO37" },
+    "36": { "x": 31.75, "y": 23.55, "target": "GPIO36" },
+    "35": { "x": 29.15, "y": 23.55, "target": "GPIO35" },
+    "34": { "x": 26.65, "y": 23.55, "target": "GPIO34" },
+    "33": { "x": 24.15, "y": 23.55, "target": "GPIO33" },
+    "26": { "x": 21.65, "y": 23.55, "target": "GPIO26" },
+    "21": { "x": 19.25, "y": 23.55, "target": "GPIO21" },
+    "18": { "x": 16.85, "y": 23.55, "target": "GPIO18" },
+    "5V.1": { "x": 14.35, "y": 23.55, "target": "power(5)" },
+    "GND.3": { "x": 11.80, "y": 23.55, "target": "GND" },
+    "GND.2": { "x": 9.35, "y": 23.55, "target": "GND" },
+    "5V.2": { "x": 14.35, "y": 19.25, "target": "power(5)" },
+    "GND.4": { "x": 9.35, "y": 19.25, "target": "GND" },
+    "GND.5": { "x": 11.80, "y": 19.25, "target": "GND" },
+    "GND.6": { "x": 17.95, "y": 19.25, "target": "GND" },
+    "5V.3": { "x": 20.45, "y": 19.25, "target": "power(5)" },
+    "21.2": { "x": 23.10, "y": 19.25, "target": "GPIO21" },
   },
-
-  /* On-board LED definitions. These only draw the light of the LED when it's on. 
+   /* On-board LED definitions. These only draw the light of the LED when it's on. 
      You should draw the body of the LED in your .svg file. */
   "leds": [
     {
       "id": "power",
-      "x": 13.9,
-      "y": 38,
+      "x": 23.25,
+      "y": 12.60,
       "type": "0603",
-      "color": "red",
+      "color": "#16ed48",
       "pins": {
         "A": "5V", // This is a power LED, so it's always on
         "C": "GND.1"
       }
     },
     {
-      "id": "rgb",
-      "x": 20.8,
-      "y": 36,
-      "type": "ws2812",
+      "id": "led33",
+      "x": 23.50,
+      "y": 14.85,
+      "type": "0603",
+      "color": "#ffc100",
       "pins": {
-        "DI": "GPIO18"
+        "A": "33", // This is LED 33
+        "C": "GND.1"
+      }
+    },
+    {
+      "id": "led21",
+      "x": 26.48,
+      "y": 19.15,
+      "type": "0603",
+      "color": "#70baff",
+      "pins": {
+        "A": "21", // This is LED 21
+        "C": "GND.1"
       }
     }
   ]
