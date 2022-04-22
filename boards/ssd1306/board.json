@@ -1,0 +1,31 @@
+{
+  "name": "SSD1306 OLED",
+  "version": 1,
+  "description": "Monochrome 128x64 OLED display with I2C interface",
+  "author": "Uri Shaked",
+  "width": 27.7,
+  "height": 22.6,
+
+  "pins": {
+    /* Power pins */
+    "GND": { "x": 10.1, "y": 1.71, "target": ["disp1:GND", "touch1:GND"] },
+    "VCC": { "x": 12.6, "y": 1.71, "target": ["disp1:VCC", "touch1:VCC"] },
+
+    /* I2C */
+    "SCL": { "x": 15.1, "y": 1.71, "target": "disp1:SCL" },
+    "SDA": { "x": 17.7, "y": 1.71, "target": "disp1:SDA" }
+  },
+
+  "displays": [
+    {
+      "id": "disp1",
+      "x": 1.46,
+      "y": 5.27,
+      "width": 24.8,
+      "height": 12.4,
+      "pixelWidth": 128,
+      "pixelHeight": 64,
+      "chip": "ssd1306"
+    }
+  ]
+}
