@@ -1,0 +1,46 @@
+{
+  /* The name of the board */
+  "name": "Notecarrier A",
+
+  /* Board version. Increment it whenever you make changes. */
+  "version": 1,
+
+  /* One-liner description of the board, it's capabilities, etc. */
+  "description": "Blues.io Cellular IoT development kit",
+
+  /* The name of the person who created this file */
+  "author": "Uri Shaked",
+
+  /* Width of the board graphics, in mm. Must match the width defined in board.svg */
+  "width": 66.75,
+
+  /* Height of the board graphics, in mm. Must match the height defined in board.svg */
+  "height": 58.73,
+
+  "chips": [{ "id": "notecard1", "type": "blues-notecard" }],
+
+  "pins": {
+    "VUSB": { "x": 7.23, "y": 57.56, "target": "power(5)" },
+    "BAT": { "x": 9.77, "y": 57.56, "target": "" },
+    "MAIN": { "x": 12.31, "y": 57.56, "target": "" },
+    "VIO": { "x": 14.85, "y": 57.56, "target": "" },
+    "NC1": { "x": 17.39, "y": 57.56, "target": "" },
+    "V+": { "x": 19.93, "y": 57.56, "target": "" },
+    "GND": { "x": 22.47, "y": 57.56, "target": "GND" },
+    "EN": { "x": 25.01, "y": 57.56, "target": "" },
+    "RST": { "x": 27.55, "y": 57.56, "target": "" },
+    "NC2": { "x": 30.09, "y": 57.56, "target": "" },
+    "SCL": { "x": 32.63, "y": 57.56, "target": "notecard1:SCL_P" },
+    "SDA": { "x": 35.17, "y": 57.56, "target": "notecard1:SDA_P" },
+    "ATTN": { "x": 37.71, "y": 57.56, "target": "notecard1:ATTN_P" },
+    "AUXEN": { "x": 40.25, "y": 57.56, "target": "notecard1:AUX_EN_P" },
+    "AUXRX": { "x": 42.79, "y": 57.56, "target": "notecard1:AUX_RX_P" },
+    "AUXTX": { "x": 45.33, "y": 57.56, "target": "notecard1:AUX_TX_P" },
+    "AUX1": { "x": 47.87, "y": 57.56, "target": "notecard1:AUX1" },
+    "AUX2": { "x": 50.41, "y": 57.56, "target": "notecard1:AUX2" },
+    "AUX3": { "x": 52.95, "y": 57.56, "target": "notecard1:AUX3" },
+    "AUX4": { "x": 55.49, "y": 57.56, "target": "notecard1:AUX4" },
+    "RX": { "x": 58.03, "y": 57.56, "target": "notecard1:RX_P" },
+    "TX": { "x": 60.57, "y": 57.56, "target": "notecard1:TX_P" }
+  }
+}
