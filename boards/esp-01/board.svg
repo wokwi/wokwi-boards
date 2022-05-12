@@ -1,0 +1,60 @@
+
+<svg width="24.8mm" height="14.574mm" version="1.1" viewBox="0 0 93.732 55.083" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(2.8576 -8.8189)">
+  <g stroke-linecap="round" stroke-linejoin="round">
+   <rect x="-2.8576" y="8.8189" width="93.732" height="55.083" stroke-width=".38995"/>
+   <rect x="27.203" y="18.601" width="19.814" height="20.158" fill="#3c3c3c" stroke-width=".39687"/>
+   <rect x="27.068" y="41.743" width="20.387" height="19.241" fill="#3c3c3c" stroke-width=".39687"/>
+  </g>
+  <g fill="#a6a59d" fill-opacity=".75403" stroke-linecap="round" stroke-linejoin="round" stroke-width=".39687">
+   <rect x="47.569" y="47.913" width="3.1942" height="2.2114"/>
+   <rect x="47.355" y="42.96" width="3.1942" height="2.2114"/>
+   <rect x="47.436" y="53.011" width="3.1942" height="2.2114"/>
+   <rect x="47.485" y="57.7" width="3.1942" height="2.2114"/>
+   <rect x="23.792" y="43.153" width="3.1942" height="2.2114"/>
+   <rect x="23.788" y="48.262" width="3.1942" height="2.2114"/>
+   <rect x="23.811" y="52.977" width="3.1942" height="2.2114"/>
+   <rect x="23.983" y="57.971" width="3.1942" height="2.2114"/>
+  </g>
+  <g fill="#e3c260" stroke-linecap="round" stroke-linejoin="round">
+   <rect x="61.889" y="14.454" width="26.19" height="2.1994" ry="0" stroke-width=".48557"/>
+   <rect x="71.919" y="24.724" width="16.253" height="1.4461" ry="0" stroke-width=".31017"/>
+   <rect x="71.961" y="19.952" width="16.119" height="1.4461" ry="0" stroke-width=".30889"/>
+   <rect x="71.865" y="33.87" width="16.451" height="1.4461" ry="0" stroke-width=".31206"/>
+   <rect x="71.949" y="42.993" width="16.454" height="1.4461" ry="0" stroke-width=".31208"/>
+   <rect x="71.915" y="29.207" width="16.286" height="1.4461" ry="0" stroke-width=".31049"/>
+   <rect x="71.915" y="38.318" width="16.37" height="1.4461" ry="0" stroke-width=".31129"/>
+   <rect x="64.105" y="16.125" width="1.8825" height="27.476" stroke-width=".25313"/>
+   <rect x="86.52" y="44.439" width="1.8825" height="14.661" stroke-width=".18491"/>
+   <rect x="86.644" y="16.654" width="1.4357" height="3.2984" stroke-width=".39687"/>
+   <rect x="71.936" y="21.365" width="1.9511" height="3.7169" stroke-width=".49113"/>
+   <g stroke-width=".39687">
+    <rect x="86.763" y="25.969" width="1.4357" height="3.2984"/>
+    <rect x="86.849" y="35.019" width="1.4357" height="3.2984"/>
+    <rect x="71.865" y="30.572" width="1.4357" height="3.2984"/>
+    <rect x="71.915" y="39.764" width="1.4357" height="3.2984"/>
+   </g>
+  </g>
+  <g>
+   <g stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-width=".39687">
+     <rect x="61.128" y="47.695" width="5.7976" height="2.7242" fill="#c4c4c4"/>
+     <rect x="61.303" y="59.814" width="5.7976" height="2.7242" fill="#c4c4c4"/>
+     <rect x="62.665" y="47.834" width="2.6543" height="2.5845" fill="#f9f9f9" opacity=".99357"/>
+    </g>
+    <rect x="62.945" y="59.884" width="2.6543" height="2.7242" fill="#f9f9f9" opacity=".99357" stroke-width=".40746"/>
+   </g>
+   <text transform="rotate(90.197)" x="17.879578" y="-68.147041" fill="#f6f6f6" font-family="sans-serif" font-size="3.9438px" stroke-width=".098596" style="line-height:1.25" xml:space="preserve"><tspan x="17.879578" y="-68.147041" stroke-width=".098596">Al-Cloud inside</tspan></text>
+   <ellipse cx="2.9744" cy="22.742" rx="3.2484" ry="3.1672" fill="#a8a8a8" stroke-linecap="round" stroke-linejoin="round" stroke-width=".41265"/>
+  </g>
+  <g fill="#a3a3a3" stroke-linecap="round" stroke-linejoin="round" stroke-width=".41265">
+   <ellipse cx="3.1927" cy="32.279" rx="3.2484" ry="3.1672"/>
+   <ellipse cx="3.2485" cy="41.879" rx="3.2484" ry="3.1672"/>
+   <ellipse cx="2.9262" cy="51.479" rx="3.2484" ry="3.1672"/>
+   <ellipse cx="12.291" cy="22.743" rx="3.2484" ry="3.1672"/>
+   <ellipse cx="12.344" cy="32.279" rx="3.2484" ry="3.1672"/>
+   <ellipse cx="12.232" cy="41.879" rx="3.2484" ry="3.1672"/>
+   <ellipse cx="12.179" cy="51.479" rx="3.2484" ry="3.1672"/>
+  </g>
+ </g>
+</svg>

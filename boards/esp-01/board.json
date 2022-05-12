@@ -1,0 +1,52 @@
+{
+  "name": "ESP-01",
+  "version": 1,
+  "description": "Wi-Fi module that allows microcontrollers access to a Wi-Fi network",
+  "author": "Ariella Eliassaf",
+  "width": 24.8,
+  "height": 14.574,
+
+  "pins": {
+    "GND": { "x": 4.1, "y": 3.88, "target": "esp:GND" },
+    "TX": { "x": 1.4, "y": 3.88, "target": "esp:U0TXD" },
+    "GPIO2": { "x": 4.1, "y": 6, "target": "esp:GPIO2" },
+    "CH_PD": { "x": 1.4, "y": 6, "target": "esp:CH_EN" },
+    "GPIO0": { "x": 4.1, "y": 8.74, "target": "esp:GPIO0" },
+    "RESET": { "x": 1.4, "y": 8.74, "target": "esp:RESET" },
+    "RX": { "x": 4.1, "y": 11.34, "target": "esp:U0RXD" },
+    "VCC": { "x": 1.4, "y": 11.34, "target": "esp:VCC" }
+  },
+
+  "chips": [
+    {
+      "id": "esp",
+      "type": "esp-01",
+      "name": "IMU"
+    }
+  ],
+
+  "leds": [
+    {
+      "id": "power",
+      "x": 17.7,
+      "y": 13.84,
+      "type": "0603",
+      "color": "red",
+      "pins": {
+        "A": "VCC",
+        "C": "GND"
+      }
+    },
+    {
+      "id": "WiFi",
+      "x": 17.7,
+      "y": 10.64,
+      "type": "0603",
+      "color": "blue",
+      "pins": {
+        "A": "VCC",
+        "C": "GPIO2"
+      }
+    }
+  ]
+}
