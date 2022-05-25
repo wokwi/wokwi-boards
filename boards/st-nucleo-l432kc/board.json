@@ -6,7 +6,7 @@
   "width": 18.76,
   "height": 52.269,
   "mcu": "stm32l432kc",
-  "fqbn": "stmicroelectronics:stm32:nucleo_32:pnum=nucleo_l432kc",
+  "fqbn": "STMicroelectronics:stm32:Nucleo_32:pnum=NUCLEO_L432KC",
 
   "pins": {
     "D1": { "x": 1.6, "y": 9.84, "target": "PA9" },
