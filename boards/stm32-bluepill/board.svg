@@ -1,0 +1,137 @@
+
+<svg width="22.855mm" height="54.193mm" version="1.1" viewBox="0 0 22.855 54.193" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <pattern id="pattern28524" patternTransform="matrix(.26458 0 0 .26458 77.039 100.47)" xlink:href="#pattern28384-3"/>
+  <pattern id="pattern28384" width="7.0305719" height="179.82998" patternTransform="translate(15.636 13.795)" patternUnits="userSpaceOnUse">
+   <rect x="-3.5527e-15" y="1.0572e-6" width="7.0306" height="55.03" fill="none"/>
+   <rect x="6.9516e-7" y="57.6" width="7.0306" height="55.03" fill="none"/>
+   <rect x="6.9516e-7" y="115.2" width="7.0306" height="55.03" fill="none"/>
+   <circle cx="3.5156" cy="118.72" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="128.32" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="137.92" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="147.52" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="157.12" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="166.72" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="176.32" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.5156" cy="3.515" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="13.115" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="22.715" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="32.315" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="41.915" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="51.515" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.5156" cy="61.115" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="70.715" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="80.315" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="89.915" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="99.515" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="109.12" r="3.515" fill="#f9f9f9"/>
+  </pattern>
+  <pattern id="pattern28384-3" width="7.0305719" height="179.82998" patternTransform="translate(15.636 13.795)" patternUnits="userSpaceOnUse">
+   <rect x="-3.5527e-15" y="1.0572e-6" width="7.0306" height="55.03" fill="none"/>
+   <rect x="6.9516e-7" y="57.6" width="7.0306" height="55.03" fill="none"/>
+   <rect x="6.9516e-7" y="115.2" width="7.0306" height="55.03" fill="none"/>
+   <circle cx="3.5156" cy="118.72" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="128.32" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="137.92" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="147.52" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="157.12" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="166.72" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="176.32" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.5156" cy="3.515" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="13.115" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="22.715" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="32.315" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="41.915" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="51.515" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.5156" cy="61.115" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="70.715" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="80.315" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="89.915" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="99.515" r="3.515" fill="#f9f9f9"/>
+   <circle cx="3.515" cy="109.12" r="3.515" fill="#f9f9f9"/>
+  </pattern>
+  <linearGradient id="linearGradient158021" x1="66.73" x2="74.327" y1="137.24" y2="134.24" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#e7e7e7" offset="0"/>
+   <stop stop-color="#919191" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-58.736 -98.531)">
+  <g>
+   <rect transform="scale(1,-1)" x="58.736" y="-152.72" width="22.855" height="53.52" fill="#015d89" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75825"/>
+   <rect transform="matrix(.69837 .71573 -.70797 .70624 0 0)" x="135.42" y="34.649" width="6.6339" height="6.633" fill="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width=".94345"/>
+   <path d="m66.009 133.39c-0.5198 0.11681-0.76218 0.58279-0.91888 1.0102-0.20063 0.54716-0.18514 1.2193 0.06157 1.7473 0.18965 0.40587 0.58143 0.75445 0.99991 0.89804 0.84424 0.28966 6.2671 0.40511 8.1016 0.0649 0.40799-0.0757 0.79458-0.39092 0.98707-0.75852 0.26474-0.50557 0.249-1.1636 0.08419-1.71-0.15279-0.50652-0.48729-1.0841-0.94163-1.2777-0.45225-0.19269-7.4416-0.21807-8.3739 0.0259z" fill="url(#linearGradient158021)" stroke="#b8b8b8" stroke-width=".4"/>
+  </g>
+  <rect transform="matrix(.26458 0 0 .26458 57.052 96.819)" x="15.636" y="13.795" width="7.0306" height="179.83" fill="url(#pattern28384)"/>
+  <rect x="77.039" y="100.47" width="1.8602" height="47.58" fill="url(#pattern28524)"/>
+  <circle cx="62.119" cy="149.66" r=".93" fill="#f9f9f9"/>
+  <circle cx="77.969" cy="149.66" r=".93" fill="#f9f9f9"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+   <path d="m65.752 99.437-0.34729-0.554c-0.0214-0.03497-0.02522-0.07518-0.011-0.11228 0.0151-0.03735 0.04753-0.06784 0.09091-0.08552 0.04293-0.01768 0.09322-0.02078 0.13905-0.0087 0.04583 0.01244 0.08401 0.03833 0.10587 0.07345l0.23813 0.38004-9.13e-4 -0.05203c-2e-3 -0.12248 0.05596-0.24089 0.1621-0.32873 0.10572-0.08812 0.25071-0.13838 0.40239-0.14011l6.9072-0.07854c0.15208-0.0012 0.29832 0.04506 0.40752 0.13089 0.10874 0.08539 0.17135 0.20245 0.17348 0.32493l9.14e-4 0.05203 0.22479-0.38532c0.02064-0.03547 0.05744-0.06249 0.10328-0.07581 0.04535-0.0132 0.09532-0.01 0.13884 5e-3h3.49e-4c0.04351 0.01668 0.07745 0.04643 0.09384 0.0834 0.01643 0.0366 0.01321 0.07705-0.0068 0.1124l-0.32743 0.56168 0.18745-0.0024 0.08994 5.1582-8.7805 0.0999-0.08993-5.1582z" clip-rule="evenodd" fill="#cecccb" fill-rule="evenodd" stroke-miterlimit="1.5" stroke-width=".35315"/>
+   <path d="m67.694 104.57s-0.0061-0.35634-0.0077-0.45313c-2.63e-4 -0.0152-0.011-0.0287-0.02618-0.0365-0.16489-0.079-1.0686-0.51119-1.0686-0.51119l-0.0071-0.41632 0.54073-6e-3 -0.0051-0.29861 0.8162-0.01 0.0051 0.29861 0.51714-6e-3s0.0092 0.53975 0.01385 0.79232c6.88e-4 0.0339 0.01762 0.0661 0.04759 0.0897 0.03027 0.0235 0.0706 0.0364 0.1122 0.0359l0.48964-6e-3 -0.0057-0.32999 2.0104-0.0229 0.0057 0.33001 0.48965-6e-3c0.04158-4.6e-4 0.08145-0.0144 0.1106-0.0383 0.02945-0.0241 0.04535-0.0568 0.04478-0.0907-0.0045-0.25257-0.01379-0.79233-0.01379-0.79233l0.51715-6e-3 -0.0051-0.29857 0.81618-0.01 0.0051 0.29859 0.54073-6e-3 0.0071 0.41631s-0.88825 0.45252-1.0503 0.5353c-0.01591 9e-3 -0.02515 0.0218-0.02494 0.0371 0.0018 0.0968 0.0077 0.45312 0.0077 0.45312z" clip-rule="evenodd" fill="#989898" fill-rule="evenodd" stroke-miterlimit="1.5" stroke-width=".35315"/>
+   <rect transform="matrix(-.0098272 -.99995 .99996 -.0084467 0 0)" x="-145.11" y="63.114" width="1.0232" height="3.1588" fill="#ccc" stroke-width=".43854"/>
+   <rect transform="matrix(-.0098272 -.99995 .99996 -.0084467 0 0)" x="-145.12" y="64.152" width="1.0312" height=".99933" fill="#fff" stroke-width=".48541"/>
+  </g>
+  <g fill="#f9f9f9" stroke-linecap="round" stroke-linejoin="round">
+   <rect transform="matrix(-.010132 -.99995 .99997 -.0081925 0 0)" x="-145.55" y="62.609" width=".24682" height="4.3364" stroke-width=".4485"/>
+   <rect transform="matrix(-.010257 -.99995 .99997 -.0080929 0 0)" x="-143.87" y="62.538" width=".21264" height="4.3898" stroke-width=".41884"/>
+   <rect transform="matrix(-.0098272 -.99995 .99996 -.0084467 0 0)" x="-145.56" y="62.598" width="1.6914" height=".18547" stroke-width=".43676"/>
+   <rect transform="matrix(-.0098272 -.99995 .99996 -.0084467 0 0)" x="-145.56" y="66.775" width="1.6757" height=".2149" stroke-width=".38168"/>
+  </g>
+  <rect transform="matrix(-.0098272 -.99995 .99996 -.0084467 0 0)" x="-145.13" y="70.739" width="1.0232" height="3.1588" fill="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width=".43854"/>
+  <rect transform="matrix(-.0098272 -.99995 .99996 -.0084467 0 0)" x="-145.14" y="71.778" width="1.0312" height=".99933" fill="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width=".48541"/>
+  <g fill="#f9f9f9" stroke-linecap="round" stroke-linejoin="round">
+   <rect transform="matrix(-.010132 -.99995 .99997 -.0081925 0 0)" x="-145.56" y="70.234" width=".24682" height="4.3364" stroke-width=".4485"/>
+   <rect transform="matrix(-.010257 -.99995 .99997 -.0080929 0 0)" x="-143.88" y="70.163" width=".21264" height="4.3898" stroke-width=".41884"/>
+   <rect transform="matrix(-.0098272 -.99995 .99996 -.0084467 0 0)" x="-145.58" y="70.223" width="1.6914" height=".18547" stroke-width=".43676"/>
+   <rect transform="matrix(-.0098272 -.99995 .99996 -.0084467 0 0)" x="-145.58" y="74.4" width="1.6757" height=".2149" stroke-width=".38168"/>
+  </g>
+  <g fill="#ffffff" font-family="sans-serif">
+   <text transform="matrix(.017009 .93336 -1.0711 .015238 0 0)" x="150.72766" y="-57.90163" font-size="1.2159px" stroke-width=".030397" style="line-height:1.25" xml:space="preserve"><tspan x="150.72766" y="-57.90163" fill="#ffffff" stroke-width=".030397">PC13</tspan></text>
+   <text transform="matrix(.016309 .9734 -1.0271 .015891 0 0)" x="145.04836" y="-70.572746" font-size="1.2142px" stroke-width=".030355" style="line-height:1.25" xml:space="preserve"><tspan x="145.04836" y="-70.572746" fill="#ffffff" stroke-width=".030355">PWR</tspan></text>
+   <g font-size="1.2478px" stroke-width=".031195">
+    <text transform="rotate(90.025)" x="99.454514" y="-59.464291" style="line-height:1.25" xml:space="preserve"><tspan x="99.454514" y="-59.464291">B12</tspan><tspan x="99.454514" y="-57.90453"/></text>
+    <text transform="rotate(90.025)" x="102.11329" y="-59.458347" style="line-height:1.25" xml:space="preserve"><tspan x="102.11329" y="-59.458347">B13</tspan><tspan x="102.11329" y="-57.898586"/></text>
+    <text transform="rotate(90.025)" x="104.82641" y="-59.496212" style="line-height:1.25" xml:space="preserve"><tspan x="104.82641" y="-59.496212">B14</tspan><tspan x="104.82641" y="-57.936451"/></text>
+    <text transform="rotate(90.025)" x="107.61287" y="-59.460785" style="line-height:1.25" xml:space="preserve"><tspan x="107.61287" y="-59.460785">B15</tspan><tspan x="107.61287" y="-57.901024"/></text>
+    <text transform="rotate(90.025)" x="110.28926" y="-59.608627" style="line-height:1.25" xml:space="preserve"><tspan x="110.28926" y="-59.608627">B12</tspan><tspan x="110.28926" y="-58.048866"/></text>
+    <text transform="rotate(90.025)" x="108.70365" y="-80.066368" style="line-height:1.25" xml:space="preserve"><tspan x="108.70365" y="-80.066368">R</tspan><tspan x="108.70365" y="-78.506607"/></text>
+    <text transform="rotate(90.025)" x="110.1702" y="-80.103683" style="line-height:1.25" xml:space="preserve"><tspan x="110.1702" y="-80.103683">B11</tspan><tspan x="110.1702" y="-78.543922"/></text>
+    <text transform="rotate(90.025)" x="113.17661" y="-80.141685" style="line-height:1.25" xml:space="preserve"><tspan x="113.17661" y="-80.141685">B10</tspan><tspan x="113.17661" y="-78.581924"/></text>
+    <text transform="rotate(90.025)" x="116.03642" y="-80.106293" style="line-height:1.25" xml:space="preserve"><tspan x="116.03642" y="-80.106293">B1</tspan><tspan x="116.03642" y="-78.546532"/></text>
+    <text transform="rotate(90.025)" x="118.38292" y="-80.070663" style="line-height:1.25" xml:space="preserve"><tspan x="118.38292" y="-80.070663">B0</tspan><tspan x="118.38292" y="-78.510902"/></text>
+    <text transform="rotate(90.025)" x="113.14909" y="-59.536568" style="line-height:1.25" xml:space="preserve"><tspan x="113.14909" y="-59.536568">A9</tspan><tspan x="113.14909" y="-57.976807"/></text>
+    <text transform="rotate(90.025)" x="120.99812" y="-80.190598" style="line-height:1.25" xml:space="preserve"><tspan x="120.99812" y="-80.190598">A7</tspan><tspan x="120.99812" y="-78.630836"/></text>
+    <text transform="rotate(90.025)" x="123.63795" y="-80.118439" style="line-height:1.25" xml:space="preserve"><tspan x="123.63795" y="-80.118439">A6</tspan><tspan x="123.63795" y="-78.558678"/></text>
+    <text transform="rotate(90.025)" x="126.16777" y="-80.082893" style="line-height:1.25" xml:space="preserve"><tspan x="126.16777" y="-80.082893">A5</tspan><tspan x="126.16777" y="-78.523132"/></text>
+    <text transform="rotate(90.025)" x="128.66092" y="-80.084" style="line-height:1.25" xml:space="preserve"><tspan x="128.66092" y="-80.084">A4</tspan><tspan x="128.66092" y="-78.524239"/></text>
+    <text transform="rotate(90.025)" x="131.26401" y="-80.195145" style="line-height:1.25" xml:space="preserve"><tspan x="131.26401" y="-80.195145">A3</tspan><tspan x="131.26401" y="-78.635384"/></text>
+    <text transform="rotate(90.025)" x="133.57393" y="-79.976189" style="line-height:1.25" xml:space="preserve"><tspan x="133.57393" y="-79.976189">A2</tspan><tspan x="133.57393" y="-78.416428"/></text>
+    <text transform="rotate(90.025)" x="136.2137" y="-80.050682" style="line-height:1.25" xml:space="preserve"><tspan x="136.2137" y="-80.050682">A1</tspan><tspan x="136.2137" y="-78.490921"/></text>
+    <text transform="rotate(90.025)" x="138.41354" y="-80.014992" style="line-height:1.25" xml:space="preserve"><tspan x="138.41354" y="-80.014992">A0</tspan><tspan x="138.41354" y="-78.455231"/></text>
+    <text transform="rotate(90.025)" x="115.14101" y="-59.656219" style="line-height:1.25" xml:space="preserve"><tspan x="115.14101" y="-59.656219">A10</tspan><tspan x="115.14101" y="-58.096458"/></text>
+    <text transform="rotate(90.025)" x="118.03746" y="-59.620838" style="line-height:1.25" xml:space="preserve"><tspan x="118.03746" y="-59.620838">A11</tspan><tspan x="118.03746" y="-58.061077"/></text>
+    <text transform="rotate(90.025)" x="120.71396" y="-59.548698" style="line-height:1.25" xml:space="preserve"><tspan x="120.71396" y="-59.548698">A12</tspan><tspan x="120.71396" y="-57.988937"/></text>
+    <text transform="rotate(90.025)" x="123.5371" y="-59.513287" style="line-height:1.25" xml:space="preserve"><tspan x="123.5371" y="-59.513287">A15</tspan><tspan x="123.5371" y="-57.953526"/></text>
+    <text transform="rotate(90.025)" x="140.91577" y="-80.061195" style="line-height:1.25" xml:space="preserve"><tspan x="140.91577" y="-80.061195">C15</tspan><tspan x="140.91577" y="-78.501434"/></text>
+    <text transform="rotate(90.025)" x="143.70224" y="-80.025764" style="line-height:1.25" xml:space="preserve"><tspan x="143.70224" y="-80.025764">C14</tspan><tspan x="143.70224" y="-78.466003"/></text>
+    <text transform="rotate(90.025)" x="126.33263" y="-59.559612" style="line-height:1.25" xml:space="preserve"><tspan x="126.33263" y="-59.559612">B3</tspan><tspan x="126.33263" y="-57.999851"/></text>
+    <text transform="rotate(90.025)" x="128.80486" y="-59.66259" style="line-height:1.25" xml:space="preserve"><tspan x="128.80486" y="-59.66259">B4</tspan><tspan x="128.80486" y="-58.102829"/></text>
+    <text transform="rotate(90.025)" x="131.2614" y="-59.517021" style="line-height:1.25" xml:space="preserve"><tspan x="131.2614" y="-59.517021">B5</tspan><tspan x="131.2614" y="-57.95726"/></text>
+    <text transform="rotate(90.025)" x="133.97449" y="-59.591553" style="line-height:1.25" xml:space="preserve"><tspan x="133.97449" y="-59.591553">B6</tspan><tspan x="133.97449" y="-58.031792"/></text>
+    <text transform="rotate(90.025)" x="136.61424" y="-59.702713" style="line-height:1.25" xml:space="preserve"><tspan x="136.61424" y="-59.702713">B7</tspan><tspan x="136.61424" y="-58.142952"/></text>
+    <text transform="rotate(90.025)" x="139.25403" y="-59.740547" style="line-height:1.25" xml:space="preserve"><tspan x="139.25403" y="-59.740547">B8</tspan><tspan x="139.25403" y="-58.180786"/></text>
+    <text transform="rotate(90.025)" x="141.74721" y="-59.668327" style="line-height:1.25" xml:space="preserve"><tspan x="141.74721" y="-59.668327">B9</tspan><tspan x="141.74721" y="-58.108566"/></text>
+    <text transform="rotate(90.025)" x="144.31364" y="-59.74279" style="line-height:1.25" xml:space="preserve"><tspan x="144.31364" y="-59.74279">5V</tspan><tspan x="144.31364" y="-58.183029"/></text>
+    <text transform="rotate(90.025)" x="146.80684" y="-59.633907" style="line-height:1.25" xml:space="preserve"><tspan x="146.80684" y="-59.633907">G</tspan><tspan x="146.80684" y="-58.074146"/></text>
+    <text transform="rotate(90.025)" x="101.03864" y="-80.108994" style="line-height:1.25" xml:space="preserve"><tspan x="101.03864" y="-80.108994">G</tspan><tspan x="101.03864" y="-78.549232"/></text>
+    <text transform="rotate(90.025)" x="103.53175" y="-80.183426" style="line-height:1.25" xml:space="preserve"><tspan x="103.53175" y="-80.183426">G</tspan><tspan x="103.53175" y="-78.623665"/></text>
+    <text transform="rotate(90.025)" x="149.11662" y="-59.708256" style="line-height:1.25" xml:space="preserve"><tspan x="149.11662" y="-59.708256">3.3</tspan><tspan x="149.11662" y="-58.148495"/></text>
+    <text transform="rotate(90.025)" x="105.58478" y="-80.037308" style="line-height:1.25" xml:space="preserve"><tspan x="105.58478" y="-80.037308">3.3</tspan><tspan x="105.58478" y="-78.477547"/></text>
+    <text transform="rotate(90.025)" x="146.52536" y="-80.027016" style="line-height:1.25" xml:space="preserve"><tspan x="146.52536" y="-80.027016">C13</tspan><tspan x="146.52536" y="-78.467255"/></text>
+    <text transform="rotate(90.025)" x="149.49513" y="-80.064987" style="line-height:1.25" xml:space="preserve"><tspan x="149.49513" y="-80.064987">VB</tspan><tspan x="149.49513" y="-78.505226"/></text>
+   </g>
+  </g>
+  <text x="69.906555" y="112.93056" fill="#f9f9f9" font-family="sans-serif" font-size="3.0916px" stroke-width=".077291" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="69.906555" y="112.93056" text-align="center">BLUE</tspan><tspan x="69.906555" y="116.7951" text-align="center">PILL</tspan></text>
+ </g>
+ 
+</svg>
