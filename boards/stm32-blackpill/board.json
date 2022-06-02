@@ -1,0 +1,80 @@
+{
+  "name": "STM32-Black-Pill",
+  "version": 1,
+  "description": "STM32 Black Pill is a high-performance, breadboard friendly development board with loads of features in a small form factor",
+  "author": "Ariella Eliassaf",
+  "width": 20.695,
+  "height": 53.125,
+  "mcu": "stm32f411ce",
+  "fqbn": "STMicroelectronics:stm32:GenF4:pnum=BLACKPILL_F411CE",
+
+  "pins": {
+    "VB": { "x": 2.65, "y": 3.15, "target": "" },
+    "C13": { "x": 2.65, "y": 5.69, "target": "PC13" },
+    "C14": { "x": 2.65, "y": 8.23, "target": "PC14" },
+    "C15": { "x": 2.65, "y": 10.77, "target": "PC15" },
+    "R": { "x": 2.65, "y": 13.31, "target": "NRST" },
+    "A0": { "x": 2.65, "y": 15.85, "target": "PA0" },
+    "A1": { "x": 2.65, "y": 18.39, "target": "PA1" },
+    "A2": { "x": 2.65, "y": 20.93, "target": "PA2" },
+    "A3": { "x": 2.65, "y": 23.47, "target": "PA3" },
+    "A4": { "x": 2.65, "y": 26.01, "target": "PA4" },
+    "A5": { "x": 2.65, "y": 28.55, "target": "PA5" },
+    "A6": { "x": 2.65, "y": 31.09, "target": "PA6" },
+    "A7": { "x": 2.65, "y": 33.63, "target": "PA7" },
+    "B0": { "x": 2.65, "y": 36.17, "target": "PB0" },
+    "B1": { "x": 2.65, "y": 38.71, "target": "PB1" },
+    "B2": { "x": 2.65, "y": 41.25, "target": "PB2" },
+    "B10": { "x": 2.65, "y": 43.79, "target": "PB10" },
+    "3V3.1": { "x": 2.65, "y": 46.33, "target": "power(3)" },
+    "GND.1": { "x": 2.65, "y": 48.87, "target": "GND" },
+    "5V.1": { "x": 2.65, "y": 51.41, "target": "power(5)" },
+
+    "3V3.2": { "x": 17.85, "y": 2.9, "target": "power(3)" },
+    "GND.3": { "x": 17.85, "y": 5.44, "target": "GND" },
+    "5V.2": { "x": 17.85, "y": 7.98, "target": "power(5)" },
+    "B9": { "x": 17.85, "y": 10.52, "target": "PB9" },
+    "B8": { "x": 17.85, "y": 13.06, "target": "PB8" },
+    "B7": { "x": 17.85, "y": 15.6, "target": "PB7" },
+    "B6": { "x": 17.85, "y": 18.14, "target": "PB6" },
+    "B5": { "x": 17.85, "y": 20.68, "target": "PB5" },
+    "B4": { "x": 17.85, "y": 23.22, "target": "PB4" },
+    "B3": { "x": 17.85, "y": 25.76, "target": "PB3" },
+    "A15": { "x": 17.85, "y": 28.3, "target": "PA15" },
+    "A12": { "x": 17.85, "y": 30.84, "target": "PA12" },
+    "A11": { "x": 17.85, "y": 33.38, "target": "PA11" },
+    "A10": { "x": 17.85, "y": 35.92, "target": "PA10" },
+    "A9": { "x": 17.85, "y": 38.46, "target": "PA9" },
+    "A8": { "x": 17.85, "y": 41, "target": "PA8" },
+    "B15": { "x": 17.85, "y": 43.54, "target": "PB15" },
+    "B14": { "x": 17.85, "y": 46.08, "target": "PB14" },
+    "B13": { "x": 17.85, "y": 48.62, "target": "PB13" },
+    "B12": { "x": 17.85, "y": 51.16, "target": "PB12" },
+    "led": { "x": 15.3, "y": 10.9, "target": "PB12" }
+  },
+
+  "leds": [
+    {
+      "id": "C13",
+      "x": 5.3,
+      "y": 10.9,
+      "type": "0603",
+      "color": "blue",
+      "pins": {
+        "A": "3V3",
+        "C": "C13"
+      }
+    },
+    {
+      "id": "PWR",
+      "x": 15.32,
+      "y": 10.9,
+      "type": "0603",
+      "color": "red",
+      "pins": {
+        "A": "3V3.1",
+        "C": "GND"
+      }
+    }
+  ]
+}
