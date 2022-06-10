@@ -9,6 +9,14 @@
   "width": 25.53,
   "height": 59.29,
 
+  "environments": {
+    "micropython": {
+      "firmware": "https://wokwi.github.io/firmware-assets/micropython/GENERIC_S2-$VERSION.bin",
+      "defaultVersion": "20220117-v1.18",
+      "fs": { "type": "lfs", "flashOffset": 2097152, "blockSize": 4096, "numBlocks": 512 }
+    }
+  },
+
   "pins": {
     "3V3": { "x": 1.33, "y": 6.22, "target": "power(3.3)" },
     "0": { "x": 1.33, "y": 8.76, "target": "GPIO0" },
