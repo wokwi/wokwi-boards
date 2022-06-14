@@ -4,7 +4,7 @@
   "description": "an RP2040 microcontroller board with dual-core ARM Cortex-M0+ processor, 264k of internal RAM, and flexible Programmable I/O (PIO) feature",
   "author": "Uri Shaked",
   "mcu": "rp2040",
-  "fqbn": "arduino:mbed:pico",
+  "fqbn": "arduino:mbed_rp2040:pico",
   "width": 20.9,
   "height": 52.75,
   "environments": {
