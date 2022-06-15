@@ -39,7 +39,11 @@
     "A0": { "x": 17, "y": 37.78, "target": "PA0" },
     "REF": { "x": 17, "y": 40.32, "target": "AREF" },
     "3V3": { "x": 17, "y": 42.86, "target": "power(3.3)" },
-    "D13": { "x": 17, "y": 45.4, "target": "PB3" }
+    "D13": { "x": 17, "y": 45.4, "target": "PB3" },
+
+    /* Virtual Com Port (VCP) pins, connected to the ST-LINK/V2.1 interface */
+    "VCP_TX": { "target": "PA2" },
+    "VCP_RX": { "target": "PA15" }
   },
 
   "leds": [
