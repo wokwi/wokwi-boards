@@ -51,7 +51,7 @@
       "color": "red",
       "pins": {
         "A": "VIN",
-        "C": "GND"
+        "C": "GND.1"
       }
     },
     {
@@ -62,7 +62,7 @@
       "color": "green",
       "pins": {
         "A": "D13",
-        "C": "GND"
+        "C": "GND.1"
       }
     }
   ]
