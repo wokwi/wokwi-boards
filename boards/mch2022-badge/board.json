@@ -26,7 +26,13 @@
   "environments": {
     "badgepython": {
       "firmware": "https://wokwi.github.io/mch2022-firmware-bin/badgePython/badgePython-$VERSION.bin",
-      "defaultVersion": "9f089be-nosdcard"
+      "defaultVersion": "9f089be-nosdcard",
+      "fs": {
+        "type": "fat",
+        "flashOffset": 5312512,
+        "blockSize": 4096,
+        "numBlocks": 2557
+      }
     }
   },
 
