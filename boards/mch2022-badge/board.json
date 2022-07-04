@@ -23,6 +23,13 @@
   /* Height of the board graphics, in mm. Must match the height defined in board.svg */
   "height": 98.2,
 
+  "environments": {
+    "badgepython": {
+      "firmware": "https://wokwi.github.io/mch2022-firmware-bin/badgePython/badgePython-$VERSION.bin",
+      "defaultVersion": "9f089be-nosdcard"
+    }
+  },
+
   /* The pins available on the board.
      "x"/"y" positions are in mm, and are relative to the top-left corner of the board.
      "target" is either:
@@ -31,36 +38,35 @@
      - "power(n)" for power supply pins, where n is the voltage. e.g. "power(3.3)"
   */
   "pins": {
-    "EN": { "x": 1.27, "y": 5.8, "target": "CHIP_PU" },
-    "VN": { "x": 1.27, "y": 8.34, "target": "GPIO39" },
-    "VP": { "x": 1.27, "y": 10.88, "target": "GPIO36" },
-    "D34": { "x": 1.27, "y": 13.42, "target": "GPIO34" },
-    "D35": { "x": 1.27, "y": 15.96, "target": "GPIO35" },
-    "D32": { "x": 1.27, "y": 18.5, "target": ["GPIO32", "lcd1:CS"] },
-    "D33": { "x": 1.27, "y": 21.04, "target": ["GPIO33", "lcd1:D/C"] },
-    "D25": { "x": 1.27, "y": 23.58, "target": "GPIO25" },
-    "D26": { "x": 1.27, "y": 26.12, "target": "GPIO26" },
-    "D27": { "x": 1.27, "y": 28.66, "target": "GPIO27" },
-    "D14": { "x": 1.27, "y": 31.2, "target": "GPIO14" },
-    "D12": { "x": 1.27, "y": 33.74, "target": "GPIO12" },
-    "D13": { "x": 1.27, "y": 36.28, "target": "GPIO13" },
-    "GND.2": { "x": 1.27, "y": 38.82, "target": ["GND", "lcd1:GND"] },
-    "VIN": { "x": 1.27, "y": 41.36, "target": "power(5)" },
-    "3V3": { "x": 26.8, "y": 41.36, "target": ["power(3.3)", "lcd1:VCC"] },
-    "GND.1": { "x": 26.8, "y": 38.82, "target": "GND" },
-    "D15": { "x": 26.8, "y": 36.28, "target": "15" },
-    "D2": { "x": 26.8, "y": 33.74, "target": "GPIO2" },
-    "D4": { "x": 26.8, "y": 31.2, "target": "GPIO4" },
-    "RX2": { "x": 26.8, "y": 28.66, "target": "GPIO16" },
-    "TX2": { "x": 26.8, "y": 26.12, "target": "GPIO17" },
-    "D5": { "x": 26.8, "y": 23.58, "target": "GPIO5" },
-    "D18": { "x": 26.8, "y": 21.04, "target": ["GPIO18", "lcd1:SCK"] },
+    "EN": { "target": "CHIP_PU" },
+    "VN": { "target": "GPIO39" },
+    "VP": { "target": "GPIO36" },
+    "D34": { "target": "GPIO34" },
+    "D35": { "target": "GPIO35" },
+    "D32": { "target": ["GPIO32", "lcd1:CS"] },
+    "D33": { "target": ["GPIO33", "lcd1:D/C"] },
+    "D25": { "target": "GPIO25" },
+    "D26": { "target": "GPIO26" },
+    "D27": { "target": "GPIO27" },
+    "D14": { "target": "GPIO14" },
+    "D12": { "target": "GPIO12" },
+    "D13": { "target": "GPIO13" },
+    "GND": { "target": ["GND", "lcd1:GND"] },
+    "VIN": { "target": "power(5)" },
+    "3V3": { "target": ["power(3.3)", "lcd1:VCC"] },
+    "D15": { "target": "15" },
+    "D2": { "target": "GPIO2" },
+    "D4": { "target": "GPIO4" },
+    "RX2": { "target": "GPIO16" },
+    "TX2": { "target": "GPIO17" },
+    "D5": { "target": "GPIO5" },
+    "D18": { "target": ["GPIO18", "lcd1:SCK"] },
     "D19": { "x": 26.8, "y": 18.5, "target": "GPIO19" },
     "D21": { "x": 26.8, "y": 15.96, "target": "GPIO21" },
     "RX0": { "x": 26.8, "y": 13.42, "target": "GPIO3" },
     "TX0": { "x": 26.8, "y": 10.88, "target": "GPIO1" },
     "D22": { "x": 26.8, "y": 8.34, "target": "GPIO22" },
-    "D23": { "x": 26.8, "y": 5.8, "target": ["GPIO23", "lcd1:MOSI"] },
+    "D23": { "target": ["GPIO23", "lcd1:MOSI"] },
     "$kite1": { "target": "$dummy1" },
     "$kite2": { "target": "$dummy2" },
     "$kite3": { "target": "$dummy3" },
