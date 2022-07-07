@@ -31,7 +31,8 @@
         "type": "fat",
         "flashOffset": 5312512,
         "blockSize": 4096,
-        "numBlocks": 2557
+        "numBlocks": 2557,
+        "mkdirs": ["/lib", "/apps", "/apps/python", "/cache", "/config"]
       }
     }
   },
