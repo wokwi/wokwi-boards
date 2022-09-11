@@ -58,8 +58,8 @@
     "RX": { "x": 24.19, "y": 16.38, "target": "GPIO44" },
     "45": { "x": 24.19, "y": 13.84, "target": "GPIO45" },
     "46": { "x": 24.19, "y": 11.3, "target": "GPIO46" },
-    "RST": { "x": 24.19, "y": 8.76, "target": "GPIO3" },
-    "GND.2": { "x": 24.19, "y": 6.22, "target": "CHIP_PU" }
+    "RST": { "x": 24.19, "y": 8.76, "target": "CHIP_PU" },
+    "GND.2": { "x": 24.19, "y": 6.22, "target": "GND" }
   },
 
   "leds": [
