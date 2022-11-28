@@ -4,7 +4,7 @@
     "description": "ESP32-DevKitC by Espressif",
     "author": "Marc Endtricht",
     "mcu": "esp32",
-    "fqbn": "esp32:esp32:esp32-devkit-c-v4",
+    "fqbn": "esp32:esp32:esp32",
     "width": 27.9,
     "height": 56.628,
     "pins": {
