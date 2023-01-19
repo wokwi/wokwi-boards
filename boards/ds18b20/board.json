@@ -1,0 +1,10 @@
+{
+  "width": 8.564,
+  "height": 13.388,
+
+  "pins": {
+    "GND": { "x": 1.46, "y": 13, "target": "GND" },
+    "DQ": { "x": 4, "y": 13, "target": "" },
+    "VCC": { "x": 6.54, "y": 13, "target": "VCC" }
+  }
+  }
