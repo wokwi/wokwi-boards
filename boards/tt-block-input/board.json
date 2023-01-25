@@ -1,0 +1,31 @@
+{
+  "name": "Tiny Tapeout Input Block",
+  "version": 1,
+  "description": "See https://TinyTapeout.com for details",
+  "author": "Uri Shaked",
+  "width": 28,
+  "height": 31.2,
+
+  "pins": {
+    "EXTCLK": { "y": 7.02, "x": 1.27, "target": "" },
+    "EXTRST_N": { "y": 9.56, "x": 1.27, "target": "" },
+    "EXTIN0": { "y": 12.1, "x": 1.27, "target": "" },
+    "EXTIN1": { "y": 14.64, "x": 1.27, "target": "" },
+    "EXTIN2": { "y": 17.18, "x": 1.27, "target": "" },
+    "EXTIN3": { "y": 19.72, "x": 1.27, "target": "" },
+    "EXTIN4": { "y": 22.26, "x": 1.27, "target": "" },
+    "EXTIN5": { "y": 24.8, "x": 1.27, "target": "" },
+    "EXTIN6": { "y": 27.34, "x": 1.27, "target": "" },
+    "EXTIN7": { "y": 29.88, "x": 1.27, "target": "" },
+    "CLK": { "y": 7.02, "x": 26.67, "target": "" },
+    "RST_N": { "y": 9.56, "x": 26.67, "target": "" },
+    "IN0": { "y": 12.1, "x": 26.67, "target": "" },
+    "IN1": { "y": 14.64, "x": 26.67, "target": "" },
+    "IN2": { "y": 17.18, "x": 26.67, "target": "" },
+    "IN3": { "y": 19.72, "x": 26.67, "target": "" },
+    "IN4": { "y": 22.26, "x": 26.67, "target": "" },
+    "IN5": { "y": 24.8, "x": 26.67, "target": "" },
+    "IN6": { "y": 27.34, "x": 26.67, "target": "" },
+    "IN7": { "y": 29.88, "x": 26.67, "target": "" }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Tiny Tapeout Output Block",
+  "version": 1,
+  "description": "See https://TinyTapeout.com for details",
+  "author": "Uri Shaked",
+  "width": 28,
+  "height": 26.2,
+
+  "pins": {
+    "OUT0": { "y": 7.02, "x": 1.27, "target": "" },
+    "OUT1": { "y": 9.56, "x": 1.27, "target": "" },
+    "OUT2": { "y": 12.1, "x": 1.27, "target": "" },
+    "OUT3": { "y": 14.64, "x": 1.27, "target": "" },
+    "OUT4": { "y": 17.18, "x": 1.27, "target": "" },
+    "OUT5": { "y": 19.72, "x": 1.27, "target": "" },
+    "OUT6": { "y": 22.26, "x": 1.27, "target": "" },
+    "OUT7": { "y": 24.8, "x": 1.27, "target": "" },
+    "EXTOUT0": { "y": 7.02, "x": 26.67, "target": "" },
+    "EXTOUT1": { "y": 9.56, "x": 26.67, "target": "" },
+    "EXTOUT2": { "y": 12.1, "x": 26.67, "target": "" },
+    "EXTOUT3": { "y": 14.64, "x": 26.67, "target": "" },
+    "EXTOUT4": { "y": 17.18, "x": 26.67, "target": "" },
+    "EXTOUT5": { "y": 19.72, "x": 26.67, "target": "" },
+    "EXTOUT6": { "y": 22.26, "x": 26.67, "target": "" },
+    "EXTOUT7": { "y": 24.8, "x": 26.67, "target": "" },
+  }
+}

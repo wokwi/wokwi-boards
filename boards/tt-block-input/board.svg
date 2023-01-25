@@ -1,0 +1,110 @@
+<svg width="28mm" height="31.2mm" version="1.1" viewBox="0 0 28 31.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <g id="hole">
+   <circle cy="1.27" r=".7" fill="#ffe680"/>
+   <circle cy="1.27" r=".45" fill="#fff"/>
+  </g>
+ </defs>
+ <rect width="28" height="31.2" rx=".93333" fill="#087f45" stroke-width=".68009"/>
+ <g transform="translate(0 4.75)">
+  <text x="2.394923" y="1.9229573" fill="#000000" font-family="sans-serif" font-size="1.8397px" stroke-width=".045992" style="line-height:1.25" xml:space="preserve"><tspan x="2.394923" y="1.9229573" fill="#ffffff" stroke-width=".045992">CLK</tspan></text>
+  <path d="m24.468 2.27-1.5845 0.91483v-1.8297z" fill="none" stroke="#fff" stroke-linecap="round" stroke-width=".26458"/>
+  <path d="m22.749 2.2701-5.8381-2.75e-5 -0.91057 1.55e-5v-1.5h-2v1.5l-2-2.6e-6v-1.5h-2v1.5l-8.7461-8.94e-5" fill="none" stroke="#fff" stroke-width=".25216"/>
+  <text x="2.394923" y="1.8718017" fill="#000000" font-family="sans-serif" font-size="1.8397px" stroke-width=".045992" style="line-height:1.25" xml:space="preserve"><tspan x="2.394923" y="1.8718017" fill="#ffffff" stroke-width=".045992">CLK</tspan></text>
+  <path d="m24.304 2.2701 1.8111-1.018e-4" fill="none" stroke="#fff" stroke-width=".24782"/>
+  <use x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+  <use transform="translate(25.4)" x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+ </g>
+ <rect y=".98092" width="28" height="2.751" fill="#fff" stroke-width=".20194"/>
+ <text x="10.229472" y="3.0896072" fill="#087f45" font-family="sans-serif" font-size="2.0598px" stroke-width=".17165" style="line-height:1.25" xml:space="preserve"><tspan x="10.229472" y="3.0896072" fill="#087f45" font-size="2.0598px" font-weight="bold" stroke-width=".17165">INPUT</tspan></text>
+ <g transform="translate(0 7.2928)">
+  <text x="2.394923" y="1.8719573" fill="#000000" font-family="sans-serif" font-size="1.8397px" stroke-width=".045992" style="line-height:1.25" xml:space="preserve"><tspan x="2.394923" y="1.8719573" fill="#ffffff" stroke-width=".045992">RST_N</tspan></text>
+  <g fill="none" stroke="#fff">
+   <path d="m24.468 2.27-1.5845 0.91483v-1.8297z" stroke-linecap="round" stroke-width=".26458"/>
+   <path d="m22.749 2.2701-21.495-1.014e-4" stroke-width=".25216"/>
+   <path d="m24.304 2.2701 1.8111-1.018e-4" stroke-width=".24782"/>
+  </g>
+  <use x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+  <use transform="translate(25.4)" x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+ </g>
+ <g transform="translate(0 9.8298)">
+  <text x="2.394923" y="1.8719573" fill="#000000" font-family="sans-serif" font-size="1.8397px" stroke-width=".045992" style="line-height:1.25" xml:space="preserve"><tspan x="2.394923" y="1.8719573" fill="#ffffff" stroke-width=".045992">IN0</tspan></text>
+  <g fill="none" stroke="#fff">
+   <path d="m24.468 2.27-1.5845 0.91483v-1.8297z" stroke-linecap="round" stroke-width=".26458"/>
+   <path d="m22.749 2.2701-21.495-1.014e-4" stroke-width=".25216"/>
+   <path d="m24.304 2.2701 1.8111-1.018e-4" stroke-width=".24782"/>
+  </g>
+  <use x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+  <use transform="translate(25.4)" x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+ </g>
+ <g transform="translate(0 12.37)">
+  <text x="2.394923" y="1.8719573" fill="#000000" font-family="sans-serif" font-size="1.8397px" stroke-width=".045992" style="line-height:1.25" xml:space="preserve"><tspan x="2.394923" y="1.8719573" fill="#ffffff" stroke-width=".045992">IN1</tspan></text>
+  <g fill="none" stroke="#fff">
+   <path d="m24.468 2.27-1.5845 0.91483v-1.8297z" stroke-linecap="round" stroke-width=".26458"/>
+   <path d="m22.749 2.2701-21.495-1.014e-4" stroke-width=".25216"/>
+   <path d="m24.304 2.2701 1.8111-1.018e-4" stroke-width=".24782"/>
+  </g>
+  <use x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+  <use transform="translate(25.4)" x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+ </g>
+ <g transform="translate(0 14.909)">
+  <text x="2.394923" y="1.8719573" fill="#000000" font-family="sans-serif" font-size="1.8397px" stroke-width=".045992" style="line-height:1.25" xml:space="preserve"><tspan x="2.394923" y="1.8719573" fill="#ffffff" stroke-width=".045992">IN2</tspan></text>
+  <g fill="none" stroke="#fff">
+   <path d="m24.468 2.27-1.5845 0.91483v-1.8297z" stroke-linecap="round" stroke-width=".26458"/>
+   <path d="m22.749 2.2701-21.495-1.014e-4" stroke-width=".25216"/>
+   <path d="m24.304 2.2701 1.8111-1.018e-4" stroke-width=".24782"/>
+  </g>
+  <use x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+  <use transform="translate(25.4)" x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+ </g>
+ <g transform="translate(0 17.449)">
+  <text x="2.394923" y="1.8719573" fill="#000000" font-family="sans-serif" font-size="1.8397px" stroke-width=".045992" style="line-height:1.25" xml:space="preserve"><tspan x="2.394923" y="1.8719573" fill="#ffffff" stroke-width=".045992">IN3</tspan></text>
+  <g fill="none" stroke="#fff">
+   <path d="m24.468 2.27-1.5845 0.91483v-1.8297z" stroke-linecap="round" stroke-width=".26458"/>
+   <path d="m22.749 2.2701-21.495-1.014e-4" stroke-width=".25216"/>
+   <path d="m24.304 2.2701 1.8111-1.018e-4" stroke-width=".24782"/>
+  </g>
+  <use x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+  <use transform="translate(25.4)" x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+ </g>
+ <g transform="translate(0 19.989)">
+  <text x="2.394923" y="1.8719573" fill="#000000" font-family="sans-serif" font-size="1.8397px" stroke-width=".045992" style="line-height:1.25" xml:space="preserve"><tspan x="2.394923" y="1.8719573" fill="#ffffff" stroke-width=".045992">IN4</tspan></text>
+  <g fill="none" stroke="#fff">
+   <path d="m24.468 2.27-1.5845 0.91483v-1.8297z" stroke-linecap="round" stroke-width=".26458"/>
+   <path d="m22.749 2.2701-21.495-1.014e-4" stroke-width=".25216"/>
+   <path d="m24.304 2.2701 1.8111-1.018e-4" stroke-width=".24782"/>
+  </g>
+  <use x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+  <use transform="translate(25.4)" x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+ </g>
+ <g transform="translate(0 22.529)">
+  <text x="2.394923" y="1.8719573" fill="#000000" font-family="sans-serif" font-size="1.8397px" stroke-width=".045992" style="line-height:1.25" xml:space="preserve"><tspan x="2.394923" y="1.8719573" fill="#ffffff" stroke-width=".045992">IN5</tspan></text>
+  <g fill="none" stroke="#fff">
+   <path d="m24.468 2.27-1.5845 0.91483v-1.8297z" stroke-linecap="round" stroke-width=".26458"/>
+   <path d="m22.749 2.2701-21.495-1.014e-4" stroke-width=".25216"/>
+   <path d="m24.304 2.2701 1.8111-1.018e-4" stroke-width=".24782"/>
+  </g>
+  <use x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+  <use transform="translate(25.4)" x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+ </g>
+ <g transform="translate(0 25.069)">
+  <text x="2.394923" y="1.8719573" fill="#000000" font-family="sans-serif" font-size="1.8397px" stroke-width=".045992" style="line-height:1.25" xml:space="preserve"><tspan x="2.394923" y="1.8719573" fill="#ffffff" stroke-width=".045992">IN6</tspan></text>
+  <g fill="none" stroke="#fff">
+   <path d="m24.468 2.27-1.5845 0.91483v-1.8297z" stroke-linecap="round" stroke-width=".26458"/>
+   <path d="m22.749 2.2701-21.495-1.014e-4" stroke-width=".25216"/>
+   <path d="m24.304 2.2701 1.8111-1.018e-4" stroke-width=".24782"/>
+  </g>
+  <use x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+  <use transform="translate(25.4)" x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+ </g>
+ <g transform="translate(0 27.609)">
+  <text x="2.394923" y="1.8719573" fill="#000000" font-family="sans-serif" font-size="1.8397px" stroke-width=".045992" style="line-height:1.25" xml:space="preserve"><tspan x="2.394923" y="1.8719573" fill="#ffffff" stroke-width=".045992">IN7</tspan></text>
+  <g fill="none" stroke="#fff">
+   <path d="m24.468 2.27-1.5845 0.91483v-1.8297z" stroke-linecap="round" stroke-width=".26458"/>
+   <path d="m22.749 2.2701-21.495-1.014e-4" stroke-width=".25216"/>
+   <path d="m24.304 2.2701 1.8111-1.018e-4" stroke-width=".24782"/>
+  </g>
+  <use x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+  <use transform="translate(25.4)" x="1.27" y="1" width="100%" height="100%" xlink:href="#hole"/>
+ </g>
+</svg>
