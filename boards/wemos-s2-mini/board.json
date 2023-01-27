@@ -4,7 +4,7 @@
     "description": "A mini wifi board based on ESP32-S2FN4R2.",
     "author": "Mirac Gulgonul",
     "mcu": "esp32-s2",
-    "fqbn": "esp32:esp32:esp32s2",
+    "fqbn": "esp32:esp32:lolin_s2_mini",
     "width": 26.41,
     "height": 34.32,
     "environments": {
@@ -179,17 +179,6 @@
             "x": 24.17,
             "y": 25.68,
             "target": "power(5)"
-        },
-        // TX and RX are connected directly to the USB port on the board 
-        "TX": {
-            "x": 11.3,
-            "y": 29.5,
-            "target": "GPIO43"
-        },
-        "RX": {
-            "x": 14.5,
-            "y": 29.5,
-            "target": "GPIO44"
         }
     },
     "leds": [
