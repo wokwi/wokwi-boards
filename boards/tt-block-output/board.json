@@ -7,21 +7,23 @@
   "height": 26.2,
 
   "pins": {
-    "OUT0": { "y": 7.02, "x": 1.27, "target": "" },
-    "OUT1": { "y": 9.56, "x": 1.27, "target": "" },
-    "OUT2": { "y": 12.1, "x": 1.27, "target": "" },
-    "OUT3": { "y": 14.64, "x": 1.27, "target": "" },
-    "OUT4": { "y": 17.18, "x": 1.27, "target": "" },
-    "OUT5": { "y": 19.72, "x": 1.27, "target": "" },
-    "OUT6": { "y": 22.26, "x": 1.27, "target": "" },
-    "OUT7": { "y": 24.8, "x": 1.27, "target": "" },
-    "EXTOUT0": { "y": 7.02, "x": 26.67, "target": "" },
-    "EXTOUT1": { "y": 9.56, "x": 26.67, "target": "" },
-    "EXTOUT2": { "y": 12.1, "x": 26.67, "target": "" },
-    "EXTOUT3": { "y": 14.64, "x": 26.67, "target": "" },
-    "EXTOUT4": { "y": 17.18, "x": 26.67, "target": "" },
-    "EXTOUT5": { "y": 19.72, "x": 26.67, "target": "" },
-    "EXTOUT6": { "y": 22.26, "x": 26.67, "target": "" },
-    "EXTOUT7": { "y": 24.8, "x": 26.67, "target": "" },
-  }
+    "OUT0": { "y": 7.02, "x": 1.27, "target": "ttout:OUT0" },
+    "OUT1": { "y": 9.56, "x": 1.27, "target": "ttout:OUT1" },
+    "OUT2": { "y": 12.1, "x": 1.27, "target": "ttout:OUT2" },
+    "OUT3": { "y": 14.64, "x": 1.27, "target": "ttout:OUT3" },
+    "OUT4": { "y": 17.18, "x": 1.27, "target": "ttout:OUT4" },
+    "OUT5": { "y": 19.72, "x": 1.27, "target": "ttout:OUT5" },
+    "OUT6": { "y": 22.26, "x": 1.27, "target": "ttout:OUT6" },
+    "OUT7": { "y": 24.8, "x": 1.27, "target": "ttout:OUT7" },
+    "EXTOUT0": { "y": 7.02, "x": 26.67, "target": "ttout:EXTOUT0" },
+    "EXTOUT1": { "y": 9.56, "x": 26.67, "target": "ttout:EXTOUT1" },
+    "EXTOUT2": { "y": 12.1, "x": 26.67, "target": "ttout:EXTOUT2" },
+    "EXTOUT3": { "y": 14.64, "x": 26.67, "target": "ttout:EXTOUT3" },
+    "EXTOUT4": { "y": 17.18, "x": 26.67, "target": "ttout:EXTOUT4" },
+    "EXTOUT5": { "y": 19.72, "x": 26.67, "target": "ttout:EXTOUT5" },
+    "EXTOUT6": { "y": 22.26, "x": 26.67, "target": "ttout:EXTOUT6" },
+    "EXTOUT7": { "y": 24.8, "x": 26.67, "target": "ttout:EXTOUT7" }
+  },
+
+  "chips": [{ "id": "ttout", "type": "tinytapeout-output" }]
 }

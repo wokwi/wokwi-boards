@@ -7,25 +7,27 @@
   "height": 31.2,
 
   "pins": {
-    "EXTCLK": { "y": 7.02, "x": 1.27, "target": "" },
-    "EXTRST_N": { "y": 9.56, "x": 1.27, "target": "" },
-    "EXTIN0": { "y": 12.1, "x": 1.27, "target": "" },
-    "EXTIN1": { "y": 14.64, "x": 1.27, "target": "" },
-    "EXTIN2": { "y": 17.18, "x": 1.27, "target": "" },
-    "EXTIN3": { "y": 19.72, "x": 1.27, "target": "" },
-    "EXTIN4": { "y": 22.26, "x": 1.27, "target": "" },
-    "EXTIN5": { "y": 24.8, "x": 1.27, "target": "" },
-    "EXTIN6": { "y": 27.34, "x": 1.27, "target": "" },
-    "EXTIN7": { "y": 29.88, "x": 1.27, "target": "" },
-    "CLK": { "y": 7.02, "x": 26.67, "target": "" },
-    "RST_N": { "y": 9.56, "x": 26.67, "target": "" },
-    "IN0": { "y": 12.1, "x": 26.67, "target": "" },
-    "IN1": { "y": 14.64, "x": 26.67, "target": "" },
-    "IN2": { "y": 17.18, "x": 26.67, "target": "" },
-    "IN3": { "y": 19.72, "x": 26.67, "target": "" },
-    "IN4": { "y": 22.26, "x": 26.67, "target": "" },
-    "IN5": { "y": 24.8, "x": 26.67, "target": "" },
-    "IN6": { "y": 27.34, "x": 26.67, "target": "" },
-    "IN7": { "y": 29.88, "x": 26.67, "target": "" }
-  }
+    "EXTCLK": { "y": 7.02, "x": 1.27, "target": "ttin:EXTCLK" },
+    "EXTRST_N": { "y": 9.56, "x": 1.27, "target": "ttin:EXTRST_N" },
+    "EXTIN0": { "y": 12.1, "x": 1.27, "target": "ttin:EXTIN0" },
+    "EXTIN1": { "y": 14.64, "x": 1.27, "target": "ttin:EXTIN1" },
+    "EXTIN2": { "y": 17.18, "x": 1.27, "target": "ttin:EXTIN2" },
+    "EXTIN3": { "y": 19.72, "x": 1.27, "target": "ttin:EXTIN3" },
+    "EXTIN4": { "y": 22.26, "x": 1.27, "target": "ttin:EXTIN4" },
+    "EXTIN5": { "y": 24.8, "x": 1.27, "target": "ttin:EXTIN5" },
+    "EXTIN6": { "y": 27.34, "x": 1.27, "target": "ttin:EXTIN6" },
+    "EXTIN7": { "y": 29.88, "x": 1.27, "target": "ttin:EXTIN7" },
+    "CLK": { "y": 7.02, "x": 26.67, "target": "ttin:CLK" },
+    "RST_N": { "y": 9.56, "x": 26.67, "target": "ttin:RST_N" },
+    "IN0": { "y": 12.1, "x": 26.67, "target": "ttin:IN0" },
+    "IN1": { "y": 14.64, "x": 26.67, "target": "ttin:IN1" },
+    "IN2": { "y": 17.18, "x": 26.67, "target": "ttin:IN2" },
+    "IN3": { "y": 19.72, "x": 26.67, "target": "ttin:IN3" },
+    "IN4": { "y": 22.26, "x": 26.67, "target": "ttin:IN4" },
+    "IN5": { "y": 24.8, "x": 26.67, "target": "ttin:IN5" },
+    "IN6": { "y": 27.34, "x": 26.67, "target": "ttin:IN6" },
+    "IN7": { "y": 29.88, "x": 26.67, "target": "ttin:IN7" }
+  },
+
+  "chips": [{ "id": "ttin", "type": "tinytapeout-input" }]
 }
