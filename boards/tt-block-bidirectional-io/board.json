@@ -1,0 +1,17 @@
+{
+  "name": "Tiny Tapeout Bidirectional I/O Block",
+  "version": 1,
+  "description": "See https://TinyTapeout.com for details",
+  "author": "Uri Shaked",
+  "width": 28,
+  "height": 9,
+
+  "pins": {
+    "IN": { "y": 2.27, "x": 1.27, "target": "" },
+    "OUT": { "y": 4.81, "x": 1.27, "target": "" },
+    "OE": { "y": 7.35, "x": 1.27, "target": "" },
+    "UIO": { "y": 4.81, "x": 26.67, "target": "" }
+  },
+
+  "_tinyTapeoutLabel": "D{verilogBit}"
+}
