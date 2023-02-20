@@ -1,0 +1,29 @@
+{
+  "name": "Tiny Tapeout Input Block",
+  "version": 1,
+  "description": "See https://TinyTapeout.com for details",
+  "author": "Uri Shaked",
+  "width": 28,
+  "height": 31.2,
+
+  "pins": {
+    "EXTIN0": { "y": 12.1, "x": 1.27, "target": "ttin:EXTIN0" },
+    "EXTIN1": { "y": 14.64, "x": 1.27, "target": "ttin:EXTIN1" },
+    "EXTIN2": { "y": 17.18, "x": 1.27, "target": "ttin:EXTIN2" },
+    "EXTIN3": { "y": 19.72, "x": 1.27, "target": "ttin:EXTIN3" },
+    "EXTIN4": { "y": 22.26, "x": 1.27, "target": "ttin:EXTIN4" },
+    "EXTIN5": { "y": 24.8, "x": 1.27, "target": "ttin:EXTIN5" },
+    "EXTIN6": { "y": 27.34, "x": 1.27, "target": "ttin:EXTIN6" },
+    "EXTIN7": { "y": 29.88, "x": 1.27, "target": "ttin:EXTIN7" },
+    "IN0": { "y": 12.1, "x": 26.67, "target": "ttin:IN0" },
+    "IN1": { "y": 14.64, "x": 26.67, "target": "ttin:IN1" },
+    "IN2": { "y": 17.18, "x": 26.67, "target": "ttin:IN2" },
+    "IN3": { "y": 19.72, "x": 26.67, "target": "ttin:IN3" },
+    "IN4": { "y": 22.26, "x": 26.67, "target": "ttin:IN4" },
+    "IN5": { "y": 24.8, "x": 26.67, "target": "ttin:IN5" },
+    "IN6": { "y": 27.34, "x": 26.67, "target": "ttin:IN6" },
+    "IN7": { "y": 29.88, "x": 26.67, "target": "ttin:IN7" }
+  },
+
+  "chips": [{ "id": "ttin", "type": "tinytapeout-input" }]
+}
