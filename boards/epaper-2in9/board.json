@@ -1,7 +1,7 @@
 {
-    "name": "WS29V2 e-paper module",
+    "name": "2.9\" BW/BWR/BWY e-paper module",
     "version": 1,
-    "description": "Waveshare 2.9\" e-Paper Module (V2)",
+    "description": "2.9\" 2 and 3 colour e-Paper Module (V2)",
     "author": "Bonny Rais",
     "width": 89.5,
     "height": 38,
