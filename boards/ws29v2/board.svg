@@ -1,0 +1,40 @@
+<svg id="ePaperModule" xmlns="http://www.w3.org/2000/svg" width="89.5mm" height="38mm" viewBox="0 0 250.01 107.72">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff;stroke-width:.31px;}.cls-1,.cls-2,.cls-3{stroke-miterlimit:4.51;}.cls-4{font-family:Arial-BoldMT,
+            Arial;font-size:6.36px;font-weight:700;}.cls-4,.cls-5,.cls-3{fill:#fff;}.cls-4,.cls-6{isolation:isolate;}.cls-2{fill:#cdcdcd;stroke:#666;stroke-width:.6px;}.cls-7{fill:#c3c3c3;}.cls-8{fill:#e5e5e5;}.cls-3{stroke:#ccc;stroke-width:.45px;}.cls-9{fill:#ccc;}.cls-10{fill:#244b7e;}</style>
+    </defs>
+    <path id="Board" class="cls-10"
+        d="m 245.24 0 h -240.47 c -2.62 0 -4.77 2.15 -4.77 4.77 v 15.23 c 0 5 6 3 6 8 v 52 c 0 5 -6 3 -6 8 v 14.95 c 0 2.62 2.15 4.77 4.77 4.77 h 240.47 c 2.62 0 4.77 -2.15 4.77 -4.77 v -98.18 c 0 -2.62 -2.15 -4.77 -4.77 -4.77 z" />
+    <g id="tab">
+        <rect id="tab-base" class="cls-7" x="24.25" y="8.74" width="11.13" height="16.3" />
+        <circle id="tab-hole" class="cls-5" cx="30.61" cy="14.31" r="2.78" />
+    </g>
+    <g id="holes">
+        <circle class="cls-5" cx="6.76" cy="100.56" r="5.17" />
+        <circle class="cls-5" cx="6.76" cy="7.55" r="5.17" />
+        <circle class="cls-5" cx="243.26" cy="100.56" r="5.17" />
+        <circle class="cls-5" cx="243.26" cy="7.55" r="5.17" />
+    </g>
+    <g class="cls-6">
+        <text class="cls-4" transform="translate(245.09 89.43) rotate(-90)">
+            <tspan x="0" y="0">2.9inch e-Paper Module</tspan>
+        </text>
+    </g>
+    <path id="frame" class="cls-2"
+        d="m20.27,4.77v20.67h5.56c4.54,0,4.76,5.75,4.77,4.94-.01,4.11-.14,71.77-.14,71.77h201.66V4.77H20.27Zm208.87,90.02c0,2.58-2.67,2.67-2.67,2.67H36.45c-.91,0-1.07-1.53-1.07-1.53V24.25c0-3.18-3.45-3.18-3.45-3.18h-5.69c-.79,0-1.19-1.59-1.19-1.59v-9.14c0-1.59,1.59-1.59,1.59-1.59h199.93c2.43,0,2.58,2.79,2.58,2.79v83.26h0Z" />
+    <rect class="cls-1" x="7.27" y="25.54" width="3.79" height="55" />
+    <rect class="cls-9" x="8.06" y="26.83" width="2.25" height="2.25" />
+    <circle id="pin" class="cls-3" cx="9.19" cy="28" r=".95" stroke-width="0.4" stroke="#ccc" />
+
+
+    <use href="#pin" y="7.12" />
+    <use href="#pin" y="14.24" />
+    <use href="#pin" y="21.336" />
+    <use href="#pin" y="28.48" />
+    <use href="#pin" y="35.6" />
+    <use href="#pin" y="42.672" />
+    <use href="#pin" y="49.78" />
+
+    <rect id="Paper" class="cls-8" x="35.77" y="9.36" width="193.17" height="88.2" />
+</svg>

@@ -1,0 +1,38 @@
+{
+    "name": "WS29V2 e-paper module",
+    "version": 1,
+    "description": "Waveshare 2.9\" e-Paper Module (V2)",
+    "author": "Bonny Rais",
+    "width": 89.5,
+    "height": 38,
+  
+    "chips": [{ "id": "chip", "type": "github:bonnyr/wokwi-ws29v2-custom-chip@0.0.3" }],
+  
+    "pins": {
+        "BUSY" : { "x": 4, "y": 10, "target": "chip:BUSY" },
+        "RST": { "x": 4, "y": 12.54, "target": "chip:RST" },
+        "DC": { "x": 4, "y": 15.08, "target": "chip:DC" },
+        "CS": { "x": 4, "y": 17.62, "target": "chip:CS" },
+        "CLK": { "x": 4, "y": 20.18, "target": "chip:CLK" },
+        "DIN": { "x": 4, "y": 22.72, "target": "chip:DIN" },
+        "VCC": { "x": 4, "y": 25.26, "target": "chip:VCC" },
+        "GND": { "x": 4, "y": 27.8, "target": "chip:GND" }
+    },
+
+    "displays": [
+        {
+          "id": "chip",
+          "x": 31.9,
+          "y": -15,
+          "rotate": -90,
+          "width": 31,
+          "height": 67.5,
+          "pixelWidth": 128,
+          "pixelHeight": 296,
+          "chip": "ws29v2"
+        }
+      ]
+  }
+
+
+  
