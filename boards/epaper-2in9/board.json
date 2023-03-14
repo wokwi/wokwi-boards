@@ -6,7 +6,7 @@
     "width": 89.5,
     "height": 38,
   
-    "chips": [{ "id": "chip", "type": "github:bonnyr/wokwi-ws29v2-custom-chip@0.0.4" }],
+    "chips": [{ "id": "chip", "type": "github:bonnyr/wokwi-ws29v2-custom-chip@0.0.5" }],
   
     "pins": {
         "BUSY" : { "x": 4, "y": 10, "target": "chip:BUSY" },
