@@ -1,0 +1,163 @@
+
+<svg id="esp-wroom-32-38p-" width="25.4mm" height="48.26mm" viewBox="0 0 25.4 48.26" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow">
+      <!-- <feDropShadow id="highlight" dx="-0.8" dy="-0.8" stdDeviation="0" flood-color="#F1F1F1" flood-opacity="0.6" /> -->
+      <feDropShadow id="shadow" dx="0.2" dy="0.4" stdDeviation="0.3" flood-opacity="0.6" />
+    </filter>
+    <pattern id="gpio-pin-pattern" width="2.6" height="2.54" patternUnits="userSpaceOnUse">
+      <circle cx="1.27" cy="1.27" r="0.85" fill="#DCDDDF" />
+      <circle cx="1.27" cy="1.27" r="0.28" fill="#C1C2C6" style="filter:url(#drop-shadow);" />
+    </pattern>
+    <pattern id="esp-pin-pattern" y="0.2" width="1" height="1.15" patternUnits="userSpaceOnUse">  
+      <rect width="1" height="1" fill="goldenrod"/>
+      <path d="M 0.22 1 C 0.507 1.018 0.646 0.932 0.7 0.84 L 0.7 0.16 C 0.646 0.068 0.507 -0.018 0.22 -0.008 L -0 -0 L -0 1 Z" fill="#F5F6F5" />
+    </pattern>
+
+    <pattern id="small-pin-pattern" height="0.5" width="0.5" patternUnits="userSpaceOnUse">
+      <path d="m 0.273 0.0156 c -0.069 0 -0.1355 0.017 -0.185 0.0476 c -0.0483 0.0305 -0.0765 0.0716 -0.0765 0.1145 l 0 0.1345 c 0 0.043 0.0282 0.0844 0.0765 0.1152 c 0.049 0.0305 0.1155 0.0476 0.185 0.0476 l 0.21 0 l 0 -0.4576 z" fill="#F5F6F5" />
+    </pattern>
+  </defs>
+
+  <!-- Board -->
+  <rect id="board" x="0" y="0" width="26" height="48.25" rx="1.27" ry="1.27" fill="#27282B" />
+
+  <!-- GPIO Pins -->
+  <rect width="2.54" height="48.25" fill="url(#gpio-pin-pattern)" />
+  <rect x="23.456" y="0" width="2.54" height="48.25" fill="url(#gpio-pin-pattern)" />
+
+  <!-- ESP32 Chip -->
+  <g id="esp32s" transform="translate(4, 0)">
+    <rect id="esp-body" width="18" height="25.6" fill="#111214" fill-rule="evenodd" /> 
+    <g id="antenna" transform="translate(1, 0.5)">
+      <rect y="1" width="1" height="6" fill="#35363B" />
+      <rect x="2" y="1" width="1" height="2.5" fill="#35363B" />
+      <rect x="5" y="1" width="1" height="2.5" fill="#35363B" />
+      <rect x="7" y="1" width="1" height="2.5" fill="#35363B" />
+      <rect x="10" y="1" width="1" height="2.5" fill="#35363B" />
+      <rect x="12" y="1" width="1" height="6.5" fill="#35363B" />
+      <rect x="14" y="1" width="1" height="6.5" fill="#35363B" />
+      <rect y="0.1" width="3" height="1" fill="#35363B" />
+      <rect x="2" y="3.4" width="4" height="1" fill="#35363B" />
+      <rect x="5" y="0.1" width="3" height="1" fill="#35363B" />
+      <rect x="7" y="3.4" width="4" height="1" fill="#35363B" />
+      <rect x="10" y="0.1" width="5" height="1" fill="#35363B" />
+      <circle cx="12.51" cy="6.45" r="0.45" fill="goldenrod" />
+      <circle cx="14.51" cy="6.45" r="0.45" fill="goldenrod" />
+    </g>
+    <rect id="esp-pins-left" y="8.2" width="1" height="16.1" fill="url(#esp-pin-pattern)" />
+    <rect id="esp-pins-right" x="-18" y="-24" width="1" height="16.1" fill="url(#esp-pin-pattern)" style="transform: rotate(180deg);"/>
+    <rect id="esp-pins-bottom" x="-26" y="3.5" width="1" height="11.5" fill="url(#esp-pin-pattern)" style="transform: rotate(-90deg);"/>
+    <rect id="esp-cover" x="1" y="7.4" width="16" height="17.6" fill="#F3F3E7" fill-rule="evenodd" /> 
+    <g id="cap-text" style="transform: rotate(-90deg);">
+      <g id="ce-marker" transform="translate(-22.5, 5)">
+        <path d="M 1.452 2.6334 A 1.32 1.32 90 0 1 1.32 2.64 A 1.32 1.32 90 0 1 1.32 0 A 1.32 1.32 90 0 1 1.452 0.0066 L 1.452 0.4026 A 0.924 0.924 90 0 0 1.32 0.396 A 0.924 0.924 90 0 0 1.32 2.244 A 0.924 0.924 90 0 0 1.452 2.2374 Z"/>
+        <path d="M 3.696 2.6334 A 1.32 1.32 90 0 1 3.564 2.64 A 1.32 1.32 90 0 1 3.564 0 A 1.32 1.32 90 0 1 3.696 0.0066 L 3.696 0.4026 A 0.924 0.924 90 0 0 3.564 0.396 A 0.924 0.924 90 0 0 2.6614 1.122 L 3.432 1.122 L 3.432 1.518 L 2.6614 1.518 A 0.924 0.924 90 0 0 3.564 2.244 A 0.924 0.924 90 0 0 3.696 2.2374 Z"/>
+      </g>
+      <text x="-17.5" y="6.75" font-family="sans-serif" font-size="2px">ESP32</text>
+      <text x="-23" y="11" font-family="sans-serif" font-size="1.4px">Wi-Fi+BT+BLE MCU</text>
+      <text x="-22" y="13" font-family="sans-serif" font-size="1.4px">IEEE 802.11b/g/n</text> 
+    </g>
+  </g>
+
+  <!-- LEDs -->
+  <g id="leds" transform="translate(6, 35.5)">
+    <!-- power 5v -->
+    <rect x="0" y="0" width="0.83" height="2.4" fill="#e5e5e5"/>
+    <rect x="0" y="0.4" width="0.83" height="1.6" fill="#f5ecde"/>
+    <!-- GPIO02/P2/T2 -->
+    <rect x="1.75" y="0" width="0.83" height="2.4" fill="#e5e5e5"/>
+    <rect x="1.75" y="0.4" width="0.83" height="1.6" fill="#f5ecde"/>
+  </g>
+
+  <!-- 1117C 3.3v regulator -->
+  <g id="3v3-regulator" fill="#ECECEC" fill-rule="evenodd" transform="translate(16, 29)">
+    <rect x="2.5" y="2" width="1.80" height="3"/>
+    <rect x="-1" y="1" width="1" height="1"/>
+    <rect x="-1" y="3" width="1" height="1"/>
+    <rect x="-1" y="5" width="1" height="1"/>
+    <rect width="3" height="7" fill="#4d4d4d" fill-rule="evenodd"/>
+  </g>
+
+  <!-- CP2108 USB to Quad-UART -->
+  <g id="usb-uart-bridge" width="5" height="5" fill-rule="evenodd" transform="translate(10, 38)">
+    <rect x="0.01" y="0.5" width="0.5" height="3.5" fill="url(#small-pin-pattern)"/>
+    <rect x="-5.5" y="-4" width="0.5" height="3.5" fill="url(#small-pin-pattern)" style="transform: rotate(180deg);"/>
+    <rect x="-0.5" y="-4.5" width="0.5" height="3.5" fill="url(#small-pin-pattern)" style="transform: rotate(90deg);"/>
+    <rect x="-5" y="1" width="0.5" height="3.5" fill="url(#small-pin-pattern)" style="transform: rotate(-90deg);"/>
+    <rect id="uart-chip" x="0.5" width="4.5" height="4.5" fill="#222" fill-rule="evenodd"/>
+  </g>
+
+  <!-- 25v 10uF 106E SMD Tantalum Capacitor -->
+  <g id="capacitor" width="3.5" height="5" fill-rule="evenodd" transform="translate(10.5, 29)">
+    <rect id="cap-solder" x="0.25" width="3" height="5" fill="#ECECEC" />
+    <rect id="cap-main" y="0.5" width="3.5" height="4" fill="#E1AB56" />
+    <rect id="cap-ind" y="3.5" width="3.5" height="1" fill="#D69540" />
+  </g>
+
+  <!-- Buttons -->
+  <!-- EN Button -->
+  <g id="btn-reset" width="3" height="5.4" fill-rule="evenodd" transform="translate(4, 42)">
+    <rect id="en-solder" x="0.5" width="2" height="5.4" fill="#ECECEC" />
+    <rect id="en-body" y="0.8" width="3" height="3.8" fill="#CECCCB" />
+    <circle id="en-btn" cx="1.5" cy="2.7" r="0.98" fill="#35352F"></circle>
+  </g>
+  <!-- IO0 Buttin -->
+  <g id="btn-boot" width="3" height="5.4" fill-rule="evenodd" transform="translate(19, 42)">
+    <rect id="boot-solder" x="0.5" width="2" height="5.4" fill="#ECECEC" />
+    <rect id="boot-body" y="0.8" width="3" height="3.8" fill="#CECCCB" />
+    <circle id="boot-btn" cx="1.5" cy="2.7" r="0.98" fill="#35352F"></circle>
+  </g>
+
+  <!-- USB Connection -->
+  <g id="micro-usb" fill-rule="evenodd" transform="translate(10.5, 46)">
+    <path d="m 3.64 2.7 l 0.106 0.224 c 0.0065 0.0142 0.0073 0.0302 0.0021 0.0448 c -0.0053 0.0147 -0.016 0.0266 -0.0301 0.0332 c -0.014 0.0067 -0.0302 0.0074 -0.0448 0.0022 c -0.0146 -0.0053 -0.0266 -0.016 -0.0332 -0.0301 l -0.0724 -0.154 l -0.0003 0.0207 c -0.0006 0.0488 -0.0206 0.0955 -0.0556 0.13 c -0.035 0.0342 -0.0821 0.0529 -0.131 0.0522 l -2.22 -0.029 c -0.0489 -0.0006 -0.0955 -0.0206 -0.13 -0.0556 c -0.0341 -0.035 -0.0529 -0.0821 -0.0522 -0.131 l 0.0003 -0.0207 l -0.0764 0.152 c -0.007 0.014 -0.0192 0.0244 -0.034 0.0292 c -0.0147 0.0049 -0.0307 0.0037 -0.0446 -0.0034 l -0.0001 -0 c -0.0138 -0.007 -0.0244 -0.0192 -0.0292 -0.034 c -0.0049 -0.0147 -0.0037 -0.0307 0.0034 -0.0447 l 0.111 -0.221 l -0.0602 -0.0008 l 0.0269 -2.06 l 2.82 0.0369 l -0.0269 2.06 z" fill="#cecccb" stroke-width="1.26"/>
+    <path d="m 3.07 0.7 l -0.0024 0.18 c -0.0001 0.0061 0.003 0.0116 0.008 0.0148 c 0.0522 0.0329 0.338 0.212 0.338 0.212 l -0.0022 0.166 l -0.174 -0.0023 l -0.0016 0.119 l -0.263 -0.0034 l 0.0016 -0.119 l -0.166 -0.0022 l 0.0041 -0.316 c 0.0002 -0.0136 -0.005 -0.0265 -0.0143 -0.0361 c -0.0095 -0.0096 -0.0223 -0.0151 -0.0357 -0.0152 l -0.158 -0.0021 l -0.0017 0.131 l -0.646 -0.0085 l 0.0017 -0.131 l -0.158 -0.0021 c -0.0134 -0.0002 -0.0264 0.005 -0.036 0.0143 c -0.0097 0.0094 -0.0152 0.0221 -0.0154 0.0357 l -0.0041 0.316 l -0.166 -0.0022 l -0.0016 0.119 l -0.263 -0.0034 l 0.0016 -0.119 l -0.174 -0.0023 l 0.0022 -0.166 s 0.291 -0.173 0.343 -0.203 c 0.0052 -0.0031 0.0083 -0.0085 0.0084 -0.0146 l 0.0024 -0.18 z" fill="#989898" stroke-width="1.26"/>
+  </g>
+
+  <!-- Texts -->
+  <!-- <text fill="#ffffff" font-family="sans-serif" font-size="3.72px" transform="rotate(270)"> -->
+    <!-- left -->
+    <!-- <tspan x="-160.21" y="12.8">3V3</tspan>
+    <tspan x="-151.57" y="12.8">EN</tspan>
+    <tspan x="-141.43" y="12.8">P36</tspan>
+    <tspan x="-131.41" y="12.8">P39</tspan>
+    <tspan x="-121.9" y="12.8">P34</tspan>
+    <tspan x="-112.82" y="12.8">P35</tspan>
+    <tspan x="-102.75" y="12.8">P32</tspan>
+    <tspan x="-93.604" y="12.8">P33</tspan>
+    <tspan x="-84.082" y="12.8">P25</tspan>
+    <tspan x="-73.939" y="12.8">P26</tspan>
+    <tspan x="-64.263" y="12.8">P27</tspan>
+    <tspan x="-54.385" y="12.8">P14</tspan>
+    <tspan x="-44.529" y="12.8">P12</tspan>
+    <tspan x="-35.205" y="12.8">GND</tspan>
+    <tspan x="-25.439" y="12.8">P13</tspan>
+    <tspan x="-161.01" y="95.8">SD2</tspan>
+    <tspan x="-151.84" y="95.8">SD3</tspan>
+    <tspan x="-140.12" y="95.8">CMD</tspan>
+    <tspan x="-129.96" y="95.8">5V</tspan> -->
+    <!-- right -->
+    <!-- <tspan x="-121.33" y="95.8">GND</tspan>
+    <tspan x="-113.75" y="95.8">P23</tspan>
+    <tspan x="-104.04" y="95.8">P22</tspan>
+    <tspan x="-93.3" y="95.8">TX</tspan>
+    <tspan x="-85.06" y="95.8">RX</tspan>
+    <tspan x="-75.215" y="95.8">P21</tspan>
+    <tspan x="-65.796" y="95.8">GND</tspan>
+    <tspan x="-55.802" y="95.8">P19</tspan>
+    <tspan x="-45.850" y="95.8">P18</tspan>
+    <tspan x="-36.582" y="95.8">P5</tspan>
+    <tspan x="-26.250" y="95.8">P17</tspan>
+    <tspan x="-26.250" y="95.8">P16</tspan>
+    <tspan x="-26.250" y="95.8">P4</tspan>
+    <tspan x="-26.250" y="95.8">P0</tspan>
+    <tspan x="-26.250" y="95.8">P2</tspan>
+    <tspan x="-26.250" y="95.8">P15</tspan>
+    <tspan x="-26.250" y="95.8">SD1</tspan>
+    <tspan x="-26.250" y="95.8">SD0</tspan>
+    <tspan x="-26.250" y="95.8">CLK</tspan> -->
+  <!-- </text> -->
+
+
+</svg>

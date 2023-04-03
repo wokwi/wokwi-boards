@@ -1,0 +1,78 @@
+{
+  "name": "KeeYees ESP-WROOM-32",
+  "version": 1,
+  "description": "Clone of common ESP32S dev board; 2.4GHz Dual Core WLAN WiFi + BT + BLE MCU; 802.11b/g/n",
+  "author": "Z3r0CooL",
+  "mcu": "esp32",
+  "fqbn": "esp32:esp32:uPesy_wroom",
+  "width": 26,
+  "height": 48.25,
+
+  "pins": {
+    // left
+    "3V3": { "x": 1.3, "y": 1.27, "target": "power(3.3)" },
+    "EN.RESET": { "x": 1.3, "y": 3.81, "target": "CHIP_PU" },
+    "P36.A0": { "x": 1.3, "y": 6.35, "target": "GPIO36" },
+    "P39.A3": { "x": 1.3, "y": 8.89, "target": "GPIO39" },
+    "P34.A6": { "x": 1.3, "y": 11.43, "target": "GPIO34" },
+    "P35.A7": { "x": 1.3, "y": 13.97, "target": "GPIO35" },
+    "P32.T9": { "x": 1.3, "y": 16.51, "target": "GPIO32" },
+    "P33.T8": { "x": 1.3, "y": 19.05, "target": "GPIO33" },
+    "P25.DAC1": { "x": 1.3, "y": 21.59, "target": "GPIO25" },
+    "P26.DAC2": { "x": 1.3, "y": 24.13, "target": "GPIO26" },
+    "P27.T7": { "x": 1.3, "y": 26.67, "target": "GPIO27" },
+    "P14.T6": { "x": 1.3, "y": 29.21, "target": "GPIO14" },
+    "P12.T5": { "x": 1.3, "y": 31.75, "target": "GPIO12" },
+    "GND.1": { "x": 1.3, "y": 34.29, "target": "GND" },
+    "P13.T4": { "x": 1.3, "y": 36.83, "target": "GPIO13" },
+    "SD2.RX1": { "x": 1.3, "y": 39.37, "target": "GPIO9" },
+    "SD3.TX1": { "x": 1.3, "y": 41.91, "target": "GPIO10" },
+    "CMD": { "x": 1.3, "y": 44.45, "target": "GPIO11" },
+    "5V": { "x": 1.3, "y": 46.99, "target": "power(5)" },
+    // right
+    "GND.2": { "x": 24.756, "y": 1.27, "target": "GND" },
+    "P23.MOSI": { "x": 24.756, "y": 3.81, "target": "GPIO23" },
+    "P22.SCL": { "x": 24.756, "y": 6.35, "target": "GPIO22" },
+    "TX0": { "x": 24.756, "y": 8.89, "target": "GPIO1" },
+    "RX0": { "x": 24.756, "y": 11.43, "target": "GPIO3" },
+    "P21.SDA": { "x": 24.756, "y": 13.97, "target": "GPIO21" },
+    "GND.3": { "x": 24.756, "y": 16.51, "target": "GND" },
+    "P19.MISO": { "x": 24.756, "y": 19.05, "target": "GPIO19" },
+    "P18.SCK": { "x": 24.756, "y": 21.59, "target": "GPIO18" },
+    "P5.SS": { "x": 24.756, "y": 24.13, "target": "GPIO5" },
+    "P17.TX2": { "x": 24.756, "y": 26.67, "target": "GPIO17" },
+    "P16.RX2": { "x": 24.756, "y": 29.21, "target": "GPIO16" },
+    "P4.T0": { "x": 24.756, "y": 31.75, "target": "GPIO4" },
+    "P0.T1": { "x": 24.756, "y": 34.29, "target": "GPIO0" },
+    "P2.T2": { "x": 24.756, "y": 36.83, "target": "GPIO2" },
+    "P15.T3": { "x": 24.756, "y": 39.37, "target": "GPIO15" },
+    "SD1": { "x": 24.756, "y": 41.91, "target": "GPIO8" },
+    "SDD": { "x": 24.756, "y": 44.45, "target": "GPIO7" },
+    "CLK": { "x": 24.756, "y": 46.99, "target": "GPIO6" }
+  },
+
+  "leds": [
+    {
+      "id": "led0",
+      "x": 5.415,
+      "y": 35.35,
+      "type": "0603",
+      "color": "red",
+      "pins": {
+        "A": "5V",
+        "C": "GND.1"
+      }
+    },
+    {
+      "id": "led1",
+      "x": 8.315,
+      "y": 35.35,
+      "type": "0603",
+      "color": "blue",
+      "pins": {
+        "A": "P2.T2",
+        "C": "GND.1"
+      }
+    }
+  ]
+}
