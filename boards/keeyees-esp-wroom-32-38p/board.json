@@ -1,10 +1,10 @@
 {
   "name": "KeeYees ESP-WROOM-32",
   "version": 1,
-  "description": "Clone of common ESP32S dev board; 2.4GHz Dual Core WLAN WiFi + BT + BLE MCU; 802.11b/g/n",
+  "description": "Clone of esp32doit-devkit-v1; 2.4GHz Dual Core WLAN WiFi + BT + BLE MCU; 802.11b/g/n",
   "author": "Z3r0CooL",
   "mcu": "esp32",
-  "fqbn": "esp32:esp32:uPesy_wroom",
+  "fqbn": "esp32:esp32:esp32doit-devkit-v1",
   "width": 26,
   "height": 48.25,
 
