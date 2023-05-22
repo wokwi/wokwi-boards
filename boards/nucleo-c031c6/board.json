@@ -1,0 +1,180 @@
+{
+  "name": "STM NUCLEO 64 C031C6",
+  "version": 1,
+  "description": "The STM32 Nucleo-64 board provides an affordable and flexible way for users to try out new concepts and build prototypes by choosing from the various combinations of performance and power consumption features, provided by the STM32 microcontroller",
+  "author": "Ariella Eliassaf",
+  "mcu": "stm32c031c6",
+  "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_C031C6",
+
+  "width": 70,
+  "height": 83.64,
+
+  "pins": {
+    //first row from left
+    "PD0": { "x": 2.8, "y": 32.8, "target": "PD0" },
+    "PD2": { "x": 2.8, "y": 35.34, "target": "PD2" },
+    "VDD": { "x": 2.8, "y": 37.88, "target": "power(3.3)" },
+    "PA14": { "x": 2.8, "y": 40.42, "target": "PA14" },
+    // "NC": { "x": 2.8, "y": 42.96, "target": "" },
+    //"NC": { "x": 2.8, "y": 45.5, "target": "" },
+    "PA13": { "x": 2.8, "y": 48.04, "target": "PA13" },
+    // "NC": { "x": 2.8, "y": 50.58, "target": "" },
+    "PC6": { "x": 2.8, "y": 53.12, "target": "PC6" },
+    "GND.1": { "x": 2.8, "y": 55.66, "target": "GND" },
+    // "NC": { "x": 2.8, "y": 58.2, "target": "" },
+    "PC13": { "x": 2.8, "y": 60.74, "target": "PC13" },
+    "PC14": { "x": 2.8, "y": 63.28, "target": "PC14" },
+    // "NC": { "x": 2.8, "y": 65.82, "target": "" },
+    "PF0": { "x": 2.8, "y": 68.36, "target": "PF0" },
+    "PF1": { "x": 2.8, "y": 70.9, "target": "PF1" },
+    // "NC": { "x": 2.8, "y": 73.44, "target": "" },
+    "PB11": { "x": 2.8, "y": 75.98, "target": "PB11" },
+    "PA2": { "x": 2.8, "y": 78.52, "target": "PA2" },
+
+    //second row from left
+    "PD1": { "x": 5.34, "y": 32.8, "target": "PD1" },
+    "PD2.2": { "x": 5.34, "y": 35.34, "target": "PD2" },
+    "E5V": { "x": 5.34, "y": 37.88, "target": "power(5)" },
+    "GND.2": { "x": 5.34, "y": 40.42, "target": "GND" },
+    // "NC": { "x": 5.34, "y": 42.96, "target": "GPIO3" },
+    "IOREF.1": { "x": 5.34, "y": 45.5, "target": "IOREF" },
+    "NRST.1": { "x": 5.34, "y": 48.04, "target": "NRST" },
+    "3V3.1": { "x": 5.34, "y": 50.58, "target": "power(3.3)" },
+    "5V.1": { "x": 5.34, "y": 53.12, "target": "power(5)" },
+    "GND.3": { "x": 5.34, "y": 55.66, "target": "GND" },
+    "GND.4": { "x": 5.34, "y": 58.2, "target": "GND" },
+    "VIN.1": { "x": 5.34, "y": 60.74, "target": "power(5)" },
+    // "NC": { "x": 5.34, "y": 63.28, "target": "GPIO11" },
+    "PA0": { "x": 5.34, "y": 65.82, "target": "PA0" },
+    "PA1": { "x": 5.34, "y": 68.36, "target": "PA1" },
+    "PA4": { "x": 5.34, "y": 70.9, "target": "PA4" },
+    "PB1": { "x": 5.34, "y": 73.44, "target": "PB1" },
+    "PA11": { "x": 5.34, "y": 75.98, "target": "PA11" },
+    "PA12": { "x": 5.34, "y": 78.52, "target": "PA12" },
+
+    //third row from left - female
+    // "NC": { "x": 10.3, "y": 42.96, "target": "" },
+    "IOREF.2": { "x": 10.3, "y": 45.5, "target": "IOREF" },
+    "NRST.2": { "x": 10.3, "y": 48.04, "target": "NRST" },
+    "3V3.2": { "x": 10.3, "y": 50.58, "target": "power(3.3)" },
+    "5V.2": { "x": 10.3, "y": 53.12, "target": "power(5)" },
+    "GND.5": { "x": 10.3, "y": 55.66, "target": "GND" },
+    "GND.6": { "x": 10.3, "y": 58.2, "target": "GND" },
+    "VIN.2": { "x": 10.3, "y": 60.74, "target": "power(5)" },
+    "A0": { "x": 10.3, "y": 65.82, "target": "PA0" },
+    "A1": { "x": 10.3, "y": 68.36, "target": "PA1" },
+    "A2": { "x": 10.3, "y": 70.9, "target": "PA4" },
+    "A3": { "x": 10.3, "y": 73.44, "target": "PB1" },
+    "A4": { "x": 10.3, "y": 75.98, "target": "PA11" },
+    "A5": { "x": 10.3, "y": 78.52, "target": "PA12" },
+
+    //first row from right
+    //  "NC": { "x": 67, "y": 32.8, "target": "" },
+    // "NC": { "x": 67, "y": 35.34, "target": "" },
+    // "NC": { "x": 67, "y": 37.88, "target": "" },
+    "5V.3": { "x": 67, "y": 40.42, "target": "power(5)" },
+    "PA3": { "x": 67, "y": 42.96, "target": "PA3" },
+    "PC15": { "x": 67, "y": 45.5, "target": "PC15" },
+    "PB12.1": { "x": 67, "y": 48.04, "target": "PB12" },
+    "PB12.2": { "x": 67, "y": 50.58, "target": "PB12" },
+    "PB2": { "x": 67, "y": 53.12, "target": "PB2" },
+    "GND.7": { "x": 67, "y": 55.66, "target": "GND" },
+    "PF3": { "x": 67, "y": 58.2, "target": "PF3" },
+    "PA8": { "x": 67, "y": 60.74, "target": "PA8" },
+    "PB15": { "x": 67, "y": 63.28, "target": "PB15" },
+    "PB14": { "x": 67, "y": 65.82, "target": "PB14" },
+    "PB13": { "x": 67, "y": 68.36, "target": "PB13" },
+    "AGND": { "x": 67, "y": 70.9, "target": "GND" },
+    "PB0.1": { "x": 67, "y": 73.44, "target": "PB0" },
+    //  "NC": { "x": 67, "y": 75.98, "target": "" },
+    // "NC": { "x": 67, "y": 78.52, "target": "" },
+
+    //second row from right
+    "PD3": { "x": 64.46, "y": 32.8, "target": "power(3.3)" },
+    "PB8": { "x": 64.46, "y": 35.34, "target": "PB8" },
+    "PB9": { "x": 64.46, "y": 37.88, "target": "PB9" },
+    "AVDD.1": { "x": 64.46, "y": 40.42, "target": "power(5)" },
+    "GND.8": { "x": 64.46, "y": 42.96, "target": "GND" },
+    "PA5": { "x": 64.46, "y": 45.5, "target": "PA5" },
+    "PA6": { "x": 64.46, "y": 48.04, "target": "PA6" },
+    "PA7": { "x": 64.46, "y": 50.58, "target": "PA7" },
+    "PB0.2": { "x": 64.46, "y": 53.12, "target": "PB0" },
+    "PC7": { "x": 64.46, "y": 55.66, "target": "PC7" },
+    "PA9": { "x": 64.46, "y": 58.2, "target": "PA9" },
+    "PA15": { "x": 64.46, "y": 60.74, "target": "PA15" },
+    "PB5": { "x": 64.46, "y": 63.28, "target": "PB5" },
+    "PB4": { "x": 64.46, "y": 65.82, "target": "PB4" },
+    "PB10": { "x": 64.46, "y": 68.36, "target": "PB10" },
+    "PB3": { "x": 64.46, "y": 70.9, "target": "PB3" },
+    "PA10": { "x": 64.46, "y": 73.44, "target": "PA10" },
+    "PB6": { "x": 64.46, "y": 75.98, "target": "PB6" },
+    "PB7": { "x": 64.46, "y": 78.52, "target": "PB7" },
+
+    //third row from right
+    "D15": { "x": 59.3, "y": 32.8, "target": "PB8" },
+    "D14": { "x": 59.3, "y": 35.34, "target": "PB9" },
+    "AVDD.2": { "x": 59.3, "y": 37.88, "target": "power(5)" },
+    "GND.9": { "x": 59.3, "y": 40.42, "target": "GND" },
+    "D13": { "x": 59.3, "y": 42.96, "target": "PA5" },
+    "D12": { "x": 59.3, "y": 45.5, "target": "PA6" },
+    "D11": { "x": 59.3, "y": 48.04, "target": "PA7" },
+    "D10": { "x": 59.3, "y": 50.58, "target": "PB0" },
+    "D9": { "x": 59.3, "y": 53.12, "target": "PC7" },
+    "D8": { "x": 59.3, "y": 55.66, "target": "PA9" },
+    "D7": { "x": 59.3, "y": 60.74, "target": "PA15" },
+    "D6": { "x": 59.3, "y": 63.28, "target": "PB5" },
+    "D5": { "x": 59.3, "y": 65.82, "target": "PB4" },
+    "D4": { "x": 59.3, "y": 68.36, "target": "PB10" },
+    "D3": { "x": 59.3, "y": 70.9, "target": "PB3" },
+    "D2": { "x": 59.3, "y": 73.44, "target": "PA10" },
+    "D1": { "x": 59.3, "y": 75.9, "target": "PB6" },
+    "D0": { "x": 59.35, "y": 78.52, "target": "PB7" }
+  },
+
+  "leds": [
+    //  This red LED is ON when overcurrent is detected:
+    // {
+    //   "id": "ld2",
+    //   "x": 66,
+    //   "y": 17.18,
+    //   "type": "0603",
+    //   "color": "red",
+    //   "pins": {
+    //     "A": "3V3.1",
+    //     "C": "GND.1"
+    //   }
+    // },
+    {
+      "id": "ld3",
+      "x": 51.35,
+      "y": 29,
+      "type": "0603",
+      "color": "green",
+      "pins": {
+        "A": "3V3",
+        "C": "GND.1"
+      }
+    },
+    {
+      "id": "ld4",
+      "x": 55.2,
+      "y": 29,
+      "type": "0603",
+      "color": "green",
+      "pins": {
+        "A": "PA5",
+        "C": "GND.1"
+      }
+    },
+    // LD1 turns to green to indicate that communication is in progress between the PC and the ST-LINK/V2-1 :
+    // {
+    //   "id": "ld1",
+    //   "x": 59.36,
+    //   "y": 6.1,
+    //   "type": "ws2812",
+    //   "pins": {
+    //     "DI": "18"
+    //   }
+    // }
+  ]
+}
