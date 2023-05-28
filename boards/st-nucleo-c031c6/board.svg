@@ -288,37 +288,37 @@
    <text x="99.7453" y="96.984367" font-size="2.2654px" stroke-width=".056634" style="line-height:1.25" xml:space="preserve"><tspan x="99.7453" y="96.984367">GND</tspan><tspan x="99.7453" y="99.816093"/></text>
    <text transform="rotate(-89.561)" x="-67.996445" y="119.52188" font-size="1.6095px" stroke-width=".040237" style="line-height:1.25" xml:space="preserve"><tspan x="-67.996445" y="119.52188">NUCLEO</tspan><tspan x="-67.996445" y="121.53373"/></text>
    <text x="103.93459" y="117.5474" font-size="1.7848px" stroke-width=".044619" style="line-height:1.25" xml:space="preserve"><tspan x="103.93459" y="117.5474">GND</tspan><tspan x="103.93459" y="119.77834"/></text>
-   <g font-size="1.9181px" stroke-width=".047953">
-    <text x="103.92709" y="115.07629" style="line-height:1.25" xml:space="preserve"><tspan x="103.92709" y="115.07629">GND</tspan><tspan x="103.92709" y="117.47396"/></text>
-    <text x="141.25967" y="102.08298" style="line-height:1.25" xml:space="preserve"><tspan x="141.25967" y="102.08298">SCK/D13</tspan><tspan x="141.25967" y="104.48065"/></text>
-    <text x="145.56998" y="99.623207" style="line-height:1.25" xml:space="preserve"><tspan x="145.56998" y="99.623207">GND</tspan><tspan x="145.56998" y="102.02088"/></text>
-    <text x="144.42522" y="97.142685" style="line-height:1.25" xml:space="preserve"><tspan x="144.42522" y="97.142685">AVDD</tspan><tspan x="144.42522" y="99.540359"/></text>
-    <text x="141.01924" y="94.604797" style="line-height:1.25" xml:space="preserve"><tspan x="141.01924" y="94.604797">SDA/D14</tspan><tspan x="141.01924" y="97.002472"/><tspan x="141.01924" y="99.400146"/></text>
-    <text x="141.48727" y="91.759682" style="line-height:1.25" xml:space="preserve"><tspan x="141.48727" y="91.759682">SCL/D15</tspan><tspan x="141.48727" y="94.157356"/></text>
-    <text x="140.08774" y="104.71636" style="line-height:1.25" xml:space="preserve"><tspan x="140.08774" y="104.71636">MISO/D12</tspan><tspan x="140.08774" y="107.11404"/></text>
-    <text x="134.70251" y="107.24294" style="line-height:1.25" xml:space="preserve"><tspan x="134.70251" y="107.24294">PWM/MOSI/D11</tspan><tspan x="134.70251" y="109.64062"/><tspan x="134.70251" y="112.03829"/></text>
-    <text x="137.19923" y="109.77441" style="line-height:1.25" xml:space="preserve"><tspan x="137.19923" y="109.77441">PWM/CS/D10</tspan><tspan x="137.19923" y="112.17208"/></text>
-    <text x="141.86472" y="112.69275" style="line-height:1.25" xml:space="preserve"><tspan x="141.86472" y="112.69275">PWM/D9</tspan><tspan x="141.86472" y="115.09042"/></text>
-    <text x="147.14803" y="115.00607" style="line-height:1.25" xml:space="preserve"><tspan x="147.14803" y="115.00607">D8</tspan><tspan x="147.14803" y="117.40375"/></text>
-    <text x="147.36806" y="119.71359" style="line-height:1.25" xml:space="preserve"><tspan x="147.36806" y="119.71359">D7</tspan><tspan x="147.36806" y="122.11127"/></text>
-    <text x="141.97377" y="122.54315" style="line-height:1.25" xml:space="preserve"><tspan x="141.97377" y="122.54315">PWM/D6</tspan><tspan x="141.97377" y="124.94083"/></text>
-    <text x="141.98416" y="124.92448" style="line-height:1.25" xml:space="preserve"><tspan x="141.98416" y="124.92448">PWM/D5</tspan><tspan x="141.98416" y="127.32215"/></text>
-    <text x="147.33394" y="127.54626" style="line-height:1.25" xml:space="preserve"><tspan x="147.33394" y="127.54626">D4</tspan><tspan x="147.33394" y="129.94394"/></text>
-    <text x="141.96857" y="130.381" style="line-height:1.25" xml:space="preserve"><tspan x="141.96857" y="130.381">PWM/D3</tspan><tspan x="141.96857" y="132.77867"/></text>
-    <text x="147.42151" y="132.77274" style="line-height:1.25" xml:space="preserve"><tspan x="147.42151" y="132.77274">D2</tspan><tspan x="147.42151" y="135.17041"/></text>
-    <text x="144.07095" y="135.15779" style="line-height:1.25" xml:space="preserve"><tspan x="144.07095" y="135.15779">TX/D1</tspan><tspan x="144.07095" y="137.55547"/></text>
-    <text x="143.93513" y="137.82408" style="line-height:1.25" xml:space="preserve"><tspan x="143.93513" y="137.82408">RX/D0</tspan><tspan x="143.93513" y="140.22176"/></text>
-   </g>
-   <g font-size="1.8756px" stroke-width=".04689">
-    <text x="104.27599" y="120.22414" style="line-height:1.25" xml:space="preserve"><tspan x="104.27599" y="120.22414">VN</tspan><tspan x="104.27599" y="122.56863"/></text>
-    <text x="104.00466" y="124.89973" style="line-height:1.25" xml:space="preserve"><tspan x="104.00466" y="124.89973">A0</tspan><tspan x="104.00466" y="127.24422"/></text>
-    <text x="104.00467" y="127.34653" style="line-height:1.25" xml:space="preserve"><tspan x="104.00467" y="127.34653">A1</tspan><tspan x="104.00467" y="129.69101"/></text>
-    <text x="103.94776" y="129.96404" style="line-height:1.25" xml:space="preserve"><tspan x="103.94776" y="129.96404">A2</tspan><tspan x="103.94776" y="132.30852"/></text>
-    <text transform="rotate(-89.935)" x="-130.64198" y="109.62973" style="line-height:1.25" xml:space="preserve"><tspan x="-130.64198" y="109.62973">AN</tspan><tspan x="-130.64198" y="111.97422"/></text>
-    <text x="103.89087" y="132.58156" style="line-height:1.25" xml:space="preserve"><tspan x="103.89087" y="132.58156">A3</tspan><tspan x="103.89087" y="134.92604"/></text>
-    <text x="103.94775" y="135.02835" style="line-height:1.25" xml:space="preserve"><tspan x="103.94775" y="135.02835">A4</tspan><tspan x="103.94775" y="137.37283"/></text>
-    <text x="104.00466" y="137.58896" style="line-height:1.25" xml:space="preserve"><tspan x="104.00466" y="137.58896">A5</tspan><tspan x="104.00466" y="139.93344"/></text>
-   </g>
+   <text font-size="1.9181px" stroke-width=".047953">
+    <tspan x="103.92709" y="115.07629" style="line-height:1.25" xml:space="preserve"><tspan x="103.92709" y="115.07629">GND</tspan><tspan x="103.92709" y="117.47396"/></tspan>
+    <tspan x="141.25967" y="102.08298" style="line-height:1.25" xml:space="preserve"><tspan x="141.25967" y="102.08298">SCK/D13</tspan><tspan x="141.25967" y="104.48065"/></tspan>
+    <tspan x="145.56998" y="99.623207" style="line-height:1.25" xml:space="preserve"><tspan x="145.56998" y="99.623207">GND</tspan><tspan x="145.56998" y="102.02088"/></tspan>
+    <tspan x="144.42522" y="97.142685" style="line-height:1.25" xml:space="preserve"><tspan x="144.42522" y="97.142685">AVDD</tspan><tspan x="144.42522" y="99.540359"/></tspan>
+    <tspan x="141.01924" y="94.604797" style="line-height:1.25" xml:space="preserve"><tspan x="141.01924" y="94.604797">SDA/D14</tspan><tspan x="141.01924" y="97.002472"/><tspan x="141.01924" y="99.400146"/></tspan>
+    <tspan x="141.48727" y="91.759682" style="line-height:1.25" xml:space="preserve"><tspan x="141.48727" y="91.759682">SCL/D15</tspan><tspan x="141.48727" y="94.157356"/></tspan>
+    <tspan x="140.08774" y="104.71636" style="line-height:1.25" xml:space="preserve"><tspan x="140.08774" y="104.71636">MISO/D12</tspan><tspan x="140.08774" y="107.11404"/></tspan>
+    <tspan x="134.70251" y="107.24294" style="line-height:1.25" xml:space="preserve"><tspan x="134.70251" y="107.24294">PWM/MOSI/D11</tspan><tspan x="134.70251" y="109.64062"/><tspan x="134.70251" y="112.03829"/></tspan>
+    <tspan x="137.19923" y="109.77441" style="line-height:1.25" xml:space="preserve"><tspan x="137.19923" y="109.77441">PWM/CS/D10</tspan><tspan x="137.19923" y="112.17208"/></tspan>
+    <tspan x="141.86472" y="112.69275" style="line-height:1.25" xml:space="preserve"><tspan x="141.86472" y="112.69275">PWM/D9</tspan><tspan x="141.86472" y="115.09042"/></tspan>
+    <tspan x="147.14803" y="115.00607" style="line-height:1.25" xml:space="preserve"><tspan x="147.14803" y="115.00607">D8</tspan><tspan x="147.14803" y="117.40375"/></tspan>
+    <tspan x="147.36806" y="119.71359" style="line-height:1.25" xml:space="preserve"><tspan x="147.36806" y="119.71359">D7</tspan><tspan x="147.36806" y="122.11127"/></tspan>
+    <tspan x="141.97377" y="122.54315" style="line-height:1.25" xml:space="preserve"><tspan x="141.97377" y="122.54315">PWM/D6</tspan><tspan x="141.97377" y="124.94083"/></tspan>
+    <tspan x="141.98416" y="124.92448" style="line-height:1.25" xml:space="preserve"><tspan x="141.98416" y="124.92448">PWM/D5</tspan><tspan x="141.98416" y="127.32215"/></tspan>
+    <tspan x="147.33394" y="127.54626" style="line-height:1.25" xml:space="preserve"><tspan x="147.33394" y="127.54626">D4</tspan><tspan x="147.33394" y="129.94394"/></tspan>
+    <tspan x="141.96857" y="130.381" style="line-height:1.25" xml:space="preserve"><tspan x="141.96857" y="130.381">PWM/D3</tspan><tspan x="141.96857" y="132.77867"/></tspan>
+    <tspan x="147.42151" y="132.77274" style="line-height:1.25" xml:space="preserve"><tspan x="147.42151" y="132.77274">D2</tspan><tspan x="147.42151" y="135.17041"/></tspan>
+    <tspan x="144.07095" y="135.15779" style="line-height:1.25" xml:space="preserve"><tspan x="144.07095" y="135.15779">TX/D1</tspan><tspan x="144.07095" y="137.55547"/></tspan>
+    <tspan x="143.93513" y="137.82408" style="line-height:1.25" xml:space="preserve"><tspan x="143.93513" y="137.82408">RX/D0</tspan><tspan x="143.93513" y="140.22176"/></tspan>
+   </text>
+   <text font-size="1.8756px" stroke-width=".04689">
+    <tspan x="104.27599" y="120.22414" style="line-height:1.25" xml:space="preserve"><tspan x="104.27599" y="120.22414">VN</tspan><tspan x="104.27599" y="122.56863"/></tspan>
+    <tspan x="104.00466" y="124.89973" style="line-height:1.25" xml:space="preserve"><tspan x="104.00466" y="124.89973">A0</tspan><tspan x="104.00466" y="127.24422"/></tspan>
+    <tspan x="104.00467" y="127.34653" style="line-height:1.25" xml:space="preserve"><tspan x="104.00467" y="127.34653">A1</tspan><tspan x="104.00467" y="129.69101"/></tspan>
+    <tspan x="103.94776" y="129.96404" style="line-height:1.25" xml:space="preserve"><tspan x="103.94776" y="129.96404">A2</tspan><tspan x="103.94776" y="132.30852"/></tspan>
+    <tspan transform="rotate(-89.935)" x="-130.64198" y="109.62973" style="line-height:1.25" xml:space="preserve"><tspan x="-130.64198" y="109.62973">AN</tspan><tspan x="-130.64198" y="111.97422"/></tspan>
+    <tspan x="103.89087" y="132.58156" style="line-height:1.25" xml:space="preserve"><tspan x="103.89087" y="132.58156">A3</tspan><tspan x="103.89087" y="134.92604"/></tspan>
+    <tspan x="103.94775" y="135.02835" style="line-height:1.25" xml:space="preserve"><tspan x="103.94775" y="135.02835">A4</tspan><tspan x="103.94775" y="137.37283"/></tspan>
+    <tspan x="104.00466" y="137.58896" style="line-height:1.25" xml:space="preserve"><tspan x="104.00466" y="137.58896">A5</tspan><tspan x="104.00466" y="139.93344"/></tspan>
+   </text>
    <text x="103.93864" y="112.35141" font-size="1.8529px" stroke-width=".046323" style="line-height:1.25" xml:space="preserve"><tspan x="103.93864" y="112.35141">5V</tspan><tspan x="103.93864" y="114.66756"/></text>
    <text x="103.87202" y="109.90707" font-size="1.7542px" stroke-width=".043856" style="line-height:1.25" xml:space="preserve"><tspan x="103.87202" y="109.90707">3V3</tspan><tspan x="103.87202" y="112.09985"/></text>
    <text x="103.94293" y="107.45956" font-size="1.8271px" stroke-width=".045679" style="line-height:1.25" xml:space="preserve"><tspan x="103.94293" y="107.45956">NRST</tspan><tspan x="103.94293" y="109.74348"/></text>
