@@ -1,0 +1,37 @@
+{
+  "name": "CD74HC4067",
+  "version": 1,
+  "description": "CD74HC4067 16 Channel Analog Multiplexer",
+  "author": "Maverick",
+  "width": 30.0,
+  "height": 13.25,
+  
+  "chips": [{ "id": "chip", "type": "github:Droog71/CD74HC4067@0.0.1" }],
+
+  "pins": {
+    "VCC": { "x": 1.5, "y": 0, "target": "chip:VCC" },
+    "I8": { "x": 3.9, "y": 0, "target": "chip:I8" },
+    "I9": { "x": 6.5, "y": 0, "target": "chip:I9" },
+    "I10": { "x": 8.9, "y": 0, "target": "chip:I10" },
+    "I11": { "x": 11.5, "y": 0, "target": "chip:I11" },
+    "I12": { "x": 13.9, "y": 0, "target": "chip:I12" },
+    "I13": { "x": 16.5, "y": 0, "target": "chip:I13" },
+    "I14": { "x": 19.0, "y": 0, "target": "chip:I14" },
+    "I15": { "x": 21.5, "y": 0, "target": "chip:I15" },
+    "E": { "x": 24.0, "y": 0, "target": "chip:E" },
+    "S2": { "x": 26.5, "y": 0, "target": "chip:S2" },
+    "S3": { "x": 29.0, "y": 0, "target": "chip:S3" },
+    "COM": { "x": 1.5, "y": 13.0, "target": "chip:COM" },
+    "I7": { "x": 3.9, "y": 13.0, "target": "chip:I7" },
+    "I6": { "x":6.5, "y": 13.0, "target": "chip:I6" },
+    "I5": { "x": 8.9, "y": 13.0, "target": "chip:I5" },
+    "I4": { "x": 11.5, "y": 13.0, "target": "chip:I4" },
+    "I3": { "x": 13.9, "y": 13.0, "target": "chip:I3" },
+    "I2": { "x": 16.5, "y": 13.0, "target": "chip:I2" },
+    "I1": { "x": 19.0, "y": 13.0, "target": "chip:I1" },
+    "I0": { "x": 21.5, "y": 13.0, "target": "chip:I0" },
+    "S0": { "x": 24.0, "y": 13.0, "target": "chip:S0" },
+    "S1": { "x": 26.5, "y": 13.0, "target": "chip:S1" },
+    "GND": { "x": 29.0, "y": 13.0, "target": "chip:GND" }
+  }
+}
