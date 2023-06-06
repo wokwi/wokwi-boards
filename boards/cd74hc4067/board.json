@@ -6,7 +6,7 @@
   "width": 30.0,
   "height": 13.25,
   
-  "chips": [{ "id": "chip", "type": "github:Droog71/CD74HC4067@0.0.1" }],
+  "chips": [{ "id": "chip", "type": "github:Droog71/CD74HC4067@0.0.3" }],
 
   "pins": {
     "VCC": { "x": 1.5, "y": 0, "target": "chip:VCC" },
