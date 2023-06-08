@@ -9,8 +9,8 @@
   "chips": [{ "id": "chip", "type": "github:Droog71/LM35@0.0.2" }],
 
   "pins": {
-    "VCC": { "x": 1.5, "y": 13, "target": "chip:VCC" },
-    "OUT": { "x": 4.2, "y": 13, "target": "chip:OUT" },
-    "GND": { "x": 6.8, "y": 13, "target": "chip:GND" }
+    "VCC": { "x": 1.46, "y": 13, "target": "chip:VCC" },
+    "OUT": { "x": 4, "y": 13, "target": "chip:OUT" },
+    "GND": { "x": 6.54, "y": 13, "target": "chip:GND" }
   }
 }
