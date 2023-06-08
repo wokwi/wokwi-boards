@@ -10,21 +10,21 @@
 
   "pins": {
     "CLK": { "x": 1.5, "y": 0, "target": "chip:CLK" },
-    "INH": { "x": 3.9, "y": 0, "target": "chip:INH" },
+    "INH": { "x": 4.04, "y": 0, "target": "chip:INH" },
     "DEI": { "x": 6.5, "y": 0, "target": "chip:DEI" },
-    "DEO": { "x": 8.9, "y": 0, "target": "chip:DEO" },
-    "CO": { "x": 11.5, "y": 0, "target": "chip:CO" },
-    "F": { "x": 13.9, "y": 0, "target": "chip:F" },
-    "G": { "x": 16.5, "y": 0, "target": "chip:G" },
-    "VSS": { "x": 19.0, "y": 0, "target": "chip:VSS" },
-    "VDD": { "x": 1.5, "y": 8, "target": "chip:VDD" },
-    "MR": { "x": 3.9, "y": 8, "target": "chip:MR" },
-    "UCS": { "x":6.5, "y": 8, "target": "chip:UCS" },
-    "C": { "x": 8.9, "y": 8, "target": "chip:C" },
-    "B": { "x": 11.5, "y": 8, "target": "chip:B" },
-    "E": { "x": 13.9, "y": 8, "target": "chip:E" },
-    "A": { "x": 16.5, "y": 8, "target": "chip:A" },
-    "D": { "x": 19.0, "y": 8, "target": "chip:D" }
+    "DEO": { "x": 9.04, "y": 0, "target": "chip:DEO" },
+    "CO": { "x": 11.58, "y": 0, "target": "chip:CO" },
+    "F": { "x": 14.12, "y": 0, "target": "chip:F" },
+    "G": { "x": 16.66, "y": 0, "target": "chip:G" },
+    "VSS": { "x": 19.2, "y": 0, "target": "chip:VSS" },
+    "VDD": { "x": 1.5, "y": 7.62, "target": "chip:VDD" },
+    "MR": { "x": 4.04, "y": 7.62, "target": "chip:MR" },
+    "UCS": { "x":6.5, "y": 7.62, "target": "chip:UCS" },
+    "C": { "x": 9.04, "y": 7.62, "target": "chip:C" },
+    "B": { "x": 11.58, "y": 7.62, "target": "chip:B" },
+    "E": { "x": 14.12, "y": 7.62, "target": "chip:E" },
+    "A": { "x": 16.66, "y": 7.62, "target": "chip:A" },
+    "D": { "x": 19.2, "y": 7.62, "target": "chip:D" }
   }
 }
 
