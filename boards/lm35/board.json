@@ -1,0 +1,16 @@
+{
+  "name": "LM35",
+  "version": 1,
+  "description": "LM35 Analog Temperature Sensor",
+  "author": "Maverick",
+  "width": 8.56400,
+  "height": 13.38800,
+  
+  "chips": [{ "id": "chip", "type": "github:Droog71/LM35@0.0.2" }],
+
+  "pins": {
+    "VCC": { "x": 1.46, "y": 13, "target": "chip:VCC" },
+    "OUT": { "x": 4, "y": 13, "target": "chip:OUT" },
+    "GND": { "x": 6.54, "y": 13, "target": "chip:GND" }
+  }
+}
