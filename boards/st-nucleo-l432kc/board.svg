@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="70.904" height="197.55" version="1.1" viewBox="0 0 18.76 52.269" xmlns="http://www.w3.org/2000/svg">
- <path d="M0 1.155h18.76v50.753H0z" fill="#f6f6f6"/>
- <g fill="#0cf" font-family="sans-serif" font-size=".766" stroke-width=".019">
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="122.813" y="-77.228" style="line-height:1.25" xml:space="preserve"><tspan x="122.813" y="-77.228">D9</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="120.341" y="-77.344" style="line-height:1.25" xml:space="preserve"><tspan x="120.341" y="-77.344">D8</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="117.916" y="-77.527" style="line-height:1.25" xml:space="preserve"><tspan x="117.916" y="-77.527">D7</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="112.879" y="-77.798" style="line-height:1.25" xml:space="preserve"><tspan x="112.879" y="-77.798">D5</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="115.328" y="-77.7" style="line-height:1.25" xml:space="preserve"><tspan x="115.328" y="-77.7">D6</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="110.33" y="-77.946" style="line-height:1.25" xml:space="preserve"><tspan x="110.33" y="-77.946">D4</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="107.871" y="-78.24" style="line-height:1.25" xml:space="preserve"><tspan x="107.871" y="-78.24">D3</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="105.607" y="-78.391" style="line-height:1.25" xml:space="preserve"><tspan x="105.607" y="-78.391">D2</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="102.696" y="-78.585" style="line-height:1.25" xml:space="preserve"><tspan x="102.696" y="-78.585">GND</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="100.291" y="-78.745" style="line-height:1.25" xml:space="preserve"><tspan x="100.291" y="-78.745">RST</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="97.335" y="-78.877" style="line-height:1.25" xml:space="preserve"><tspan x="97.335" y="-78.877">D0/RX</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="94.527" y="-79.086" style="line-height:1.25" xml:space="preserve"><tspan x="94.527" y="-79.086">D1/TX</tspan></text>
+ <path d="m0 0.955h18.76v50.753h-18.76z" fill="#f6f6f6"/>
+ <g fill="#0084ff" font-family="sans-serif" font-size=".766" stroke-width=".019">
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="122.813" y="-77.228" >D9</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="120.341" y="-77.344" >D8</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="117.916" y="-77.527" >D7</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="112.879" y="-77.798">D5</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="115.328" y="-77.7">D6</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="110.33" y="-77.946">D4</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="107.871" y="-78.24">D3</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="105.607" y="-78.391">D2</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="102.696" y="-78.585">GND</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="100.291" y="-78.745">RST</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="97.335" y="-78.877">D0/RX</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="94.527" y="-79.086">D1/TX</text>
  </g>
  <g transform="translate(-79.546 -84.573)" fill="#b3b3b3" stroke-linecap="round" stroke-linejoin="round" stroke-width=".429">
   <circle cx="96.672" cy="114.95" r=".726"/>
@@ -64,23 +64,23 @@
   <path d="m13.592 47.877h0.227v3.583h-0.227zm1.533 0h0.195v3.583h-0.195z"/>
   <path d="m13.592 47.877h1.554v0.158h-1.554zm0 3.39h1.54v0.183h-1.54z"/>
  </g>
- <g fill="#0cf" font-family="sans-serif" font-size=".766" stroke-width=".019">
-  <text transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="78.293" y="140.345" style="line-height:1.25" xml:space="preserve"><tspan x="78.293" y="140.345">LD2</tspan></text>
-  <text transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="78.117" y="89.5" style="line-height:1.25" xml:space="preserve"><tspan x="78.117" y="89.5">LD1</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="96.281" y="-92.362" style="line-height:1.25" xml:space="preserve"><tspan x="96.281" y="-92.362">VIN</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="98.576" y="-92.215" style="line-height:1.25" xml:space="preserve"><tspan x="98.576" y="-92.215">GND</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="101.065" y="-92.092" style="line-height:1.25" xml:space="preserve"><tspan x="101.065" y="-92.092">RST</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="104.04" y="-91.959" style="line-height:1.25" xml:space="preserve"><tspan x="104.04" y="-91.959">5V</tspan></text>
-  <text transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="92.148" y="140.348" style="line-height:1.25" xml:space="preserve"><tspan x="92.148" y="140.348">LD3</tspan></text>
+ <g fill="#0285ff" font-family="sans-serif" font-size=".766" stroke-width=".019">
+  <text transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="78.293" y="140.345">LD2</text>
+  <text transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="78.117" y="89.5">LD1</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="96.281" y="-92.362">VIN</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="98.576" y="-92.215">GND</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="101.065" y="-92.092">RST</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="104.04" y="-91.959">5V</text>
+  <text transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="92.148" y="140.348">LD3</text>
  </g>
  <g stroke-linecap="round" stroke-linejoin="round" stroke-width=".429">
   <path d="M7.439 48.717h3.864v2.398H7.439z" fill="#d0d0d0"/>
   <path d="M7.868 49.087h2.887v1.466H7.868z" fill="#ffd42a" opacity=".4"/>
   <path d="M8.475 51.127h1.791v1.14H8.475z" fill="#666"/>
  </g>
- <g fill="#40a8df">
-  <path d="M5.177 11.017c.058.005 2.136-.01 2.136-.01s-.665 2.057-.686 2.046c-.021-.01-.79-.005-.79-.005l.246-.717c-.342-.646-.668-.983-.927-1.33zM7.99 11.048c.03-.004.859.026.859.026l-.8 1.91-.944-.011z"/>
-  <path d="M3.43 12.518s.423-1.366.8-1.964c.113-.177.24-.366.426-.464.193-.102.65-.093.65-.093l3.988-.01-.216.512s-1.25-.077-2.494-.054c-.542.01-1.232-.048-1.607.127a.547.547 0 0 0-.308.355.73.73 0 0 0 .033.547c.156.345.546.462.786.753.043.052.09.108.104.173.01.05-.021.152-.021.152l-2.188-.005" stroke="#40a8df" stroke-width=".107"/>
+ <g transform="translate(1.5875)" fill="#40a8df">
+  <path d="m5.177 11.017c0.058 5e-3 2.136-0.01 2.136-0.01s-0.665 2.057-0.686 2.046c-0.021-0.01-0.79-5e-3 -0.79-5e-3l0.246-0.717c-0.342-0.646-0.668-0.983-0.927-1.33zm2.813 0.031c0.03-4e-3 0.859 0.026 0.859 0.026l-0.8 1.91-0.944-0.011z"/>
+  <path d="m3.43 12.518s0.423-1.366 0.8-1.964c0.113-0.177 0.24-0.366 0.426-0.464 0.193-0.102 0.65-0.093 0.65-0.093l3.988-0.01-0.216 0.512s-1.25-0.077-2.494-0.054c-0.542 0.01-1.232-0.048-1.607 0.127a0.547 0.547 0 0 0-0.308 0.355 0.73 0.73 0 0 0 0.033 0.547c0.156 0.345 0.546 0.462 0.786 0.753 0.043 0.052 0.09 0.108 0.104 0.173 0.01 0.05-0.021 0.152-0.021 0.152l-2.188-5e-3" stroke="#40a8df" stroke-width=".107"/>
  </g>
  <path d="M5.831.728 5.525.283a.093.093 0 0 1-.01-.09.136.136 0 0 1 .08-.069.21.21 0 0 1 .123-.007c.04.01.074.031.093.06l.21.305V.44a.327.327 0 0 1 .142-.264.603.603 0 0 1 .355-.113L12.608 0a.615.615 0 0 1 .36.105.335.335 0 0 1 .153.261v.042l.199-.31a.152.152 0 0 1 .09-.06.222.222 0 0 1 .123.004.141.141 0 0 1 .083.066.09.09 0 0 1-.006.09l-.288.452.165-.002.08 4.144-7.743.08-.08-4.144z" clip-rule="evenodd" fill="#cecccb" fill-rule="evenodd"/>
  <path d="m7.543 4.855-.007-.364c0-.012-.01-.023-.023-.03l-.942-.41-.006-.334.476-.005-.004-.24.72-.008.004.24.456-.004.012.636c0 .027.016.053.042.072a.17.17 0 0 0 .1.029l.43-.005-.004-.265 1.772-.018.005.265.432-.005a.167.167 0 0 0 .098-.03.09.09 0 0 0 .04-.074l-.013-.636.456-.005-.004-.24.72-.007.004.24.476-.005.007.334-.926.43c-.014.007-.023.018-.022.03l.006.364z" clip-rule="evenodd" fill="#989898" fill-rule="evenodd"/>
@@ -93,22 +93,23 @@
   <path d="M81.315 87.731h.13v2.377h-.13z" fill="#d8d8d8"/>
   <path d="M82.532 88.833v.13l-2.378-.01v-.13z" fill="#d8d8d8"/>
  </g>
- <g fill="#0cf" font-family="sans-serif" font-size=".766" stroke-width=".019">
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="106.243" y="-91.791" style="line-height:1.25" xml:space="preserve"><tspan x="106.243" y="-91.791">A7</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="108.919" y="-91.582" style="line-height:1.25" xml:space="preserve"><tspan x="108.919" y="-91.582">A6</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="111.302" y="-91.379" style="line-height:1.25" xml:space="preserve"><tspan x="111.302" y="-91.379">A5</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="113.727" y="-91.218" style="line-height:1.25" xml:space="preserve"><tspan x="113.727" y="-91.218">A4</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="116.326" y="-90.893" style="line-height:1.25" xml:space="preserve"><tspan x="116.326" y="-90.893">A3</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="118.716" y="-90.798" style="line-height:1.25" xml:space="preserve"><tspan x="118.716" y="-90.798">A2</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="121.198" y="-90.568" style="line-height:1.25" xml:space="preserve"><tspan x="121.198" y="-90.568">A1</tspan></text>
+ <g fill="#0084ff" font-family="sans-serif" font-size=".766" stroke-width=".019">
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="106.243" y="-91.791">A7</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="108.919" y="-91.582">A6</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="111.302" y="-91.379">A5</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="113.727" y="-91.218">A4</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="116.326" y="-90.893">A3</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="118.716" y="-90.798">A2</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="121.198" y="-90.568">A1</text>
   <g font-size=".76602px" stroke-width=".019">
-   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="37.203503" y="-13.578688" style="line-height:1.25" xml:space="preserve"><tspan x="37.203503" y="-13.578688" stroke-width=".019">A0</tspan></text>
-   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="39.307266" y="-13.459794" style="line-height:1.25" xml:space="preserve"><tspan x="39.307266" y="-13.459794" stroke-width=".019">REF</tspan></text>
-   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="41.817982" y="-13.3571" style="line-height:1.25" xml:space="preserve"><tspan x="41.817982" y="-13.3571" stroke-width=".019">3V3</tspan></text>
-   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="44.288143" y="-13.257284" style="line-height:1.25" xml:space="preserve"><tspan x="44.288143" y="-13.257284" stroke-width=".019">D13</tspan></text>
+   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="37.203503" y="-13.578688">A0</text>
+   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="39.307266" y="-13.459794">REF</text>
+   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="41.817982" y="-13.3571">3V3</text>
+   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="44.288143" y="-13.257284">D13</text>
   </g>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="130.27" y="-76.687" style="line-height:1.25" xml:space="preserve"><tspan x="130.27" y="-76.687">D12</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="127.704" y="-76.88" style="line-height:1.25" xml:space="preserve"><tspan x="127.704" y="-76.88">D11</tspan></text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="125.155" y="-77.028" style="line-height:1.25" xml:space="preserve"><tspan x="125.155" y="-77.028">D10</tspan></text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="130.27" y="-76.687">D12</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="127.704" y="-76.88">D11</text>
+  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="125.155" y="-77.028">D10</text>
  </g>
+ <text x="4.4033442" y="43.87949" fill="#4d4d4d" font-family="sans-serif" font-size="2.5411px" stroke-width=".063527">L432KC</text>
 </svg>
