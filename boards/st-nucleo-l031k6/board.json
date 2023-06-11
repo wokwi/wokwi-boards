@@ -1,0 +1,73 @@
+{
+  "name": "ST-Nucleo-L031k6",
+  "version": 1,
+  "description": "Affordable and flexible way for users to try out new ideas and build prototypes with any STM32 microcontroller line",
+  "author": "Ariella Eliassaf",
+  "width": 18.76,
+  "height": 52.269,
+  "mcu": "stm32l031k6",
+  "fqbn": "STMicroelectronics:stm32:Nucleo_32:pnum=NUCLEO_L031K6",
+
+  "pins": {
+    "D1": { "x": 1.6, "y": 9.84, "target": "PA9" },
+    "D0": { "x": 1.6, "y": 12.38, "target": "PA10" },
+    "RST.1": { "x": 1.6, "y": 14.92, "target": "NRST" },
+    "GND.1": { "x": 1.6, "y": 17.46, "target": "GND" },
+    "D2": { "x": 1.6, "y": 20, "target": "PA12" },
+    "D3": { "x": 1.6, "y": 22.54, "target": "PB0" },
+    "D4": { "x": 1.6, "y": 25.08, "target": "PB7" },
+    "D5": { "x": 1.6, "y": 27.62, "target": "PB6" },
+    "D6": { "x": 1.6, "y": 30.16, "target": "PB1" },
+    "D7": { "x": 1.6, "y": 32.7, "target": "PF0" },
+    "D8": { "x": 1.6, "y": 35.24, "target": "PF1" },
+    "D9": { "x": 1.6, "y": 37.78, "target": "PA8" },
+    "D10": { "x": 1.6, "y": 40.32, "target": "PA11" },
+    "D11": { "x": 1.6, "y": 42.86, "target": "PB5" },
+    "D12": { "x": 1.6, "y": 45.4, "target": "PB4" },
+
+    "VIN": { "x": 17, "y": 9.84, "target": "power(5)" },
+    "GND.2": { "x": 17, "y": 12.38, "target": "GND" },
+    "RST.2": { "x": 17, "y": 14.92, "target": "NRST" },
+    "5V": { "x": 17, "y": 17.46, "target": "power(5)" },
+    "A7": { "x": 17, "y": 20, "target": "PA2" },
+    "A6": { "x": 17, "y": 22.54, "target": "PA7" },
+    "A5": { "x": 17, "y": 25.08, "target": "PA6" },
+    "A4": { "x": 17, "y": 27.62, "target": "PA5" },
+    "A3": { "x": 17, "y": 30.16, "target": "PA4" },
+    "A2": { "x": 17, "y": 32.7, "target": "PA3" },
+    "A1": { "x": 17, "y": 35.24, "target": "PA1" },
+    "A0": { "x": 17, "y": 37.78, "target": "PA0" },
+    "REF": { "x": 17, "y": 40.32, "target": "AREF" },
+    "3V3": { "x": 17, "y": 42.86, "target": "power(3.3)" },
+    "D13": { "x": 17, "y": 45.4, "target": "PB3" },
+
+    /* Virtual Com Port (VCP) pins, connected to the ST-LINK/V2.1 interface */
+    "VCP_TX": { "target": "PA2" },
+    "VCP_RX": { "target": "PA15" }
+  },
+
+  "leds": [
+    {
+      "id": "LD2",
+      "x": 4.35,
+      "y": 49.2,
+      "type": "0603",
+      "color": "red",
+      "pins": {
+        "A": "VIN",
+        "C": "GND.1"
+      }
+    },
+    {
+      "id": "LD3",
+      "x": 14.4,
+      "y": 49.2,
+      "type": "0603",
+      "color": "green",
+      "pins": {
+        "A": "D13",
+        "C": "GND.1"
+      }
+    }
+  ]
+}
