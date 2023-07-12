@@ -1,0 +1,71 @@
+{
+  "name": "ESP32-H2-DevKitM-1",
+  "version": 1,
+  "description": "An entry-level development board based on Bluetooth® Low Energy and IEEE 802.15.4 combo module ESP32-H2-MINI-1 or ESP32-H2-MINI-1U",
+  "author": "Ariella Eliassaf",
+  "mcu": "esp32-h2",
+  "fqbn": "esp32:esp32:esp32h2",
+
+  "width": 26.214,
+  "height": 55.446,
+
+  "pins": {
+    "3V3": { "x": 1.35, "y": 7.03, "target": "power(3.3)" },
+    "RST": { "x": 1.35, "y": 9.57, "target": "CHIP_PU" },
+    "0": { "x": 1.35, "y": 12.11, "target": "GPIO0" },
+    "1": { "x": 1.35, "y": 14.65, "target": "GPIO1" },
+    "2": { "x": 1.35, "y": 17.19, "target": "GPIO2" },
+    "3": { "x": 1.35, "y": 19.73, "target": "GPIO3" },
+    "13": { "x": 1.35, "y": 22.27, "target": "GPIO13" },
+    "14": { "x": 1.35, "y": 24.81, "target": "GPIO14" },
+    "4": { "x": 1.35, "y": 27.35, "target": "GPIO4" },
+    "5": { "x": 1.35, "y": 29.89, "target": "GPIO5" },
+    "NC": { "x": 1.35, "y": 32.43, "target": "" },
+    "VBAT": { "x": 1.35, "y": 34.97, "target": "power(3.3)" },
+    "GND.1": { "x": 1.35, "y": 37.51, "target": "GND" },
+    "5V": { "x": 1.35, "y": 40.05, "target": "power(5)" },
+    "GND.2": { "x": 1.35, "y": 42.59, "target": "GND" },
+
+    "GND.3": { "x": 24.6, "y":42.59, "target": "GND" },
+    "26": { "x": 24.6, "y": 40.05, "target": "GPIO26" },
+    "27": { "x": 24.6, "y": 37.51, "target": "GPIO27" },
+    "GND.4": { "x": 24.6, "y": 34.97, "target": "GND" },
+    "9": { "x": 24.6, "y": 32.43, "target": "GPIO9" },
+    "GND.5": { "x": 24.6, "y": 29.89, "target": "GND" },
+    "22": { "x": 24.6, "y": 27.35, "target": "GPIO22" },
+    "8": { "x": 24.6, "y": 24.81, "target": "GPIO8" },
+    "12": { "x": 24.6, "y": 22.27, "target": "GPIO12" },
+    "25": { "x": 24.6, "y": 19.73, "target": "GPIO25" },
+    "11": { "x": 24.6, "y": 17.19, "target": "GPIO11" },
+    "10": { "x": 24.6, "y": 14.65, "target": "GPIO10" },
+    "RX": { "x": 24.6, "y": 12.11, "target": "GPIO23" },
+    "TX": { "x": 24.6, "y": 9.57, "target": "GPIO24" },
+
+
+
+    "GND.6": { "x": 24.6, "y": 7.03, "target": "GND" }
+  },
+
+  "leds": [
+    {
+      "id": "power",
+      "x": 15.8,
+      "y": 24.1,
+      "type": "0603",
+      "color": "red",
+      "pins": {
+        "A": "3V3",
+        "C": "GND.1"
+      }
+    },
+    {
+      "id": "rgb",
+      "x": 8.45,
+      "y": 38.27,
+      "type": "ws2812",
+      "pins": {
+        "DI": "8"
+      }
+    }
+  ]
+}
