@@ -13,15 +13,15 @@
   "chips": [
     {
       "id": "sens1",
-      "type": "sensirion-shtc3",
+      "type": "github:SergioGasquez/wokwi-icm42670p@0.0.4",
       "name": "IMU",
-      "pins": { "SCL": "8", "SDA": "10" }
+      "pins": { "SCL": "8.2", "SDA": "10" }
     },
     {
       "id": "sens2",
-      "type": "invensense-icm-42670-p",
+      "type": "github:SergioGasquez/wokwi-shtc3@0.0.1",
       "name": "Environmental Sensor",
-      "pins": { "SCL": "8", "SDA": "10" }
+      "pins": { "SCL": "8.2", "SDA": "10" }
     }
   ],
 
