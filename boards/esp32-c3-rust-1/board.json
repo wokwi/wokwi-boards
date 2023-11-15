@@ -13,15 +13,13 @@
   "chips": [
     {
       "id": "sens1",
-      "type": "sensirion-shtc3",
-      "name": "IMU",
-      "pins": { "SCL": "8", "SDA": "10" }
+      "type": "github:SergioGasquez/wokwi-icm42670p@0.0.4",
+      "name": "IMU"
     },
     {
       "id": "sens2",
-      "type": "invensense-icm-42670-p",
-      "name": "Environmental Sensor",
-      "pins": { "SCL": "8", "SDA": "10" }
+      "type": "github:SergioGasquez/wokwi-shtc3@0.0.1",
+      "name": "Environmental Sensor"
     }
   ],
 
@@ -53,7 +51,11 @@
     "NC6": { "x": 21.55, "y": 29.2, "target": "" },
     "5V": { "x": 21.55, "y": 26.66, "target": "power(5)" },
     "EN": { "x": 21.55, "y": 24.12, "target": "CHIP_EN" },
-    "BAT+": { "x": 21.55, "y": 21.58, "target": "power(5)" }
+    "BAT+": { "x": 21.55, "y": 21.58, "target": "power(5)" },
+    "$sens1_SDA": {"target": ["GPIO10", "sens1:SDA"]},
+    "$sens1_SCL": {"target": ["GPIO8", "sens1:SCL"]},
+    "$sens2_SDA": {"target": ["GPIO10", "sens2:SDA"]},
+    "$sens2_SCL": {"target": ["GPIO8", "sens2:SCL"]}
   },
 
   "leds": [
