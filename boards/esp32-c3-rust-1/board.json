@@ -13,12 +13,12 @@
   "chips": [
     {
       "id": "sens1",
-      "type": "github:SergioGasquez/wokwi-icm42670p@0.0.4",
+      "type": "github:SergioGasquez/wokwi-icm42670p@0.1",
       "name": "IMU"
     },
     {
       "id": "sens2",
-      "type": "github:SergioGasquez/wokwi-shtc3@0.0.1",
+      "type": "github:SergioGasquez/wokwi-shtc3@0.1",
       "name": "Environmental Sensor"
     }
   ],
