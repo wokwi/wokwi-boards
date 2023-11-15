@@ -25,9 +25,9 @@
 
   "pins": {
     "RST": { "x": 1.23, "y": 11.42, "target": "CHIP_EN" },
-    "3V3": { "x": 1.23, "y": 13.96, "target": ["power(3.3)", "sens1:VCC", "sens2:VCC"] },
+    "3V3": { "x": 1.23, "y": 13.96, "target": "power(3.3)" },
     "NC1": { "x": 1.23, "y": 16.5, "target": "" },
-    "GND": { "x": 1.23, "y": 19.04, "target": ["GND", "sens1:GND", "sens2:GND"] },
+    "GND": { "x": 1.23, "y": 19.04, "target": "GND" },
     "0": { "x": 1.23, "y": 21.58, "target": "GPIO0" },
     "1": { "x": 1.23, "y": 24.12, "target": "GPIO1" },
     "2": { "x": 1.23, "y": 26.66, "target": "GPIO2" },
@@ -40,8 +40,8 @@
     "21": { "x": 1.23, "y": 44.44, "target": "GPIO21" },
     "20": { "x": 1.23, "y": 46.98, "target": "GPIO20" },
     "9": { "x": 1.23, "y": 49.52, "target": "GPIO9" },
-    "10": { "x": 21.55, "y": 49.52, "target": ["GPIO10", "sens1:SDA", "sens2:SDA"] },
-    "8.2": { "x": 21.55, "y": 46.98, "target": ["GPIO8", "sens1:SCL", "sens2:SCL"] },
+    "10": { "x": 21.55, "y": 49.52, "target": "GPIO10" },
+    "8.2": { "x": 21.55, "y": 46.98, "target": "GPIO8" },
     "18": { "x": 21.55, "y": 44.44, "target": "GPIO18" },
     "19": { "x": 21.55, "y": 41.9, "target": "GPIO19" },
     "NC2": { "x": 21.55, "y": 39.36, "target": "" },
@@ -51,7 +51,11 @@
     "NC6": { "x": 21.55, "y": 29.2, "target": "" },
     "5V": { "x": 21.55, "y": 26.66, "target": "power(5)" },
     "EN": { "x": 21.55, "y": 24.12, "target": "CHIP_EN" },
-    "BAT+": { "x": 21.55, "y": 21.58, "target": "power(5)" }
+    "BAT+": { "x": 21.55, "y": 21.58, "target": "power(5)" },
+    "$sens1_SDA": {"target": ["GPIO10", "sens1:SDA"]},
+    "$sens1_SCL": {"target": ["GPIO8", "sens1:SCL"]},
+    "$sens2_SDA": {"target": ["GPIO10", "sens2:SDA"]},
+    "$sens2_SCL": {"target": ["GPIO8", "sens2:SCL"]}
   },
 
   "leds": [
