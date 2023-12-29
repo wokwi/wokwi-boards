@@ -11,15 +11,17 @@ jobs:
     runs-on: ubuntu-20.04
     name: Build build boards index
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
       - run: npm ci --prefix tools
       - name: Generate board index
         run: node ./tools/make-index.js
+      - name: Generate board bundle
+        run: node ./tools/make-bundle.js
       - name: Upload pages artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: 'boards'
 
@@ -38,4 +40,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
