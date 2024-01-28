@@ -21,9 +21,9 @@
     "7/GPIO7/SS": { "x": 1.462, "y": 8.371, "target": "GPIO7" },
     "8/GPIO8/SDA": { "x": 1.462, "y": 10.916, "target": "GPIO8" },
     "9/GPIO9/SCL": { "x": 1.462, "y": 13.494, "target": "GPIO9" },
-    "10": { "x": 1.462, "y": 16.072, "target": "GPIO10" },
-    "20/RX": { "x": 1.462, "y": 18.634, "target": "GPIO20" },
-    "21/TX": { "x": 1.462, "y": 21.222, "target": "GPIO21" }
+    "10/GPIO10": { "x": 1.462, "y": 16.072, "target": "GPIO10" },
+    "20/GPIO20/RX": { "x": 1.462, "y": 18.634, "target": "GPIO20" },
+    "21/GPIO21/TX": { "x": 1.462, "y": 21.222, "target": "GPIO21" }
   },
   "leds": [
     {
