@@ -1,6 +1,6 @@
 {
-  "name": "ESP32-C3-SuperMini",
-  "version": 1.7,
+  "name": "Aitewin Robot ESP32-C3 SuperMini",
+  "version": 1.8,
   "description": "A common ESP32 dev board by AITEWIN ROBOT (Derived from Adafruit QT Py ESP32-C3)",
   "author": "GeekGarage",
   "mcu": "esp32-c3",
@@ -48,6 +48,20 @@
         "A": "8",
         "C": "GND"      
       }
+    }
+  ],
+  "buy": [
+    {
+      "store": "Aliexpress",
+      "link": "https://www.aliexpress.com/item/1005005757810089.html"
+    },
+    {
+      "store": "Ebay",
+      "link": "https://www.ebay.com/itm/276300462231"
+    },
+    {
+      "store": "Temu",
+      "link": "https://www.temu.com/dk/esp32-c3-development-board-esp32-supermini-wifi-wireless-g-601099534456789.html"
     }
   ]
 }
