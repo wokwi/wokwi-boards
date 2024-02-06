@@ -1,6 +1,6 @@
 {
   "name": "Aitewin Robot ESP32-C3 SuperMini",
-  "version": 1.8,
+  "version": 1,
   "description": "A common ESP32 dev board by AITEWIN ROBOT (Derived from Adafruit QT Py ESP32-C3)",
   "author": "GeekGarage",
   "mcu": "esp32-c3",
