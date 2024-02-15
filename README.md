@@ -4,6 +4,10 @@ Definition for the boards supported on [wokwi.com](https://wokwi.com).
 
 See [boards/esp32-devkit-v1/board.json](boards/esp32-devkit-v1/board.json) for an example.
 
+## Board contribution guidelines
+
+Please review the [contribution guidelines](https://docs.google.com/document/d/1K59xkKL70uN_c_GNCs_Xk09F3tK12B-ygmFbw6i14t4/edit#heading=h.92fnwowlaoo8) before submitting a new board definition.
+
 ## Testing a custom board
 
 1. Create a [new project on wokwi](https://wokwi.com/arduino/new)
