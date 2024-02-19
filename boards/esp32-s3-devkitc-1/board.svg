@@ -391,56 +391,54 @@
    <rect x="36.054" y="92.867" width="12.012" height="18.992" ry="0" fill="#1a1a1a"/>
    <rect x="56.441" y="103.82" width="2.9941" height="5.1906" ry="0" fill="#e3dedb"/>
   </g>
-  <g fill="#ffffff" font-family="sans-serif" font-size="2.9181px" stroke-width=".072952">
-   <text x="4.7248979" y="36.114529" style="line-height:1.25" xml:space="preserve"><tspan x="4.7248979" y="36.114529" fill="#ffffff" stroke-width=".072952">3V3</tspan></text>
-   <text x="4.701715" y="43.46312" style="line-height:1.25" xml:space="preserve"><tspan x="4.701715" y="43.46312" fill="#ffffff" stroke-width=".072952">3V3</tspan></text>
-   <text x="4.6053467" y="50.449867" style="line-height:1.25" xml:space="preserve"><tspan x="4.6053467" y="50.449867" fill="#ffffff" stroke-width=".072952">RST</tspan></text>
-   <text x="6.3043666" y="57.677532" style="line-height:1.25" xml:space="preserve"><tspan x="6.3043666" y="57.677532" fill="#ffffff" stroke-width=".072952">4</tspan></text>
-   <text x="6.363946" y="64.85701" style="line-height:1.25" xml:space="preserve"><tspan x="6.363946" y="64.85701" fill="#ffffff" stroke-width=".072952">5</tspan></text>
-   <text x="6.797606" y="72.132866" style="line-height:1.25" xml:space="preserve"><tspan x="6.797606" y="72.132866" fill="#ffffff" stroke-width=".072952">6</tspan></text>
-   <text x="6.5832024" y="79.563515" style="line-height:1.25" xml:space="preserve"><tspan x="6.5832024" y="79.563515" fill="#ffffff" stroke-width=".072952">7</tspan></text>
-   <text x="5.4737749" y="86.656868" style="line-height:1.25" xml:space="preserve"><tspan x="5.4737749" y="86.656868" fill="#ffffff" stroke-width=".072952">15</tspan></text>
-   <text x="5.5936441" y="93.810745" style="line-height:1.25" xml:space="preserve"><tspan x="5.5936441" y="93.810745" fill="#ffffff" stroke-width=".072952">16</tspan></text>
-   <text x="6.0703688" y="101.14502" style="line-height:1.25" xml:space="preserve"><tspan x="6.0703688" y="101.14502" fill="#ffffff" stroke-width=".072952">17</tspan></text>
-   <text x="5.6346068" y="108.29681" style="line-height:1.25" xml:space="preserve"><tspan x="5.6346068" y="108.29681" fill="#ffffff" stroke-width=".072952">18</tspan></text>
-   <text x="6.7316914" y="115.5829" style="line-height:1.25" xml:space="preserve"><tspan x="6.7316914" y="115.5829" fill="#ffffff" stroke-width=".072952">8</tspan></text>
-   <text x="6.6271839" y="122.82291" style="line-height:1.25" xml:space="preserve"><tspan x="6.6271839" y="122.82291" fill="#ffffff" stroke-width=".072952">3</tspan></text>
-   <text x="5.7966232" y="130.17464" style="line-height:1.25" xml:space="preserve"><tspan x="5.7966232" y="130.17464" fill="#ffffff" stroke-width=".072952">46</tspan></text>
-   <text x="6.7497835" y="136.99449" style="line-height:1.25" xml:space="preserve"><tspan x="6.7497835" y="136.99449" fill="#ffffff" stroke-width=".072952">9</tspan></text>
-   <text x="5.5349765" y="144.14886" style="line-height:1.25" xml:space="preserve"><tspan x="5.5349765" y="144.14886" fill="#ffffff" stroke-width=".072952">10</tspan></text>
-   <text x="5.6061263" y="151.54185" style="line-height:1.25" xml:space="preserve"><tspan x="5.6061263" y="151.54185" fill="#ffffff" stroke-width=".072952">11</tspan></text>
-   <text x="5.4123645" y="158.57452" style="line-height:1.25" xml:space="preserve"><tspan x="5.4123645" y="158.57452" fill="#ffffff" stroke-width=".072952">12</tspan></text>
-   <text x="5.5589662" y="165.80263" style="line-height:1.25" xml:space="preserve"><tspan x="5.5589662" y="165.80263" fill="#ffffff" stroke-width=".072952">13</tspan></text>
-   <text x="5.486587" y="172.98354" style="line-height:1.25" xml:space="preserve"><tspan x="5.486587" y="172.98354" fill="#ffffff" stroke-width=".072952">14</tspan></text>
-   <text x="21.216141" y="160.29483" style="line-height:1.25" xml:space="preserve"><tspan x="21.216141" y="160.29483" fill="#ffffff" stroke-width=".072952">BOOT</tspan></text>
-   <text x="5.4127736" y="180.01683" style="line-height:1.25" xml:space="preserve"><tspan x="5.4127736" y="180.01683" fill="#ffffff" stroke-width=".072952">5V</tspan></text>
-   <text x="6.1445417" y="187.5623" style="line-height:1.25" xml:space="preserve"><tspan x="6.1445417" y="187.5623" fill="#ffffff" stroke-width=".072952">G</tspan></text>
-   <text x="17.926455" y="115.20123" style="line-height:1.25" xml:space="preserve"><tspan x="17.926455" y="115.20123" fill="#ffffff" stroke-width=".072952">RGB</tspan></text>
-   <text x="16.998285" y="187.377" style="line-height:1.25" xml:space="preserve"><tspan x="16.998285" y="187.377" fill="#ffffff" stroke-width=".072952">UART</tspan></text>
-   <text x="70.909599" y="36.205132" style="line-height:1.25" xml:space="preserve"><tspan x="70.909599" y="36.205132" fill="#ffffff" stroke-width=".072952">G</tspan></text>
-   <text x="71.187233" y="187.46443" style="line-height:1.25" xml:space="preserve"><tspan x="71.187233" y="187.46443" fill="#ffffff" stroke-width=".072952">G</tspan></text>
-   <text x="71.30426" y="180.38033" style="line-height:1.25" xml:space="preserve"><tspan x="71.30426" y="180.38033" fill="#ffffff" stroke-width=".072952">G</tspan></text>
-   <text x="70.251991" y="173.20792" style="line-height:1.25" xml:space="preserve"><tspan x="70.251991" y="173.20792" fill="#ffffff" stroke-width=".072952">19</tspan></text>
-   <text x="70.442642" y="165.86302" style="line-height:1.25" xml:space="preserve"><tspan x="70.442642" y="165.86302" fill="#ffffff" stroke-width=".072952">20</tspan></text>
-   <text x="70.43428" y="158.82101" style="line-height:1.25" xml:space="preserve"><tspan x="70.43428" y="158.82101" fill="#ffffff" stroke-width=".072952">21</tspan></text>
-   <text x="70.29071" y="151.45039" style="line-height:1.25" xml:space="preserve"><tspan x="70.29071" y="151.45039" fill="#ffffff" stroke-width=".072952">47</tspan></text>
-   <text x="70.349464" y="144.26813" style="line-height:1.25" xml:space="preserve"><tspan x="70.349464" y="144.26813" fill="#ffffff" stroke-width=".072952">48</tspan></text>
-   <text x="70.403915" y="137.13428" style="line-height:1.25" xml:space="preserve"><tspan x="70.403915" y="137.13428" fill="#ffffff" stroke-width=".072952">45</tspan></text>
-   <text x="71.184593" y="129.99908" style="line-height:1.25" xml:space="preserve"><tspan x="71.184593" y="129.99908" fill="#ffffff" stroke-width=".072952">0</tspan></text>
-   <text x="70.205894" y="122.61545" style="line-height:1.25" xml:space="preserve"><tspan x="70.205894" y="122.61545" fill="#ffffff" stroke-width=".072952">35</tspan></text>
-   <text x="70.198891" y="115.45087" style="line-height:1.25" xml:space="preserve"><tspan x="70.198891" y="115.45087" fill="#ffffff" stroke-width=".072952">36</tspan></text>
-   <text x="70.370483" y="108.27093" style="line-height:1.25" xml:space="preserve"><tspan x="70.370483" y="108.27093" fill="#ffffff" stroke-width=".072952">37</tspan></text>
-   <text x="70.317749" y="101.09933" style="line-height:1.25" xml:space="preserve"><tspan x="70.317749" y="101.09933" fill="#ffffff" stroke-width=".072952">38</tspan></text>
-   <text x="70.138779" y="93.925415" style="line-height:1.25" xml:space="preserve"><tspan x="70.138779" y="93.925415" fill="#ffffff" stroke-width=".072952">39</tspan></text>
-   <text x="70.483696" y="86.696053" style="line-height:1.25" xml:space="preserve"><tspan x="70.483696" y="86.696053" fill="#ffffff" stroke-width=".072952">40</tspan></text>
-   <text x="70.29673" y="79.531479" style="line-height:1.25" xml:space="preserve"><tspan x="70.29673" y="79.531479" fill="#ffffff" stroke-width=".072952">41</tspan></text>
-   <text x="70.37085" y="72.322159" style="line-height:1.25" xml:space="preserve"><tspan x="70.37085" y="72.322159" fill="#ffffff" stroke-width=".072952">42</tspan></text>
-   <text x="71.250725" y="65.170609" style="line-height:1.25" xml:space="preserve"><tspan x="71.250725" y="65.170609" fill="#ffffff" stroke-width=".072952">2</tspan></text>
-   <text x="71.402657" y="57.898834" style="line-height:1.25" xml:space="preserve"><tspan x="71.402657" y="57.898834" fill="#ffffff" stroke-width=".072952">1</tspan></text>
-   <text x="69.796196" y="50.602367" style="line-height:1.25" xml:space="preserve"><tspan x="69.796196" y="50.602367" fill="#ffffff" stroke-width=".072952">RX</tspan></text>
-   <text x="70.134109" y="43.355305" style="line-height:1.25" xml:space="preserve"><tspan x="70.134109" y="43.355305" fill="#ffffff" stroke-width=".072952">TX</tspan></text>
-   <text x="55.431389" y="187.22548" style="line-height:1.25" xml:space="preserve"><tspan x="55.431389" y="187.22548" fill="#ffffff" stroke-width=".072952">USB</tspan></text>
-   <text x="49.828423" y="160.43681" style="line-height:1.25" xml:space="preserve"><tspan x="49.828423" y="160.43681" fill="#ffffff" stroke-width=".072952">RESET</tspan></text>
-  </g>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="4.7248979" y="36.114529" style="line-height:1.25" xml:space="preserve"><tspan x="4.7248979" y="36.114529" fill="#ffffff" stroke-width=".072952">3V3</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="4.701715" y="43.46312" style="line-height:1.25" xml:space="preserve"><tspan x="4.701715" y="43.46312" fill="#ffffff" stroke-width=".072952">3V3</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="4.6053467" y="50.449867" style="line-height:1.25" xml:space="preserve"><tspan x="4.6053467" y="50.449867" fill="#ffffff" stroke-width=".072952">RST</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="6.3043666" y="57.677532" style="line-height:1.25" xml:space="preserve"><tspan x="6.3043666" y="57.677532" fill="#ffffff" stroke-width=".072952">4</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="6.363946" y="64.85701" style="line-height:1.25" xml:space="preserve"><tspan x="6.363946" y="64.85701" fill="#ffffff" stroke-width=".072952">5</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="6.797606" y="72.132866" style="line-height:1.25" xml:space="preserve"><tspan x="6.797606" y="72.132866" fill="#ffffff" stroke-width=".072952">6</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="6.5832024" y="79.563515" style="line-height:1.25" xml:space="preserve"><tspan x="6.5832024" y="79.563515" fill="#ffffff" stroke-width=".072952">7</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="5.4737749" y="86.656868" style="line-height:1.25" xml:space="preserve"><tspan x="5.4737749" y="86.656868" fill="#ffffff" stroke-width=".072952">15</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="5.5936441" y="93.810745" style="line-height:1.25" xml:space="preserve"><tspan x="5.5936441" y="93.810745" fill="#ffffff" stroke-width=".072952">16</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="6.0703688" y="101.14502" style="line-height:1.25" xml:space="preserve"><tspan x="6.0703688" y="101.14502" fill="#ffffff" stroke-width=".072952">17</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="5.6346068" y="108.29681" style="line-height:1.25" xml:space="preserve"><tspan x="5.6346068" y="108.29681" fill="#ffffff" stroke-width=".072952">18</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="6.7316914" y="115.5829" style="line-height:1.25" xml:space="preserve"><tspan x="6.7316914" y="115.5829" fill="#ffffff" stroke-width=".072952">8</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="6.6271839" y="122.82291" style="line-height:1.25" xml:space="preserve"><tspan x="6.6271839" y="122.82291" fill="#ffffff" stroke-width=".072952">3</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="5.7966232" y="130.17464" style="line-height:1.25" xml:space="preserve"><tspan x="5.7966232" y="130.17464" fill="#ffffff" stroke-width=".072952">46</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="6.7497835" y="136.99449" style="line-height:1.25" xml:space="preserve"><tspan x="6.7497835" y="136.99449" fill="#ffffff" stroke-width=".072952">9</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="5.5349765" y="144.14886" style="line-height:1.25" xml:space="preserve"><tspan x="5.5349765" y="144.14886" fill="#ffffff" stroke-width=".072952">10</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="5.6061263" y="151.54185" style="line-height:1.25" xml:space="preserve"><tspan x="5.6061263" y="151.54185" fill="#ffffff" stroke-width=".072952">11</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="5.4123645" y="158.57452" style="line-height:1.25" xml:space="preserve"><tspan x="5.4123645" y="158.57452" fill="#ffffff" stroke-width=".072952">12</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="5.5589662" y="165.80263" style="line-height:1.25" xml:space="preserve"><tspan x="5.5589662" y="165.80263" fill="#ffffff" stroke-width=".072952">13</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="5.486587" y="172.98354" style="line-height:1.25" xml:space="preserve"><tspan x="5.486587" y="172.98354" fill="#ffffff" stroke-width=".072952">14</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="21.216141" y="160.29483" style="line-height:1.25" xml:space="preserve"><tspan x="21.216141" y="160.29483" fill="#ffffff" stroke-width=".072952">BOOT</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="5.4127736" y="180.01683" style="line-height:1.25" xml:space="preserve"><tspan x="5.4127736" y="180.01683" fill="#ffffff" stroke-width=".072952">5V</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="6.1445417" y="187.5623" style="line-height:1.25" xml:space="preserve"><tspan x="6.1445417" y="187.5623" fill="#ffffff" stroke-width=".072952">G</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="17.926455" y="115.20123" style="line-height:1.25" xml:space="preserve"><tspan x="17.926455" y="115.20123" fill="#ffffff" stroke-width=".072952">RGB</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="16.998285" y="187.377" style="line-height:1.25" xml:space="preserve"><tspan x="16.998285" y="187.377" fill="#ffffff" stroke-width=".072952">UART</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.909599" y="36.205132" style="line-height:1.25" xml:space="preserve"><tspan x="70.909599" y="36.205132" fill="#ffffff" stroke-width=".072952">G</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="71.187233" y="187.46443" style="line-height:1.25" xml:space="preserve"><tspan x="71.187233" y="187.46443" fill="#ffffff" stroke-width=".072952">G</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="71.30426" y="180.38033" style="line-height:1.25" xml:space="preserve"><tspan x="71.30426" y="180.38033" fill="#ffffff" stroke-width=".072952">G</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.251991" y="173.20792" style="line-height:1.25" xml:space="preserve"><tspan x="70.251991" y="173.20792" fill="#ffffff" stroke-width=".072952">19</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.442642" y="165.86302" style="line-height:1.25" xml:space="preserve"><tspan x="70.442642" y="165.86302" fill="#ffffff" stroke-width=".072952">20</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.43428" y="158.82101" style="line-height:1.25" xml:space="preserve"><tspan x="70.43428" y="158.82101" fill="#ffffff" stroke-width=".072952">21</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.29071" y="151.45039" style="line-height:1.25" xml:space="preserve"><tspan x="70.29071" y="151.45039" fill="#ffffff" stroke-width=".072952">47</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.349464" y="144.26813" style="line-height:1.25" xml:space="preserve"><tspan x="70.349464" y="144.26813" fill="#ffffff" stroke-width=".072952">48</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.403915" y="137.13428" style="line-height:1.25" xml:space="preserve"><tspan x="70.403915" y="137.13428" fill="#ffffff" stroke-width=".072952">45</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="71.184593" y="129.99908" style="line-height:1.25" xml:space="preserve"><tspan x="71.184593" y="129.99908" fill="#ffffff" stroke-width=".072952">0</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.205894" y="122.61545" style="line-height:1.25" xml:space="preserve"><tspan x="70.205894" y="122.61545" fill="#ffffff" stroke-width=".072952">35</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.198891" y="115.45087" style="line-height:1.25" xml:space="preserve"><tspan x="70.198891" y="115.45087" fill="#ffffff" stroke-width=".072952">36</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.370483" y="108.27093" style="line-height:1.25" xml:space="preserve"><tspan x="70.370483" y="108.27093" fill="#ffffff" stroke-width=".072952">37</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.317749" y="101.09933" style="line-height:1.25" xml:space="preserve"><tspan x="70.317749" y="101.09933" fill="#ffffff" stroke-width=".072952">38</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.138779" y="93.925415" style="line-height:1.25" xml:space="preserve"><tspan x="70.138779" y="93.925415" fill="#ffffff" stroke-width=".072952">39</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.483696" y="86.696053" style="line-height:1.25" xml:space="preserve"><tspan x="70.483696" y="86.696053" fill="#ffffff" stroke-width=".072952">40</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.29673" y="79.531479" style="line-height:1.25" xml:space="preserve"><tspan x="70.29673" y="79.531479" fill="#ffffff" stroke-width=".072952">41</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.37085" y="72.322159" style="line-height:1.25" xml:space="preserve"><tspan x="70.37085" y="72.322159" fill="#ffffff" stroke-width=".072952">42</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="71.250725" y="65.170609" style="line-height:1.25" xml:space="preserve"><tspan x="71.250725" y="65.170609" fill="#ffffff" stroke-width=".072952">2</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="71.402657" y="57.898834" style="line-height:1.25" xml:space="preserve"><tspan x="71.402657" y="57.898834" fill="#ffffff" stroke-width=".072952">1</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="69.796196" y="50.602367" style="line-height:1.25" xml:space="preserve"><tspan x="69.796196" y="50.602367" fill="#ffffff" stroke-width=".072952">RX</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="70.134109" y="43.355305" style="line-height:1.25" xml:space="preserve"><tspan x="70.134109" y="43.355305" fill="#ffffff" stroke-width=".072952">TX</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="55.431389" y="187.22548" style="line-height:1.25" xml:space="preserve"><tspan x="55.431389" y="187.22548" fill="#ffffff" stroke-width=".072952">USB</tspan></text>
+   <text fill="#ffffff" font-family="sans-serif" font-size="2.9181px" x="49.828423" y="160.43681" style="line-height:1.25" xml:space="preserve"><tspan x="49.828423" y="160.43681" fill="#ffffff" stroke-width=".072952">RESET</tspan></text>
  </g>
 </svg>

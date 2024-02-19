@@ -173,41 +173,41 @@
   <path d="m45.95 154.63h21.262l0.0391 14.176 0.80856 1.414v0.28519l-0.82418 3e-5 -1.3008-1.6992v1.6992h-18.707v-1.6992l-1.418 1.6992-0.71093-3e-5v-0.28519l0.81252-1.414z" fill="#9d9d9d"/>
  </g>
  <rect x="39.877" y="72.534" width="12.012" height="18.992" ry="0" fill="#1a1a1a"/>
- <g transform="translate(1.5806e-7 -3.5441)" fill="#fff" font-family="sans-serif" font-size="2.9181px" stroke-width=".072952">
-  <text x="0.97681993" y="28.910999" style="line-height:1.25" xml:space="preserve"><tspan x="0.97681993" y="28.910999" fill="#ffffff" stroke-width=".072952">3V3</tspan></text>
-  <text x="0.83436388" y="36.225239" style="line-height:1.25" xml:space="preserve"><tspan x="0.83436388" y="36.225239" fill="#ffffff" stroke-width=".072952">RST</tspan></text>
-  <text x="2.7478008" y="43.155098" style="line-height:1.25" xml:space="preserve"><tspan x="2.7478008" y="43.155098" fill="#ffffff" stroke-width=".072952">0</tspan></text>
-  <text x="2.7022076" y="50.471321" style="line-height:1.25" xml:space="preserve"><tspan x="2.7022076" y="50.471321" fill="#ffffff" stroke-width=".072952">1</tspan></text>
-  <text x="2.8578014" y="58.081795" style="line-height:1.25" xml:space="preserve"><tspan x="2.8578014" y="58.081795" fill="#ffffff" stroke-width=".072952">2</tspan></text>
-  <text x="3.1269054" y="65.317635" style="line-height:1.25" xml:space="preserve"><tspan x="3.1269054" y="65.317635" fill="#ffffff" stroke-width=".072952">3</tspan></text>
-  <text x="67.44014" y="50.556519" style="line-height:1.25" xml:space="preserve"><tspan x="67.44014" y="50.556519" fill="#ffffff" stroke-width=".072952">10</tspan></text>
-  <text x="68.410461" y="93.724892" style="line-height:1.25" xml:space="preserve"><tspan x="68.410461" y="93.724892" fill="#ffffff" stroke-width=".072952">G</tspan></text>
-  <text x="3.1631756" y="115.51633" style="line-height:1.25" xml:space="preserve"><tspan x="3.1631756" y="115.51633" fill="#ffffff" stroke-width=".072952">G</tspan></text>
-  <text x="2.9512463" y="86.667862" style="line-height:1.25" xml:space="preserve"><tspan x="2.9512463" y="86.667862" fill="#ffffff" stroke-width=".072952">4</tspan></text>
-  <text x="68.756653" y="100.99512" style="line-height:1.25" xml:space="preserve"><tspan x="68.756653" y="100.99512" fill="#ffffff" stroke-width=".072952">9</tspan></text>
-  <text x="2.878511" y="93.704338" style="line-height:1.25" xml:space="preserve"><tspan x="2.878511" y="93.704338" fill="#ffffff" stroke-width=".072952">5</tspan></text>
-  <text x="1.9464413" y="100.89297" style="line-height:1.25" xml:space="preserve"><tspan x="1.9464413" y="100.89297" fill="#ffffff" stroke-width=".072952">NC</tspan></text>
-  <text x="67.461494" y="122.89575" style="line-height:1.25" xml:space="preserve"><tspan x="67.461494" y="122.89575" fill="#ffffff" stroke-width=".072952">26</tspan></text>
-  <text x="67.595551" y="115.69137" style="line-height:1.25" xml:space="preserve"><tspan x="67.595551" y="115.69137" fill="#ffffff" stroke-width=".072952">27</tspan></text>
-  <text x="45.850266" y="127.21677" style="line-height:1.25" xml:space="preserve"><tspan x="45.850266" y="127.21677" fill="#ffffff" stroke-width=".072952">BOOT</tspan></text>
-  <text x="2.2773724" y="122.78873" style="line-height:1.25" xml:space="preserve"><tspan x="2.2773724" y="122.78873" fill="#ffffff" stroke-width=".072952">5V</tspan></text>
-  <text x="2.8824596" y="129.84567" style="line-height:1.25" xml:space="preserve"><tspan x="2.8824596" y="129.84567" fill="#ffffff" stroke-width=".072952">G</tspan></text>
-  <text transform="rotate(-90)" x="-119.60985" y="18.378141" style="line-height:1.25" xml:space="preserve"><tspan x="-119.60985" y="18.378141" fill="#ffffff" stroke-width=".072952">RGB@IO8</tspan></text>
-  <text x="68.407478" y="108.29233" style="line-height:1.25" xml:space="preserve"><tspan x="68.407478" y="108.29233" fill="#ffffff" stroke-width=".072952">G</tspan></text>
-  <text x="68.109573" y="129.73137" style="line-height:1.25" xml:space="preserve"><tspan x="68.109573" y="129.73137" fill="#ffffff" stroke-width=".072952">G</tspan></text>
-  <text x="68.280075" y="28.793234" style="line-height:1.25" xml:space="preserve"><tspan x="68.280075" y="28.793234" fill="#ffffff" stroke-width=".072952">G</tspan></text>
-  <text x="67.602875" y="86.572304" style="line-height:1.25" xml:space="preserve"><tspan x="67.602875" y="86.572304" fill="#ffffff" stroke-width=".072952">22</tspan></text>
-  <text x="68.82811" y="79.33329" style="line-height:1.25" xml:space="preserve"><tspan x="68.82811" y="79.33329" fill="#ffffff" stroke-width=".072952">8</tspan></text>
-  <text x="67.766235" y="72.126251" style="line-height:1.25" xml:space="preserve"><tspan x="67.766235" y="72.126251" fill="#ffffff" stroke-width=".072952">12</tspan></text>
-  <text x="67.656853" y="58.008362" style="line-height:1.25" xml:space="preserve"><tspan x="67.656853" y="58.008362" fill="#ffffff" stroke-width=".072952">11</tspan></text>
-  <text x="67.555916" y="65.353622" style="line-height:1.25" xml:space="preserve"><tspan x="67.555916" y="65.353622" fill="#ffffff" stroke-width=".072952">25</tspan></text>
-  <text x="0.68991828" y="72.271111" style="line-height:1.25" xml:space="preserve"><tspan x="0.68991828" y="72.271111" fill="#ffffff" stroke-width=".072952">13/N</tspan></text>
-  <text x="0.34677392" y="108.24482" style="line-height:1.25" xml:space="preserve"><tspan x="0.34677392" y="108.24482" fill="#ffffff" stroke-width=".072952">VBAT</tspan></text>
-  <text x="0.74565351" y="79.416649" style="line-height:1.25" xml:space="preserve"><tspan x="0.74565351" y="79.416649" fill="#ffffff" stroke-width=".072952">14/N</tspan></text>
-  <text x="67.2827" y="43.164516" style="line-height:1.25" xml:space="preserve"><tspan x="67.2827" y="43.164516" fill="#ffffff" stroke-width=".072952">RX</tspan></text>
-  <text x="67.463249" y="36.058372" style="line-height:1.25" xml:space="preserve"><tspan x="67.463249" y="36.058372" fill="#ffffff" stroke-width=".072952">TX</tspan></text>
-  <text x="20.058046" y="127.38113" style="line-height:1.25" xml:space="preserve"><tspan x="20.058046" y="127.38113" fill="#ffffff" stroke-width=".072952">RESET</tspan></text>
- </g>
+ <text transform="translate(1.5806e-7 -3.5441)" fill="#fff" font-family="sans-serif" font-size="2.9181px" stroke-width=".072952">
+  <tspan x="0.97681993" y="28.910999" style="line-height:1.25" xml:space="preserve"><tspan x="0.97681993" y="28.910999" fill="#ffffff" stroke-width=".072952">3V3</tspan></tspan>
+  <tspan x="0.83436388" y="36.225239" style="line-height:1.25" xml:space="preserve"><tspan x="0.83436388" y="36.225239" fill="#ffffff" stroke-width=".072952">RST</tspan></tspan>
+  <tspan x="2.7478008" y="43.155098" style="line-height:1.25" xml:space="preserve"><tspan x="2.7478008" y="43.155098" fill="#ffffff" stroke-width=".072952">0</tspan></tspan>
+  <tspan x="2.7022076" y="50.471321" style="line-height:1.25" xml:space="preserve"><tspan x="2.7022076" y="50.471321" fill="#ffffff" stroke-width=".072952">1</tspan></tspan>
+  <tspan x="2.8578014" y="58.081795" style="line-height:1.25" xml:space="preserve"><tspan x="2.8578014" y="58.081795" fill="#ffffff" stroke-width=".072952">2</tspan></tspan>
+  <tspan x="3.1269054" y="65.317635" style="line-height:1.25" xml:space="preserve"><tspan x="3.1269054" y="65.317635" fill="#ffffff" stroke-width=".072952">3</tspan></tspan>
+  <tspan x="67.44014" y="50.556519" style="line-height:1.25" xml:space="preserve"><tspan x="67.44014" y="50.556519" fill="#ffffff" stroke-width=".072952">10</tspan></tspan>
+  <tspan x="68.410461" y="93.724892" style="line-height:1.25" xml:space="preserve"><tspan x="68.410461" y="93.724892" fill="#ffffff" stroke-width=".072952">G</tspan></tspan>
+  <tspan x="3.1631756" y="115.51633" style="line-height:1.25" xml:space="preserve"><tspan x="3.1631756" y="115.51633" fill="#ffffff" stroke-width=".072952">G</tspan></tspan>
+  <tspan x="2.9512463" y="86.667862" style="line-height:1.25" xml:space="preserve"><tspan x="2.9512463" y="86.667862" fill="#ffffff" stroke-width=".072952">4</tspan></tspan>
+  <tspan x="68.756653" y="100.99512" style="line-height:1.25" xml:space="preserve"><tspan x="68.756653" y="100.99512" fill="#ffffff" stroke-width=".072952">9</tspan></tspan>
+  <tspan x="2.878511" y="93.704338" style="line-height:1.25" xml:space="preserve"><tspan x="2.878511" y="93.704338" fill="#ffffff" stroke-width=".072952">5</tspan></tspan>
+  <tspan x="1.9464413" y="100.89297" style="line-height:1.25" xml:space="preserve"><tspan x="1.9464413" y="100.89297" fill="#ffffff" stroke-width=".072952">NC</tspan></tspan>
+  <tspan x="67.461494" y="122.89575" style="line-height:1.25" xml:space="preserve"><tspan x="67.461494" y="122.89575" fill="#ffffff" stroke-width=".072952">26</tspan></tspan>
+  <tspan x="67.595551" y="115.69137" style="line-height:1.25" xml:space="preserve"><tspan x="67.595551" y="115.69137" fill="#ffffff" stroke-width=".072952">27</tspan></tspan>
+  <tspan x="45.850266" y="127.21677" style="line-height:1.25" xml:space="preserve"><tspan x="45.850266" y="127.21677" fill="#ffffff" stroke-width=".072952">BOOT</tspan></tspan>
+  <tspan x="2.2773724" y="122.78873" style="line-height:1.25" xml:space="preserve"><tspan x="2.2773724" y="122.78873" fill="#ffffff" stroke-width=".072952">5V</tspan></tspan>
+  <tspan x="2.8824596" y="129.84567" style="line-height:1.25" xml:space="preserve"><tspan x="2.8824596" y="129.84567" fill="#ffffff" stroke-width=".072952">G</tspan></tspan>
+  <tspan transform="rotate(-90)" x="-119.60985" y="18.378141" style="line-height:1.25" xml:space="preserve"><tspan x="-119.60985" y="18.378141" fill="#ffffff" stroke-width=".072952">RGB@IO8</tspan></tspan>
+  <tspan x="68.407478" y="108.29233" style="line-height:1.25" xml:space="preserve"><tspan x="68.407478" y="108.29233" fill="#ffffff" stroke-width=".072952">G</tspan></tspan>
+  <tspan x="68.109573" y="129.73137" style="line-height:1.25" xml:space="preserve"><tspan x="68.109573" y="129.73137" fill="#ffffff" stroke-width=".072952">G</tspan></tspan>
+  <tspan x="68.280075" y="28.793234" style="line-height:1.25" xml:space="preserve"><tspan x="68.280075" y="28.793234" fill="#ffffff" stroke-width=".072952">G</tspan></tspan>
+  <tspan x="67.602875" y="86.572304" style="line-height:1.25" xml:space="preserve"><tspan x="67.602875" y="86.572304" fill="#ffffff" stroke-width=".072952">22</tspan></tspan>
+  <tspan x="68.82811" y="79.33329" style="line-height:1.25" xml:space="preserve"><tspan x="68.82811" y="79.33329" fill="#ffffff" stroke-width=".072952">8</tspan></tspan>
+  <tspan x="67.766235" y="72.126251" style="line-height:1.25" xml:space="preserve"><tspan x="67.766235" y="72.126251" fill="#ffffff" stroke-width=".072952">12</tspan></tspan>
+  <tspan x="67.656853" y="58.008362" style="line-height:1.25" xml:space="preserve"><tspan x="67.656853" y="58.008362" fill="#ffffff" stroke-width=".072952">11</tspan></tspan>
+  <tspan x="67.555916" y="65.353622" style="line-height:1.25" xml:space="preserve"><tspan x="67.555916" y="65.353622" fill="#ffffff" stroke-width=".072952">25</tspan></tspan>
+  <tspan x="0.68991828" y="72.271111" style="line-height:1.25" xml:space="preserve"><tspan x="0.68991828" y="72.271111" fill="#ffffff" stroke-width=".072952">13/N</tspan></tspan>
+  <tspan x="0.34677392" y="108.24482" style="line-height:1.25" xml:space="preserve"><tspan x="0.34677392" y="108.24482" fill="#ffffff" stroke-width=".072952">VBAT</tspan></tspan>
+  <tspan x="0.74565351" y="79.416649" style="line-height:1.25" xml:space="preserve"><tspan x="0.74565351" y="79.416649" fill="#ffffff" stroke-width=".072952">14/N</tspan></tspan>
+  <tspan x="67.2827" y="43.164516" style="line-height:1.25" xml:space="preserve"><tspan x="67.2827" y="43.164516" fill="#ffffff" stroke-width=".072952">RX</tspan></tspan>
+  <tspan x="67.463249" y="36.058372" style="line-height:1.25" xml:space="preserve"><tspan x="67.463249" y="36.058372" fill="#ffffff" stroke-width=".072952">TX</tspan></tspan>
+  <tspan x="20.058046" y="127.38113" style="line-height:1.25" xml:space="preserve"><tspan x="20.058046" y="127.38113" fill="#ffffff" stroke-width=".072952">RESET</tspan></tspan>
+ </text>
  <rect x="12.152" y="75.219" width="16.893" height="7.3512" fill="none" stroke="#ccc" stroke-width=".3536" style="paint-order:stroke markers fill"/>
  <rect x="21.75" y="76.549" width="4.6596" height="4.8537" fill="#ffd700" style="paint-order:stroke markers fill"/>
  <ellipse cx="17.056" cy="78.906" rx="2.7811" ry="2.7746" fill="#ffd700" style="paint-order:stroke markers fill"/>

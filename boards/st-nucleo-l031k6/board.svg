@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="70.904" height="197.55" version="1.1" viewBox="0 0 18.76 52.269" xmlns="http://www.w3.org/2000/svg">
  <path d="m0 0.955h18.76v50.753h-18.76z" fill="#f6f6f6"/>
- <g fill="#0084ff" font-family="sans-serif" font-size=".766" stroke-width=".019">
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="122.813" y="-77.228" >D9</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="120.341" y="-77.344" >D8</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="117.916" y="-77.527" >D7</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="112.879" y="-77.798" >D5</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="115.328" y="-77.7" >D6</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="110.33" y="-77.946" >D4</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="107.871" y="-78.24" >D3</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="105.607" y="-78.391" >D2</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="102.696" y="-78.585" >GND</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="100.291" y="-78.745" >RST</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="97.335" y="-78.877" >D0/RX</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="94.527" y="-79.086" >D1/TX</text>
- </g>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="122.813" y="-77.228" >D9</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="120.341" y="-77.344" >D8</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="117.916" y="-77.527" >D7</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="112.879" y="-77.798" >D5</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="115.328" y="-77.7" >D6</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="110.33" y="-77.946" >D4</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="107.871" y="-78.24" >D3</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="105.607" y="-78.391" >D2</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="102.696" y="-78.585" >GND</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="100.291" y="-78.745" >RST</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="97.335" y="-78.877" >D0/RX</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="94.527" y="-79.086" >D1/TX</text>
  <g transform="translate(-79.546 -84.573)" fill="#b3b3b3" stroke-linecap="round" stroke-linejoin="round" stroke-width=".429">
   <circle cx="96.672" cy="114.95" r=".726"/>
   <circle cx="96.672" cy="117.49" r=".726"/>
@@ -64,15 +62,13 @@
   <path d="m13.592 47.877h0.227v3.583h-0.227zm1.533 0h0.195v3.583h-0.195z"/>
   <path d="m13.592 47.877h1.554v0.158h-1.554zm0 3.39h1.54v0.183h-1.54z"/>
  </g>
- <g fill="#0285ff" font-family="sans-serif" font-size=".766" stroke-width=".019">
-  <text transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="78.293" y="140.345" >LD2</text>
-  <text transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="78.117" y="89.5" >LD1</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="96.281" y="-92.362" >VIN</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="98.576" y="-92.215" >GND</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="101.065" y="-92.092" >RST</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="104.04" y="-91.959" >5V</text>
-  <text transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="92.148" y="140.348" >LD3</text>
- </g>
+  <text fill="#0285ff" font-family="sans-serif" font-size=".766" transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="78.293" y="140.345" >LD2</text>
+  <text fill="#0285ff" font-family="sans-serif" font-size=".766" transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="78.117" y="89.5" >LD1</text>
+  <text fill="#0285ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="96.281" y="-92.362" >VIN</text>
+  <text fill="#0285ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="98.576" y="-92.215" >GND</text>
+  <text fill="#0285ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="101.065" y="-92.092" >RST</text>
+  <text fill="#0285ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="104.04" y="-91.959" >5V</text>
+  <text fill="#0285ff" font-family="sans-serif" font-size=".766" transform="matrix(1.0337 0 0 .96739 -79.546 -84.573)" x="92.148" y="140.348" >LD3</text>
  <g stroke-linecap="round" stroke-linejoin="round" stroke-width=".429">
   <path d="M7.439 48.717h3.864v2.398H7.439z" fill="#d0d0d0"/>
   <path d="M7.868 49.087h2.887v1.466H7.868z" fill="#ffd42a" opacity=".4"/>
@@ -93,23 +89,21 @@
   <path d="M81.315 87.731h.13v2.377h-.13z" fill="#d8d8d8"/>
   <path d="M82.532 88.833v.13l-2.378-.01v-.13z" fill="#d8d8d8"/>
  </g>
- <g fill="#0084ff" font-family="sans-serif" font-size=".766" stroke-width=".019">
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="106.243" y="-91.791">A7</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="108.919" y="-91.582">A6</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="111.302" y="-91.379">A5</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="113.727" y="-91.218">A4</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="116.326" y="-90.893">A3</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="118.716" y="-90.798" >A2</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="121.198" y="-90.568" >A1</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="106.243" y="-91.791">A7</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="108.919" y="-91.582">A6</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="111.302" y="-91.379">A5</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="113.727" y="-91.218">A4</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="116.326" y="-90.893">A3</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="118.716" y="-90.798" >A2</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="121.198" y="-90.568" >A1</text>
   <g font-size=".76602px" stroke-width=".019">
-   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="37.203503" y="-13.578688" >A0</text>
-   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="39.307266" y="-13.459794" >REF</text>
-   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="41.817982" y="-13.3571" >3V3</text>
-   <text transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="44.288143" y="-13.257284" >D13</text>
-  </g>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="130.27" y="-76.687">D12</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="127.704" y="-76.88">D11</text>
-  <text transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="125.155" y="-77.028">D10</text>
+   <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="37.203503" y="-13.578688" >A0</text>
+   <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="39.307266" y="-13.459794" >REF</text>
+   <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="41.817982" y="-13.3571" >3V3</text>
+   <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.061729 1.0319 -.96565 .057769 0 0)" x="44.288143" y="-13.257284" >D13</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="130.27" y="-76.687">D12</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="127.704" y="-76.88">D11</text>
+  <text fill="#0084ff" font-family="sans-serif" font-size=".766" transform="matrix(.06173 1.0319 -.96567 .05777 -79.546 -84.573)" x="125.155" y="-77.028">D10</text>
  </g>
  <text x="5" y="43.87949" fill="#4d4d4d" font-family="sans-serif" font-size="2.5411px" stroke-width=".063527" >L031K6</text>
 </svg>
