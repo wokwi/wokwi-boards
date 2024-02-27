@@ -1,0 +1,25 @@
+{
+  "name": "ILI9981C 8 inch MIPI DSI2 800x1280 display",
+  "version": 1,
+  "description": "Experimental MIPI DSI2 display panel with ILI9881C driver chip.",
+  "author": "Uri Shaked",
+  "width": 133.586,
+  "height": 194.078,
+
+  "pins": {
+    /* No pins - the DSI interface is handled internally by the display chip */
+  },
+
+  "displays": [
+    {
+      "id": "lcd1",
+      "x": 11.657,
+      "y": 11.972,
+      "width": 110.271,
+      "height": 171.078,
+      "pixelWidth": 800,
+      "pixelHeight": 1280,
+      "chip": "ili9881c"
+    }
+  ]
+}
