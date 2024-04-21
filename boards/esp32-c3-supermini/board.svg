@@ -1,8 +1,8 @@
-<svg viewBox="181.4 290.1073 100 129.7927" width="25.4mm" height="42.9mm" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="181.4 290.1073 100 129.7927" width="18mm" height="22.5mm" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <rect x="181.4" y="297.9" width="100" height="122" style="fill: rgb(77, 77, 77);" transform="matrix(1, 0, 0, 1, -1.4210854715202004e-14, 0)">
     <title>Board Base</title>
   </rect>
-  <g fill="#ffd700" fill-rule="evenodd" transform="matrix(0.093325994909, 0, 0.002855000086, 0.141629979014, 75.511071289047, 656.726679464063)" style="transform-origin: 155.361px -301.5px;">
+  <g fill="#ffd700" fill-rule="evenodd" transform="matrix(0.093325994909, 0, 0, 0.141629979014, 75.511071289047, 656.726679464063)" style="transform-origin: 155.361px -301.5px;">
     <title>GPIO</title>
     <path d="M -253.779 -643 C -253.779 -680.8 -339.5 -680.8 -339.5 -643 C -339.5 -605.2 -253.779 -605.2 -253.779 -643" style=""/>
     <path d="M -253.779 -546 C -253.779 -583.8 -339.5 -583.8 -339.5 -546 C -339.5 -508.2 -253.779 -508.2 -253.779 -546" style=""/>
