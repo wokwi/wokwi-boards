@@ -1,0 +1,153 @@
+<svg viewBox="181.4 290.1073 100 129.7927" width="25.4mm" height="42.9mm" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect x="181.4" y="297.9" width="100" height="122" style="fill: rgb(77, 77, 77);" transform="matrix(1, 0, 0, 1, -1.4210854715202004e-14, 0)">
+    <title>Board Base</title>
+  </rect>
+  <g fill="#ffd700" fill-rule="evenodd" transform="matrix(0.093325994909, 0, 0.002855000086, 0.141629979014, 75.511071289047, 656.726679464063)" style="transform-origin: 155.361px -301.5px;">
+    <title>GPIO</title>
+    <path d="M -253.779 -643 C -253.779 -680.8 -339.5 -680.8 -339.5 -643 C -339.5 -605.2 -253.779 -605.2 -253.779 -643" style=""/>
+    <path d="M -253.779 -546 C -253.779 -583.8 -339.5 -583.8 -339.5 -546 C -339.5 -508.2 -253.779 -508.2 -253.779 -546" style=""/>
+    <path d="M -253.779 -448 C -253.779 -485.8 -339.5 -485.8 -339.5 -448 C -339.5 -410.2 -253.779 -410.2 -253.779 -448" style=""/>
+    <path d="M -253.779 -350 C -253.779 -387.8 -339.5 -387.8 -339.5 -350 C -339.5 -312.2 -253.779 -312.2 -253.779 -350" style=""/>
+    <path d="M -253.779 -253 C -253.779 -290.8 -339.5 -290.8 -339.5 -253 C -339.5 -215.2 -253.779 -215.2 -253.779 -253" style=""/>
+    <path d="M -253.779 -155 C -253.779 -192.8 -339.5 -192.8 -339.5 -155 C -339.5 -117.2 -253.779 -117.2 -253.779 -155" style=""/>
+    <path d="M -253.779 -57.6 C -253.779 -95.4 -339.5 -95.4 -339.5 -57.6 C -339.5 -19.8 -253.779 -19.8 -253.779 -57.6" style=""/>
+    <path d="M -253.779 40 C -253.779 2.2 -339.5 2.2 -339.5 40 C -339.5 77.8 -253.779 77.8 -253.779 40" style=""/>
+    <path d="M 650.221 -643 C 650.221 -680.8 564.5 -680.8 564.5 -643 C 564.5 -605.2 650.221 -605.2 650.221 -643" style=""/>
+    <path d="M 650.221 -546 C 650.221 -583.8 564.5 -583.8 564.5 -546 C 564.5 -508.2 650.221 -508.2 650.221 -546" style=""/>
+    <path d="M 650.221 -448 C 650.221 -485.8 564.5 -485.8 564.5 -448 C 564.5 -410.2 650.221 -410.2 650.221 -448" style=""/>
+    <path d="M 650.221 -350 C 650.221 -387.8 564.5 -387.8 564.5 -350 C 564.5 -312.2 650.221 -312.2 650.221 -350" style=""/>
+    <path d="M 650.221 -253 C 650.221 -290.8 564.5 -290.8 564.5 -253 C 564.5 -215.2 650.221 -215.2 650.221 -253" style=""/>
+    <path d="M 650.221 -155 C 650.221 -192.8 564.5 -192.8 564.5 -155 C 564.5 -117.2 650.221 -117.2 650.221 -155" style=""/>
+    <path d="M 650.221 -57.6 C 650.221 -95.4 564.5 -95.4 564.5 -57.6 C 564.5 -19.8 650.221 -19.8 650.221 -57.6" style=""/>
+    <path d="M 650.221 40 C 650.221 2.2 564.5 2.2 564.5 40 C 564.5 77.8 650.221 77.8 650.221 40" style=""/>
+  </g>
+  <g transform="matrix(-5.490159988403, 0, 0, -5.490159988403, 119.250134362904, 168.23992846896)" style="transform-origin: 112.009px 143.872px;">
+    <title>USB-C Port</title>
+    <path style="fill:#ccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:.352778" d="M 108.509 141.014 L 109.108 141.014 L 109.108 139.864 L 108.508 139.864 L 108.509 141.014 Z M 109.308 141.014 L 109.908 141.014 L 109.908 139.864 L 109.308 139.864 L 109.308 141.014 Z M 110.609 141.014 L 110.909 141.014 L 110.909 139.864 L 110.609 139.864 L 110.609 141.014 Z M 111.609 141.014 L 111.909 141.014 L 111.909 139.864 L 111.609 139.864 L 111.609 141.014 Z M 112.108 141.014 L 112.408 141.014 L 112.408 139.864 L 112.108 139.864 L 112.108 141.014 Z M 113.109 141.014 L 113.409 141.014 L 113.409 139.864 L 113.109 139.864 L 113.109 141.014 Z M 114.909 141.014 L 115.508 141.014 L 115.508 139.864 L 114.908 139.864 L 114.909 141.014 Z M 114.109 141.014 L 114.709 141.014 L 114.709 139.864 L 114.109 139.864 L 114.109 141.014 Z M 113.609 141.014 L 113.909 141.014 L 113.909 139.864 L 113.609 139.864 L 113.609 141.014 Z M 112.609 141.014 L 112.909 141.014 L 112.909 139.864 L 112.609 139.864 L 112.609 141.014 Z M 111.109 141.014 L 111.409 141.014 L 111.409 139.864 L 111.109 139.864 L 111.109 141.014 Z M 110.109 141.014 L 110.409 141.014 L 110.409 139.864 L 110.109 139.864 L 110.109 141.014 Z M 108.214 140.489 C 108.214 139.789 107.164 139.789 107.164 140.489 L 107.164 141.539 C 107.164 142.239 108.214 142.239 108.214 141.539 L 108.214 140.489 M 108.189 144.693 C 108.189 144.026 107.189 144.026 107.189 144.693 L 107.189 145.693 C 107.189 146.361 108.189 146.361 108.189 145.693 L 108.189 144.693 M 116.829 144.693 C 116.829 144.026 115.829 144.026 115.829 144.693 L 115.829 145.693 C 115.829 146.361 116.829 146.361 116.829 145.693 L 116.829 144.693 M 116.854 140.489 C 116.854 139.789 115.804 139.789 115.804 140.489 L 115.804 141.539 C 115.804 142.239 116.854 142.239 116.854 141.539 L 116.854 140.489"/>
+    <rect style="opacity:.999;fill:#9d9d9d;fill-opacity:1;stroke-width:.592526" width="9.376" height="7.492" x="107.32" y="140.388" ry="0.297"/>
+    <rect style="opacity:.999;fill:#b3b3b3;fill-opacity:1;stroke-width:.665" width="1.734" height="0.638" x="110.879" y="128.115" ry="0.293" transform="matrix(1, 0, 0, 1, -1.571062, 13.853168)"/>
+    <rect style="opacity:.999;fill:#666;fill-opacity:1;stroke-width:.863191" width="1.734" height="1.076" x="109.907" y="140.084" ry="0.494" transform="matrix(1, 0, 0, 1, 0, 0.565486)"/>
+    <rect style="opacity:.999;fill:#666;fill-opacity:1;stroke-width:.863191" width="1.734" height="1.076" x="112.375" y="140.65" ry="0.494"/>
+    <rect style="opacity:.999;fill:#b3b3b3;fill-opacity:1;stroke-width:.665" width="1.734" height="0.638" x="114.545" y="128.115" ry="0.293" transform="matrix(1, 0, 0, 1, -1.571062, 13.853168)"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, -1.4210854715202004e-14, 0)">
+    <title>Buttons</title>
+    <g>
+      <title>BOOT</title>
+      <rect x="201.945" y="340.402" width="6.208" height="8.924" style="fill: rgb(216, 216, 216);"/>
+      <rect x="222.296" y="340.393" width="6.208" height="8.924" style="fill: rgb(216, 216, 216);"/>
+      <rect x="-5.761" y="132.898" width="14.81" height="19.629" ry="2.86" fill="#c7c7c7" style="transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0, 1, -1, 0, 213.591351, 202.09682)"/>
+      <ellipse style="fill: rgb(26, 26, 26); transform-box: fill-box; transform-origin: 46.7369% 50%;" cx="215.29" cy="344.823" rx="6.794" ry="6.794"/>
+    </g>
+    <g>
+      <title>RST</title>
+      <rect x="252.755" y="340.452" width="6.208" height="8.924" style="fill: rgb(216, 216, 216);"/>
+      <rect x="232.944" y="340.296" width="6.208" height="8.924" style="fill: rgb(216, 216, 216);"/>
+      <rect x="-5.761" y="132.898" width="14.81" height="19.629" ry="2.86" fill="#c7c7c7" style="transform-origin: 1.644px 142.712px;" transform="matrix(0, 1, -1, 0, 244.169708, 202.133759)"/>
+      <ellipse style="fill: rgb(26, 26, 26); transform-origin: 245.425px 344.86px;" cx="245.868" cy="344.86" rx="6.794" ry="6.794"/>
+    </g>
+  </g>
+  <g transform="matrix(0.131771981716, 0.131771981716, -0.131771981716, 0.131771981716, 178.64002218348, 56.252989647665)" style="transform-origin: 57.15px 321.4px;">
+    <title>CHIP</title>
+    <rect x="-21.6" y="242" width="158" height="158" ry="0" fill="#1a1a1a"/>
+    <text transform="matrix(0.998, 0, 0, 1, 0, 0)" x="-1.8370414" y="333.28836" fill="#333333" font-size="33.8px" stroke-width="2.12" style="white-space: pre;"><tspan x="-1.8370414" y="333.28836" fill="#333333" stroke-width="2.12">CP2102</tspan></text>
+    <g fill="#ccc" fill-rule="evenodd">
+      <path d="m98.6 262h9.2v-29.2h-9.2z"/>
+      <path d="m83.2 262h9.2v-29.2h-9.2z"/>
+      <path d="m67.9 262h9.2v-29.2h-9.2z"/>
+      <path d="m52.6 262h9.2v-29.2h-9.2z"/>
+      <path d="m37.3 262h9.2v-29.2h-9.2z"/>
+      <path d="m22 262h9.2v-29.2h-9.2z"/>
+      <path d="m6.71 262h9.2v-29.2h-9.2z"/>
+      <path d="m6.71 410h9.2v-29.2h-9.2z"/>
+      <path d="m22 410h9.2v-29.2h-9.2z"/>
+      <path d="m37.3 410h9.2v-29.2h-9.2z"/>
+      <path d="m52.6 410h9.2v-29.2h-9.2z"/>
+      <path d="m67.9 410h9.2v-29.2h-9.2z"/>
+      <path d="m83.2 410h9.2v-29.2h-9.2z"/>
+      <path d="m98.6 410h9.2v-29.2h-9.2z"/>
+      <path d="m-30.8 280h29.1v-9.23h-29.1z"/>
+      <path d="m-30.8 295h29.1v-9.23h-29.1z"/>
+      <path d="m-30.8 311h29.1v-9.23h-29.1z"/>
+      <path d="m-30.8 326h29.1v-9.23h-29.1z"/>
+      <path d="m-30.8 341h29.1v-9.23h-29.1z"/>
+      <path d="m-30.8 357h29.1v-9.23h-29.1z"/>
+      <path d="m-30.8 372h29.1v-9.23h-29.1z"/>
+      <path d="m116 372h29.1v-9.23h-29.1z"/>
+      <path d="m116 357h29.1v-9.23h-29.1z"/>
+      <path d="m116 341h29.1v-9.23h-29.1z"/>
+      <path d="m116 326h29.1v-9.23h-29.1z"/>
+      <path d="m116 311h29.1v-9.23h-29.1z"/>
+      <path d="m116 295h29.1v-9.23h-29.1z"/>
+      <path d="m116 280h29.1v-9.23h-29.1z"/>
+      <path d="m6.71 372h101v-101h-101z"/>
+    </g>
+    <g fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.9">
+      <path d="m136 263v138"/>
+      <path d="m136 401h-158"/>
+      <path d="m-21.6 401v-158"/>
+      <path d="m-21.6 242h137"/>
+      <path d="m116 242 20.5 20.6"/>
+    </g>
+    <rect x="-21.6" y="242" width="158" height="158" ry="0" fill="#1a1a1a"/>
+    <g stroke-width="9.34" transform="matrix(-0.258128, 0.258128, -0.258128, -0.258128, -48.717613, 186.470261)" style="">
+      <title>Expressif Logo</title>
+      <path class="cls-1" d="m106-417a13.8 13.9 0 1 1-13.8-13.9 13.8 13.9 0 0 1 13.8 13.9"/>
+      <path class="cls-1" d="m227-431a143 144 0 0 0-121-122 90.7 91.1 0 0 0-20 14.5v13.4a114 114 0 0 1 113 114h13.3a95.6 95.9 0 0 0 14.5-20"/>
+      <path class="cls-1" d="m238-473a89.7 90 0 0 0-90.2-90c-3.17 0-6.25 0-9.32 0.468l-2.05 5.99a154 155 0 0 1 94.5 94.8l5.97-2.15c0-3 0.56-5.99 0.56-9.36"/>
+      <path class="cls-1" d="m148-367a107 107 0 0 1-107-107 106 106 0 0 1 31.2-75.7l6.06 5.71a98.5 98.8 0 0 0 0 140 98.5 98.8 0 0 0 140 0l5.69 5.71a106 106 0 0 1-76.2 30.5"/>
+      <path class="cls-1" d="m147-405a62 62.2 0 0 0-24.3-55.3 60.7 60.9 0 0 0-31.2-12.7 5.69 5.71 0 0 1-4.94-5.99 5.5 5.52 0 0 1 6.06-5.05 73.2 73.5 0 0 1 65.3 80.3 63.9 64.1 0 0 1-2.42 12.6l16.2 4.59a90.1 90.4 0 0 0 14-5.34 99.2 99.6 0 0 0 1.77-19.2 103 103 0 0 0-87-102 45.1 45.3 0 0 0-16.3 0 35.5 35.7 0 0 0-17.6 11 34.9 35 0 0 0 15.6 56.2 80.7 81.1 0 0 0 8.76 1.59 32.7 32.9 0 0 1 27.2 32.4 32.4 32.5 0 0 1-5.22 17.7l11.2 7.21a83.1 83.4 0 0 0 16.8 2.81 61.4 61.6 0 0 0 6.15-21.5"/>
+    </g>
+  </g>
+  <g transform="matrix(0.09840000420808792, 0, 0, 0.09840000420808792, 155.9489288330078, 378.4642028808594)">
+    <title>Component</title>
+    <g fill="#f2f2f2" transform="matrix(0, -0.630673, 0.630673, 0, 381.480713, -202.816406)" style="transform-origin: 100.051px 74.803px;">
+      <rect x="-21.7" y="-35.5" width="97.9" height="39.5" ry=".225"/>
+      <rect x="-21.7" y="145" width="97.9" height="39.5" ry=".225"/>
+      <rect x="123.902" y="-34.894" width="97.9" height="39.5" ry="0.225"/>
+      <rect x="123.902" y="55.206" width="97.9" height="39.5" ry="0.225"/>
+      <rect x="123.902" y="145.606" width="97.9" height="39.5" ry="0.225"/>
+    </g>
+    <rect x="200.413" y="-52.231" width="85.141" height="146.947" ry="1.33" fill="#1a1a1a" style="transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0, -1, 1, 0, 238.230816, -148.214905)"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, -1.4210854715202004e-14, 0)">
+    <title>Component</title>
+    <rect x="197.36" y="392.184" width="14.526" height="10.29" style="fill: rgb(216, 216, 216);"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, -1.4210854715202004e-14, 0)">
+    <title>LEDs</title>
+    <g transform="matrix(0, -0.0984, 0.0984, 0, 220.608643, 339.874695)">
+      <title>GPIO 8</title>
+      <path d="m-199 406h26v-26.1h-26z" fill="#ccc" fill-rule="evenodd"/>
+      <path d="M -199 357 L -173 357 L -173 330.9 L -199 330.9 L -199 357 Z" fill="#ccc" fill-rule="evenodd" opacity=".992"/>
+      <rect x="-203" y="341" width="32.3" height="56.3" fill="#e3dedb" opacity=".992" ry="0"/>
+    </g>
+    <g transform="matrix(0.0984, 0, 0, 0.0984, 217.371063, 290.130371)">
+      <title>Power LED</title>
+      <path d="m-199 406h26v-26.1h-26z" fill="#ccc" fill-rule="evenodd"/>
+      <path d="M -199 357 L -173 357 L -173 330.9 L -199 330.9 L -199 357 Z" fill="#ccc" fill-rule="evenodd" opacity=".992"/>
+      <rect x="-203" y="341" width="32.3" height="56.3" fill="#e3dedb" opacity=".992" ry="0"/>
+    </g>
+  </g>
+  <g transform="matrix(0, -0.09840000420808792, 0.09840000420808792, 0, 220.608642578125, 339.87469482421875)" style="">
+    <title>Antenna</title>
+    <rect x="1814.747" y="2055.845" width="277.89" height="122.284" style="fill: rgb(184, 6, 6);" transform="matrix(0, 1, -1, 0, 1373.063232, -1854.459473)"/>
+    <rect x="375.867" y="2055.845" width="57.556" height="122.284" style="fill: rgb(255, 255, 255);" transform="matrix(0, 1, -1, 0, 1373.198608, -214.75351)"/>
+    <rect x="375.867" y="2055.845" width="57.556" height="122.284" style="fill: rgb(199, 199, 199);" transform="matrix(0, 1, -1, 0, 1372.745972, -140.024368)"/>
+    <rect x="375.867" y="2055.845" width="57.556" height="122.284" style="fill: rgb(199, 199, 199);" transform="matrix(0, 1, -1, 0, 1373.207397, -473.391052)"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, -1.4210854715202004e-14, 0)">
+    <title>Text</title>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 6.5px; white-space: pre;" x="260.207" y="323.063">G</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 7.2px; white-space: pre;" x="259.251" y="309.046" transform="matrix(0.843823, 0, 0, 0.843823, 40.283913, 48.538696)">5V<tspan x="259.2510070800781" dy="1em">​</tspan><tspan x="259.2510070800781" dy="1em">​</tspan></text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 7.2px; white-space: pre;" x="259.251" y="309.046" transform="matrix(0.843823, 0, 0, 0.843823, 39.68013, 75.926003)">3.3<tspan x="259.2510070800781" dy="1em">​</tspan></text>
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="259.997" y="321.353"> </text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 7.2px; white-space: pre; transform-box: fill-box; transform-origin: 50% 50%;" x="259.251" y="309.046" transform="matrix(0, -0.791173, 0.791173, 0, -2.820797, 39.758274)">RST<tspan x="259.2510070800781" dy="1em">​</tspan><tspan x="259.2510070800781" dy="1em">​</tspan></text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 7.2px; white-space: pre; transform-origin: 266.451px 306.562px;" x="259.251" y="309.046" transform="matrix(0, -0.809169, 0.809169, 0, -68.835068, 41.355789)">BOOT<tspan x="259.2510070800781" dy="1em">​</tspan></text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 7.2px; white-space: pre;" x="259.251" y="309.046" transform="matrix(0.69807, 0, 0, 0.69807, 13.567397, 119.53447)">PW<tspan x="259.2510070800781" dy="1em">​</tspan><tspan x="259.2510070800781" dy="1em">​</tspan></text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 7.2px; white-space: pre;" x="259.251" y="309.046" transform="matrix(0.791173, 0, 0, 0.791173, 50.229027, 121.060326)">8<tspan x="259.2510070800781" dy="1em">​</tspan><tspan x="259.2510070800781" dy="1em">​</tspan></text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 7.2px; white-space: pre;" x="259.251" y="309.046" transform="matrix(1.035849, 0, 0, 1.035849, 3.493536, 95.847664)">0<tspan x="259.2510070800781" dy="1em">​</tspan><tspan x="259.2510070800781" dy="1em">​</tspan></text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 7.2px; white-space: pre;" x="259.251" y="309.046" transform="matrix(1.035849, 0, 0, 1.035849, -83.083755, 95.636749)">21<tspan x="259.2510070800781" dy="1em">​</tspan></text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 7.2px; white-space: pre; transform-box: fill-box; transform-origin: 50% 50%;" x="259.251" y="309.046" transform="matrix(-0.957374, 0, 0, -0.957374, -33.81802, 106.255493)">C3<tspan x="259.2510070800781" dy="1em">​</tspan></text>
+  </g>
+</svg>
