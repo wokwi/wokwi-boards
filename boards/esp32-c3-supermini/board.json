@@ -1,0 +1,110 @@
+{
+  /* The name of the board */
+  "name": "ESP32-C3-SuperMini",
+
+  /* Board version. Increment it whenever you make changes. */
+  "version": 1,
+
+  /* One-liner description of the board, it's capabilities, etc. */
+  "description": "An entry-level small form factor ESP32-C3 development board",
+
+  /* The name of the person who created this file */
+  "author": "Louis Ayme Vernon",
+
+  /* Microcontroller name. Valid values: atmega328p, atmega2560, attiny85, rp2040, esp32 */
+  "mcu": "esp32-c3",
+
+  /* Fully Qualified Board Name (FQBN) for the Arduino CLI */
+  "fqbn": "esp32:esp32:esp32c3",
+
+  /* Width of the board graphics, in mm. Must match the width defined in board.svg */
+  "width": 18,
+
+  /* Height of the board graphics, in mm. Must match the height defined in board.svg */
+  "height": 22.5,
+
+  /* The pins available on the board.
+     "x"/"y" positions are in mm, and are relative to the top-left corner of the board.
+     "target" is either:
+     - an MCU pin name
+     - "GND" for ground
+     - "power(n)" for power supply pins, where n is the voltage. e.g. "power(3.3)"
+  */
+  "pins": {
+    "A3":     { "x": 1.75, "y": 3, "target": "GPIO5" },
+    "D4":     { "x": 1.75, "y": 5.5, "target": "GPIO6" },
+    "D5":     { "x": 1.75, "y": 7.75, "target": "GPIO7" },
+    "D8":     { "x": 1.75, "y": 10, "target": "GPIO8" },
+    "D9":     { "x": 1.75, "y": 12.5, "target": "GPIO9" },
+    "D10":    { "x": 1.75, "y": 15, "target": "GPIO10" },
+    "RX":     { "x": 1.75, "y": 17.25, "target": "GPIO20" },
+    "TX":     { "x": 1.75, "y": 19.5, "target": "GPIO21" },
+
+    "5V":     { "x": 16.25, "y": 3, "target": "power(5)" },
+    "GND":    { "x": 16.25, "y": 5.5, "target": "GND" },
+    "3V3":   { "x": 16.25, "y": 7.75, "target": "power(3.3)" },
+    "A2":     { "x": 16.25, "y": 10, "target": "GPIO4" },
+    "A1":     { "x": 16.25, "y": 12.5, "target": "GPIO3" },
+    "A0":     { "x": 16.25, "y": 15, "target": "GPIO2" },
+    "ADC1.1": { "x": 16.25, "y": 17.25, "target": "GPIO1" },
+    "ADC1.0": { "x": 16.25, "y": 19.5, "target": "GPIO0" }
+  },
+
+  /* On-board LED definitions. These only draw the light of the LED when it's on. 
+     You should draw the body of the LED in your .svg file. */
+  "leds": [
+    {
+      /* A unique identifier of the LED on the board */
+      "id": "power",
+
+      /* x/y positions of the LED center, in mm. Relative to the top-left corner of the board */
+      "x": 3.5,
+      "y": 6.25,
+
+      /* Supported LED types: 0603, ws2812, apa102, rgb */
+      "type": "0603",
+
+      /* LED color - only relevant for 0603 LEDs */
+      "color": "red",
+
+      "radius": 0.8,
+
+      /* The PINs object defines how the LED pins connect to the MCU pins. The LED pin names depend on the type of the LED:
+         - 0603 - "A" for Anode, "C" for cathode
+         - ws2812 - "DI" for data input
+         - apa102 - "DI" for data input, "CI" for clock output
+         - rgb - "R" for red input, "G" for green input, "B" for blue input, "C" for cathode, "A" for anode (define either A or C, not both)
+      */
+      "pins": {
+        "A": "3V3", // This is a power LED, so it's always on
+        "C": "GND"
+      }
+    },
+    {
+      /* A unique identifier of the LED on the board */
+      "id": "rgb1",
+
+      /* x/y positions of the LED center, in mm. Relative to the top-left corner of the board */
+      "x": 13.4,
+      "y": 11.75,
+
+      /* Supported LED types: 0603, ws2812, apa102, rgb */
+      "type": "0603",
+      "color": "blue",
+
+      /* LED light circle radius, in mm */
+      "radius": 0.8,
+
+      /* The PINs object defines how the LED pins connect to the MCU pins. The LED pin names depend on the type of the LED:
+         - 0603 - "A" for Anode, "C" for cathode
+         - ws2812 - "DI" for data input
+         - apa102 - "DI" for data input, "CI" for clock output
+         - rgb - "R" for red input, "G" for green input, "B" for blue input, "C" for cathode, "A" for anode (define either A or C, not both)
+      */
+      "pins": {
+        "A": "D8",
+        "C": "GND"
+      }
+    }
+  ]
+}
