@@ -1,0 +1,40 @@
+{
+  "name": "Grove - OLED Display 1.12 (SH1107)",
+  "version": 1,
+  "description": "A monochrome display with 128*128 resolution. Compared with LCDs, there are many advantages on OLED(Organic Light Emitting Diode) like self-emission, high contrast ratio, slim/thin outline, wide viewing angle and low power consumption.",
+  "author": "Ariella Eliassaf",
+
+  "width": 44.94,
+  "height": 44.31,
+
+  "chips": [{ "id": "chip", "type": "github:wokwi/chip-sh1107@0.1.0" }],
+
+  "pins": {
+    // "GND.2": { "x": 15.1, "y": 5.23,  "target": "chip:GND" },
+    // "5V": { "x": 17.64, "y": 5.23, "target": "chip:VCC"  },
+    // "SCL.2": { "x": 20.18, "y": 5.23, "target": "chip:SCL" },
+    // "SI": { "x": 22.72, "y": 5.23, "target": "chip:SDA" },
+    // "RES": { "x": 25.26, "y": 5.23, "target": "NRST" },
+    // "D/C": { "x": 27.8, "y": 5.23, "target": "A0" },
+    // "CS": { "x": 30.34, "y": 5.23, "target": "CS" },
+
+    /* I2C */
+    "GND.1": { "x": 44.9, "y": 20.38, "target": "chip:GND" },
+    "VCC": { "x": 44.9, "y": 22.92, "target": "chip:VCC" },
+    "SDA": { "x": 44.9, "y":25.46, "target": "chip:SDA" },
+    "SCL.1": { "x": 44.9, "y": 28, "target": "chip:SCL" }
+  },
+
+  "displays": [
+    {
+      "id": "chip",
+      "x": 9.244,
+      "y": 7.403,
+      "width": 26.06,
+      "height": 25.981,
+      "pixelWidth": 128,
+      "pixelHeight": 128,
+      "chip": "sh1107"
+    }
+  ]
+}
