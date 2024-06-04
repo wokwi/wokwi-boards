@@ -38,19 +38,30 @@
     "G19": { "x": 39.03, "y": 95.49, "target": "GPIO19" },
     "G20": { "x": 41.57, "y": 95.49, "target": "GPIO20" },
     "GND.4": { "x": 44.11, "y": 95.49, "target": "GND" },
-    "3V3.4": { "x": 46.65, "y": 95.49, "target": "power(3.3)" }
+    "3V3.4": { "x": 46.65, "y": 95.49, "target": "power(3.3)" },
+
+    // internals
+    "$gpio4": { "target": ["GPIO4", "lcd1:D/C"] },
+    "$gpio5": { "target": ["GPIO5", "lcd1:CS"] },
+    "$gpio6": { "target": ["GPIO6", "lcd1:MOSI"] },
+    "$gpio7": { "target": ["GPIO7", "lcd1:SCK"] },
+    "$gpio48": { "target": ["GPIO48", "lcd1:RST"] },
+
+    "$gpio8": { "target": "GPIO8" }, // SDA
+    "$gpio18": { "target": "GPIO18" } // SCL
   },
 
   "displays": [
     {
-      "id": "chip",
+      "id": "lcd1",
       "x": 13.137,
       "y": 18.973,
       "width": 70.275,
       "height": 53.254,
       "pixelWidth": 320,
       "pixelHeight": 240,
-      "chip": "ili9341" // actually ili9342c
+      "flipVertical": true,
+      "chip": "ili9342c"
     }
   ],
 
