@@ -45,10 +45,11 @@
     "$gpio5": { "target": ["GPIO5", "lcd1:CS"] },
     "$gpio6": { "target": ["GPIO6", "lcd1:MOSI"] },
     "$gpio7": { "target": ["GPIO7", "lcd1:SCK"] },
-    "$gpio48": { "target": ["GPIO48", "lcd1:RST"] },
+    "$gpio48": { "target": ["GPIO48", "lcd1:RST", "touch1:RST"] },
 
-    "$gpio8": { "target": "GPIO8" }, // SDA
-    "$gpio18": { "target": "GPIO18" } // SCL
+    "$gpio3": { "target": ["GPIO3", "touch1:INT"] },
+    "$gpio8": { "target": ["GPIO8", "touch1:SDA"] }, // SDA
+    "$gpio18": { "target": ["GPIO18", "touch1:SCL"] } // SCL
   },
 
   "displays": [
@@ -61,7 +62,11 @@
       "pixelWidth": 320,
       "pixelHeight": 240,
       "flipVertical": true,
-      "chip": "ili9342c"
+      "chip": "ili9342c",
+      "touch": {
+        "id": "touch1",
+        "chip": "tt21100"
+      }
     }
   ],
 
