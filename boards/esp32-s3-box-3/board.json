@@ -4,7 +4,7 @@
   "description":"Next-generation development tool designed for AIoT, Edge AI, and IIoT applications.",
   "author": "Ariella Eliassaf",
   "mcu": "esp32-s3",
-  "fqbn": "esp32:esp32:esp32s3box3",
+  "fqbn": "esp32:esp32:esp32s3box",
 
   "width": 96.54,
   "height": 98.79,
