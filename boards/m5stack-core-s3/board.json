@@ -1,0 +1,85 @@
+{
+  "name": "M5Stack CoreS3",
+  "version": 1,
+  "description": "CoreS3 is the third generation of the M5Stack Core series. Powered by the ESP32-S3 solution, this kit features a dual-core Xtensa LX7 processor running at 240MHz",
+  "author": "Ariella Eliassaf",
+  "width": 100.207,
+  "height": 106.458,
+  "mcu": "esp32-s3",
+  "fqbn": "esp32:esp32:m5stack_cores3",
+
+  "pins": {
+    /*left side*/
+    "GND.1": { "x": 95.3, "y": 27.1, "target": "GND", "tooltip": "left" },
+    "GND.2": { "x": 95.3, "y": 29.64, "target": "GND", "tooltip": "left" },
+    "GND.3": { "x": 95.3, "y": 32.18, "target": "GND", "tooltip": "left" },
+    "G37": { "x": 95.3, "y": 34.72, "target": "GPIO37", "tooltip": "left" },
+    "G35": { "x": 95.3, "y": 37.26, "target": "GPIO35", "tooltip": "left" },
+    "G36": { "x": 95.3, "y": 39.8, "target": "GPIO36", "tooltip": "left" },
+    "G44": { "x": 95.3, "y": 42.34, "target": "GPIO44", "tooltip": "left" },
+    "G18": { "x": 95.3, "y": 44.88, "target": "GPIO18", "tooltip": "left" },
+    "G12": { "x": 95.3, "y": 47.42, "target": "GPIO12", "tooltip": "left" },
+    "G2": { "x": 95.3, "y": 49.96, "target": "GPIO2", "tooltip": "left" },
+    "G6": { "x": 95.3, "y": 52.5, "target": "GPIO36", "tooltip": "left" },
+    "G13": { "x": 95.3, "y": 55.04, "target": "GPIO13", "tooltip": "left" },
+
+    /*right side*/
+    "G10": { "x": 97.84, "y": 27.1, "target": "GPIO10" },
+    "G8": { "x": 97.84, "y": 29.64, "target": "GPIO8" },
+    "RST.1": { "x": 97.84, "y": 32.18, "target": "NRST" },
+    "G5": { "x": 97.84, "y": 34.72, "target": "GPIO5" },
+    "G9": { "x": 97.84, "y": 37.26, "target": "GPIO9" },
+    "3V3.1": { "x": 97.84, "y": 39.8, "target": "power(3.3)" },
+    "G43": { "x": 97.84, "y": 42.34, "target": "GPIO43" },
+    "G17": { "x": 97.84, "y": 44.88, "target": "GPIO17" },
+    "G11": { "x": 97.84, "y": 47.42, "target": "GPIO11" },
+    "G1": { "x": 97.84, "y": 49.96, "target": "GPIO1" },
+    "G7": { "x": 97.84, "y": 52.5, "target": "GPIO7" },
+    "G0": { "x": 97.84, "y": 55.04, "target": "GPIO0" },
+    "G14": { "x": 97.84, "y": 57.58, "target": "GPIO14" },
+    "5V.1": { "x": 97.84, "y": 60.12, "target": "power(5)" },
+    "BAT": { "x": 97.84, "y": 62.66, "target": "" },
+
+    /*port A PERFECT*/
+    "GND.4": { "x": 97.84, "y": 80.04, "target": "GND" },
+    "VCC.1": { "x": 97.84, "y": 82.58, "target": "power(5)" },
+    "SDA": { "x": 97.84, "y": 85.12, "target": "GPIO1" },
+    "SCL": { "x": 97.84, "y": 87.66, "target": "GPIO2" },
+
+    /*port B*/
+    "G9.2": { "x": 50.84, "y": 101.2, "target": "GPIO9" },
+    "G8.2": { "x": 53.38, "y": 101.2, "target": "GPIO8" },
+    "VCC.2": { "x": 55.92, "y": 101.2, "target": "power(3.3)" },
+    "GND.5": { "x": 58.46, "y": 101.2, "target": "GND" },
+
+    /*port C*/
+    "RX": { "x": 34.3, "y": 101.2, "target": "GPIO18" },
+    "TX": { "x": 36.84, "y": 101.2, "target": "GPIO17" },
+    "VCC.3": { "x": 39.38, "y": 101.2, "target": "power(3.3)" },
+    "GND.6": { "x": 41.92, "y": 101.2, "target": "GND" },
+
+    // internals
+    "$gpio37": { "target": ["GPIO37", "lcd1:MOSI"] },
+    "$gpio36": { "target": ["GPIO36", "lcd1:SCK"] },
+    "$gpio3": { "target": ["GPIO3", "lcd1:CS"] },
+    "$gpio35": { "target": ["GPIO35", "lcd1:D/C"] }
+  },
+
+  "displays": [
+    {
+      "id": "lcd1",
+      "x": 11.2,
+      "y": 27.5,
+      "width": 70.3,
+      "height": 53.3,
+      "pixelWidth": 320,
+      "pixelHeight": 240,
+      "flipVertical": true,
+      "chip": "ili9342c",
+      "touch": {
+        "id": "touch1",
+        "chip": "ft6336"
+      }
+    }
+  ]
+}
