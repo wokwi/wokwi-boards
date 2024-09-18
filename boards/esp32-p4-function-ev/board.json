@@ -1,0 +1,77 @@
+{
+  "name": "ESP32-P4-Function-EV-Board",
+  "version": 1,
+  "description": "A multimedia development board based on the ESP32-P4 chip",
+  "author": "Uri Shaked",
+  "mcu": "esp32-p4",
+  "mcuAttrs": {
+    "flashSize": "16",
+    "psramSize": "32",
+    "psramType": "octal"
+  },
+  "fqbn": "esp32:esp32:esp32p4",
+
+  "width": 167.366,
+  "height": 155.646,
+
+  "pins": {
+    "5V.1": { "x": 48.0555, "y": 2.3065, "target": "power(5)" },
+    "5V.2": { "x": 50.5955, "y": 2.3065, "target": "power(5)" },
+    "GND.1": { "x": 53.1355, "y": 2.3065, "target": "GND" },
+    "37": { "x": 55.6755, "y": 2.3065, "target": "GPIO37" },
+    "38": { "x": 58.2155, "y": 2.3065, "target": "GPIO38" },
+    "22": { "x": 60.7555, "y": 2.3065, "target": "GPIO22" },
+    "GND.2": { "x": 63.2955, "y": 2.3065, "target": "GND" },
+    "5": { "x": 65.8355, "y": 2.3065, "target": "GPIO5" },
+    "4": { "x": 68.3755, "y": 2.3065, "target": "GPIO4" },
+    "GND.3": { "x": 70.9155, "y": 2.3065, "target": "GND" },
+    "1": { "x": 73.4555, "y": 2.3065, "target": "GPIO1" },
+    "36": { "x": 75.9955, "y": 2.3065, "target": "GPIO36" },
+    "32": { "x": 78.5355, "y": 2.3065, "target": "GPIO32" },
+    "25": { "x": 81.0755, "y": 2.3065, "target": "GPIO25" },
+    "GND.4": { "x": 83.6155, "y": 2.3065, "target": "GND" },
+    "54": { "x": 86.1555, "y": 2.3065, "target": "GPIO54" },
+    "GND.5": { "x": 88.6955, "y": 2.3065, "target": "GND" },
+    "46": { "x": 91.2355, "y": 2.3065, "target": "GPIO46" },
+    "27": { "x": 93.7755, "y": 2.3065, "target": "GPIO27" },
+    "45": { "x": 96.3155, "y": 2.3065, "target": "GPIO45" },
+
+    "3V3.1": { "x": 48.0555, "y": 4.8465, "target": "power(3.3)", "tooltip": "bottom" },
+    "7": { "x": 50.5955, "y": 4.8465, "target": ["GPIO7", "touch1:SDA"], "tooltip": "bottom" }, // SDA
+    "8": { "x": 53.1355, "y": 4.8465, "target": ["GPIO8", "touch1:SCL"], "tooltip": "bottom" }, // SCL
+    "23": { "x": 55.6755, "y": 4.8465, "target": "GPIO23", "tooltip": "bottom" },
+    "GND.6": { "x": 58.2155, "y": 4.8465, "target": "GND", "tooltip": "bottom" },
+    "21": { "x": 60.7555, "y": 4.8465, "target": "GPIO21", "tooltip": "bottom" },
+    "20": { "x": 63.2955, "y": 4.8465, "target": "GPIO20", "tooltip": "bottom" },
+    "6": { "x": 65.8355, "y": 4.8465, "target": "GPIO6", "tooltip": "bottom" },
+    "3V3.2": { "x": 68.3755, "y": 4.8465, "target": "power(3.3)", "tooltip": "bottom" },
+    "3": { "x": 70.9155, "y": 4.8465, "target": "GPIO3", "tooltip": "bottom" },
+    "2": { "x": 73.4555, "y": 4.8465, "target": "GPIO2", "tooltip": "bottom" },
+    "0": { "x": 75.9955, "y": 4.8465, "target": "GPIO0", "tooltip": "bottom" },
+    "GND.7": { "x": 78.5355, "y": 4.8465, "target": "GND", "tooltip": "bottom" },
+    "24": { "x": 81.0755, "y": 4.8465, "target": "GPIO24", "tooltip": "bottom" },
+    "33": { "x": 83.6155, "y": 4.8465, "target": "GPIO33", "tooltip": "bottom" },
+    "26": { "x": 86.1555, "y": 4.8465, "target": "GPIO26", "tooltip": "bottom" },
+    "48": { "x": 88.6955, "y": 4.8465, "target": "GPIO48", "tooltip": "bottom" },
+    "53": { "x": 91.2355, "y": 4.8465, "target": "GPIO53", "tooltip": "bottom" },
+    "47": { "x": 93.7755, "y": 4.8465, "target": "GPIO47", "tooltip": "bottom" },
+    "GND.8": { "x": 96.3155, "y": 4.8465, "target": "GND", "tooltip": "bottom" }
+  },
+
+  "displays": [
+    {
+      "id": "lcd1",
+      "x": 8.775,
+      "y": 62.528,
+      "width": 154.2144,
+      "height": 85.92,
+      "pixelWidth": 1024,
+      "pixelHeight": 600,
+      "chip": "ek79007",
+      "touch": {
+        "id": "touch1",
+        "chip": "gt911"
+      }
+    }
+  ]
+}
