@@ -4,6 +4,11 @@
   "description": "AI voice-development kit, which provides a platform for developing the control of smart devices with offline and online voice assistants.",
   "author": "Ariella Eliassaf",
   "mcu": "esp32-s3",
+  "mcuAttrs": {
+    "flashSize": "16",
+    "psramSize": "8",
+    "psramType": "octal"
+  },
   "fqbn": "esp32:esp32:esp32s3box",
 
   "width": 96.54,
