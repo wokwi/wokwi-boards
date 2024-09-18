@@ -4,6 +4,9 @@
   "description": "An RP2040 microcontroller board with CYW43439 WiFi+Bluetooth chip",
   "author": "Ariella Eliassaf",
   "mcu": "rp2040",
+  "mcuAttrs": {
+    "cyw43": "1"
+  },
   "fqbn": "rp2040:rp2040:rpipicow",
   "width": 20.9,
   "height": 52.75,
