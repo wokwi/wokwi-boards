@@ -4,6 +4,11 @@
   "description":"Next-generation development tool designed for AIoT, Edge AI, and IIoT applications.",
   "author": "Ariella Eliassaf",
   "mcu": "esp32-s3",
+  "mcuAttrs": {
+    "flashSize": "16",
+    "psramSize": "16",
+    "psramType": "octal"
+  },
   "fqbn": "esp32:esp32:esp32s3box",
 
   "width": 96.54,
