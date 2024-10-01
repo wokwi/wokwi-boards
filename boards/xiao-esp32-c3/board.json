@@ -7,7 +7,10 @@
   "fqbn": "esp32:esp32:XIAO_ESP32C3",
   "width": 18.1,
   "height": 23.4,
-  
+  "mcuAttrs": {
+    "serialInterface": "USB_SERIAL_JTAG"
+  },
+
   "pins": {
     "D0": { "x": 1.4335, "y": 4.9305, "target": "GPIO2" },
     "D1": { "x": 1.4335, "y": 7.4705, "target": "GPIO3" },
