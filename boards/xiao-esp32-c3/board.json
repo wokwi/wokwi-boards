@@ -8,6 +8,7 @@
   "width": 18.1,
   "height": 23.4,
   "mcuAttrs": {
+    "flashSize": "4",
     "serialInterface": "USB_SERIAL_JTAG"
   },
 
