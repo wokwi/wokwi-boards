@@ -1,0 +1,108 @@
+{
+  "name": "ESP32-S3-BOX",
+  "version": 1,
+  "description": "AI voice-development kit, which provides a platform for developing the control of smart devices with offline and online voice assistants.",
+  "author": "Ariella Eliassaf",
+  "mcu": "esp32-s3",
+  "mcuAttrs": {
+    "flashSize": "16",
+    "psramSize": "8",
+    "psramType": "octal"
+  },
+  "fqbn": "esp32:esp32:esp32s3box",
+
+  "width": 96.54,
+  "height": 98.79,
+
+  "pins": {
+    // left socket
+    "G9": { "x": 13.9, "y": 92.95, "target": "GPIO9", "tooltip": "top" },
+    "G43": { "x": 16.44, "y": 92.95, "target": "GPIO43", "tooltip": "top" },
+    "G44": { "x": 18.98, "y": 92.95, "target": "GPIO44", "tooltip": "top" },
+    "G14": { "x": 21.52, "y": 92.95, "target": "GPIO14", "tooltip": "top" },
+    "GND.1": { "x": 24.06, "y": 92.95, "target": "GND", "tooltip": "top" },
+    "3V3.1": {
+      "x": 26.6,
+      "y": 92.95,
+      "target": "power(3.3)",
+      "tooltip": "top"
+    },
+
+    "G10": { "x": 13.9, "y": 95.49, "target": "GPIO10", "tooltip": "bottom" },
+    "G11": { "x": 16.44, "y": 95.49, "target": "GPIO11", "tooltip": "bottom" },
+    "G13": { "x": 18.98, "y": 95.49, "target": "GPIO13", "tooltip": "bottom" },
+    "G12": { "x": 21.52, "y": 95.49, "target": "GPIO12", "tooltip": "bottom" },
+    "GND.2": { "x": 24.06, "y": 95.49, "target": "GND", "tooltip": "bottom" },
+    "3V3.2": {
+      "x": 26.6,
+      "y": 95.49,
+      "target": "power(3.3)",
+      "tooltip": "bottom"
+    },
+
+    // right socket
+    "G38": { "x": 33.95, "y": 92.95, "target": "GPIO38", "tooltip": "top" },
+    "G39": { "x": 36.49, "y": 92.95, "target": "GPIO39", "tooltip": "top" },
+    "G40": { "x": 39.03, "y": 92.95, "target": "GPIO40", "tooltip": "top" },
+    "G41": { "x": 41.57, "y": 92.95, "target": "GPIO41", "tooltip": "top" },
+    "GND.3": { "x": 44.11, "y": 92.95, "target": "GND", "tooltip": "top" },
+    "3V3.3": {
+      "x": 46.65,
+      "y": 92.95,
+      "target": "power(3.3)",
+      "tooltip": "top"
+    },
+
+    "G42": { "x": 33.95, "y": 95.49, "target": "GPIO42", "tooltip": "bottom" },
+    "G21": { "x": 36.49, "y": 95.49, "target": "GPIO21", "tooltip": "bottom" },
+    "G19": { "x": 39.03, "y": 95.49, "target": "GPIO19", "tooltip": "bottom" },
+    "G20": { "x": 41.57, "y": 95.49, "target": "GPIO20", "tooltip": "bottom" },
+    "GND.4": { "x": 44.11, "y": 95.49, "target": "GND", "tooltip": "bottom" },
+    "3V3.4": {
+      "x": 46.65,
+      "y": 95.49,
+      "target": "power(3.3)",
+      "tooltip": "bottom"
+    },
+
+    // internals
+    "$gpio4": { "target": ["GPIO4", "lcd1:D/C"] },
+    "$gpio5": { "target": ["GPIO5", "lcd1:CS"] },
+    "$gpio6": { "target": ["GPIO6", "lcd1:MOSI"] },
+    "$gpio7": { "target": ["GPIO7", "lcd1:SCK"] },
+    "$gpio48": { "target": ["GPIO48", "lcd1:RST", "touch1:RST"] },
+
+    "$gpio3": { "target": ["GPIO3", "touch1:INT"] },
+    "$gpio8": { "target": ["GPIO8", "touch1:SDA"] }, // SDA
+    "$gpio18": { "target": ["GPIO18", "touch1:SCL"] } // SCL
+  },
+
+  "displays": [
+    {
+      "id": "lcd1",
+      "x": 13.137,
+      "y": 18.973,
+      "width": 70.275,
+      "height": 53.254,
+      "pixelWidth": 320,
+      "pixelHeight": 240,
+      "flipVertical": true,
+      "chip": "ili9342c",
+      "touch": {
+        "id": "touch1",
+        "chip": "tt21100"
+      }
+    }
+  ],
+
+  "leds": [
+    {
+      "id": "voice",
+      "x": 66.6,
+      "y": 90.45,
+      "type": "0603",
+      "color": "orange",
+      "pins": {}
+    }
+  ]
+}

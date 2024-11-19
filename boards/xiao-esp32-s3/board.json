@@ -1,0 +1,50 @@
+{
+  "name": "Seeed Studio XIAO ESP32-S3",
+  "version": "1",
+  "description": "An IoT mini development board based on the Espressif ESP32-S3 WiFi/Bluetooth dual-mode chip",
+  "author": "Uri Shaked",
+  "mcu": "esp32-s3",
+  "fqbn": "esp32:esp32:XIAO_ESP32S3",
+  "width": 18.1,
+  "height": 23.4,
+  "mcuAttrs": {
+    "flashSize": "8",
+    "psramSize": "8",
+    "serialInterface": "USB_SERIAL_JTAG"
+  },
+
+  "pins": {
+    "D0": { "x": 1.4335, "y": 4.9305, "target": "GPIO1" },
+    "D1": { "x": 1.4335, "y": 7.4705, "target": "GPIO2" },
+    "D2": { "x": 1.4335, "y": 10.0105, "target": "GPIO3" },
+    "D3": { "x": 1.4335, "y": 12.5505, "target": "GPIO4" },
+    "D4": { "x": 1.4335, "y": 15.0905, "target": "GPIO5" },
+    "D5": { "x": 1.4335, "y": 17.6305, "target": "GPIO6" },
+    "D6": { "x": 1.4335, "y": 20.1705, "target": "GPIO43" },
+
+    "D7": { "x": 16.51, "y": 20.1705, "target": "GPIO44" },
+    "D8": { "x": 16.51, "y": 17.6305, "target": "GPIO7" },
+    "D9": { "x": 16.51, "y": 15.0905, "target": "GPIO8" },
+    "D10": { "x": 16.51, "y": 12.5505, "target": "GPIO9" },
+    "3V3": { "x": 16.51, "y": 10.0105, "target": "power(3.3)" },
+    "GND": { "x": 16.51, "y": 7.4705, "target": "GND" },
+    "5V": { "x": 16.51, "y": 4.9305, "target": "power(5)" },
+
+    /* Virtual pins */
+    "$gpio21": { "target": "GPIO21" }
+  },
+
+  "leds": [
+    {
+      "id": "led1",
+      "x": 14.6275,
+      "y": 5.847,
+      "type": "0603",
+      "color": "yellow",
+      "pins": {
+        "A": "3V3",
+        "C": "$gpio21"
+      }
+    }
+  ]
+}

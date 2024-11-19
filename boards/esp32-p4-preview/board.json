@@ -4,7 +4,7 @@
   "description": "ESP32-P4 Preview",
   "author": "Uri Shaked",
   "mcu": "esp32-p4",
-  "fqbn": "esp32:esp32:esp32p2",
+  "fqbn": "esp32:esp32:esp32p4",
 
   "width": 26.214,
   "height": 84.271,
