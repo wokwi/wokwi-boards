@@ -1,0 +1,75 @@
+{
+  "name": "Aitewin Robot ESP32-H2 SuperMini",
+  "version": 1,
+  "description": "A common ESP32 dev board by AITEWIN ROBOT",
+  "author": "Pierrick Rouxel",
+  "mcu": "esp32-h2",
+  "fqbn": "esp32:esp32:esp32h2",
+  "width": 17.80,
+  "height": 25.40,
+  "pins": {
+    "TX": { "x": 1.27, "y": 3.81, "target": "GPIO24" },
+    "RX": { "x": 1.27, "y": 6.35, "target": "GPIO23" },
+    "0": { "x": 1.27, "y": 8.89, "target": "GPIO0" },
+    "1": { "x": 1.27, "y": 11.43, "target": "GPIO1" },
+    "2": { "x": 1.27, "y": 13.97, "target": "GPIO2" },
+    "3": { "x": 1.27, "y": 16.51, "target": "GPIO3" },
+    "4": { "x": 1.27, "y": 19.05, "target": "GPIO4" },
+    "5": { "x": 1.27, "y": 21.59, "target": "GPIO5" },
+    "8": { "x": 1.27, "y": 24.13, "target": "GPIO8" },
+    "5V": { "x": 16.51, "y": 3.81, "target": "power(5)" },
+    "GND": { "x": 16.51, "y": 6.35, "target": "GND" },
+    "3V3": { "x": 16.51, "y": 8.89, "target": "power(3.3)" },
+    "14": { "x": 16.51, "y": 11.43, "target": "GPIO14" },
+    "13": { "x": 16.51, "y": 13.97, "target": "GPIO13" },
+    "12": { "x": 16.51, "y": 16.51, "target": "GPIO12" },
+    "11": { "x": 16.51, "y": 19.05, "target": "GPIO11" },
+    "10": { "x": 16.51, "y": 21.59, "target": "GPIO10" },
+    "9": { "x": 16.51, "y": 24.13, "target": "GPIO9" },
+    "25": { "x": 8.89, "y": 19.05, "target": "GPIO25" },
+    "22": { "x": 11.43, "y": 19.05, "target": "GPIO22" },
+    "26": { "x": 3.81, "y": 21.59, "target": "GPIO26" },
+    "27": { "x": 3.81, "y": 24.13, "target": "GPIO27" }
+  },
+  "leds": [
+    {
+      "id": "user",
+      "x": 3.81,
+      "y": 3.81,
+      "type": "0603",
+      "color": "blue",
+      "pins": {
+        "A": "13",
+        "C": "GND"
+      }
+    },
+    {
+      "id": "power",
+      "x": 13.97,
+      "y": 3.81,
+      "type": "0603",
+      "color": "green",
+      "radius": 3.0,
+      "pins": {
+        "A": "3V3",
+        "C": "GND"      
+      }
+    },
+    {
+      "id": "rgb",
+      "x": 8.89,
+      "y": 8.89,
+      "type": "ws2812",
+      "radius": 3.0,
+      "pins": {
+        "DI": "8"     
+      }
+    }
+  ],
+  "buy": [
+    {
+      "store": "Aliexpress",
+      "link": "https://www.aliexpress.com/item/1005005757810089.html"
+    }
+  ]
+}
