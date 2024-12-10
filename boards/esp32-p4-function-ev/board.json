@@ -55,7 +55,36 @@
     "48": { "x": 88.6955, "y": 4.8465, "target": "GPIO48", "tooltip": "bottom" },
     "53": { "x": 91.2355, "y": 4.8465, "target": "GPIO53", "tooltip": "bottom" },
     "47": { "x": 93.7755, "y": 4.8465, "target": "GPIO47", "tooltip": "bottom" },
-    "GND.8": { "x": 96.3155, "y": 4.8465, "target": "GND", "tooltip": "bottom" }
+    "GND.8": { "x": 96.3155, "y": 4.8465, "target": "GND", "tooltip": "bottom" },
+
+    // internal signals:
+    "$gpio9": { "target": "GPIO9" },
+    "$gpio10": { "target": "GPIO10" },
+    "$gpio11": { "target": "GPIO11" },
+    "$gpio12": { "target": "GPIO12" },
+    "$gpio13": { "target": "GPIO13" },
+    "$gpio14": { "target": "GPIO14" },
+    "$gpio15": { "target": "GPIO15" },
+    "$gpio16": { "target": "GPIO16" },
+    "$gpio17": { "target": "GPIO17" },
+    "$gpio18": { "target": "GPIO18" },
+    "$gpio19": { "target": "GPIO19" },
+    "$gpio28": { "target": "GPIO28" },
+    "$gpio29": { "target": "GPIO29" },
+    "$gpio30": { "target": "GPIO30" },
+    "$gpio31": { "target": "GPIO31" },
+    "$gpio34": { "target": "GPIO34" },
+    "$gpio35": { "target": "GPIO35" },
+    "$gpio39": { "target": "GPIO39" },
+    "$gpio40": { "target": "GPIO40" },
+    "$gpio41": { "target": "GPIO41" },
+    "$gpio42": { "target": "GPIO42" },
+    "$gpio43": { "target": "GPIO43" },
+    "$gpio44": { "target": "GPIO44" },
+    "$gpio49": { "target": "GPIO49" },
+    "$gpio50": { "target": "GPIO50" },
+    "$gpio51": { "target": "GPIO51" },
+    "$gpio52": { "target": "GPIO52" }
   },
 
   "displays": [
