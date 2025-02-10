@@ -1,0 +1,46 @@
+{
+  "name": "Nokia 5110 Screen PCD8544",
+  "version": 1,
+  "description": "A low power CMOS LCD controller/driver, designed to drive a graphic display of 48 rows and 84 columns.",
+  "author": "Ariella Eliassaf",
+  "width": 45.192,
+  "height": 45.101,
+
+
+  "pins": {
+    "RST.2 ": { "x": 13.7, "y": 3, "target": "display:RST" },
+    "CE.2": { "x": 16.24, "y": 3, "target": "display:CE" },
+    "DC.2": { "x": 18.78, "y": 3, "target": "display:DC" },
+    "DIN.2 ": { "x": 21.32, "y": 3, "target": "display:DIN" },
+    "CLK.2 ": { "x": 23.86, "y": 3, "target": "display:CLK" },
+    "VCC.2 ": { "x": 26.4, "y": 3, "target": "display:VCC" },
+    "BL.2": { "x": 28.94, "y": 3, "target": "display:BL" },
+    "GND.2 ": { "x": 31.48, "y": 3, "target": "display:GND" },
+
+
+    "RST": { "x": 13.7, "y": 42.15, "target": "display:RST" },
+    "CE": { "x": 16.24, "y": 42.15, "target": "display:CE" },
+    "DC": { "x": 18.78, "y": 42.15, "target": "display:DC" },
+    "DIN": { "x": 21.32, "y": 42.15, "target": "display:DIN" },      
+    "CLK": { "x": 23.86, "y": 42.15, "target": "display:CLK" },
+    "VCC": { "x": 26.4, "y": 42.15, "target": "display:VCC" },
+    "BL": { "x": 28.94, "y": 42.15, "target": "display:BL" },
+    "GND": { "x": 31.48, "y": 42.15, "target": "display:GND" }
+
+
+  },
+
+  "displays": [
+    {
+      "id": "display",
+      "x": 3.655,
+      "y": 11.362,
+      "width": 37.882,
+      "height": 26.804,
+      "pixelWidth": 84,
+      "pixelHeight": 48,
+      "chip": "pcd8544"
+    }
+  ]
+}
+
