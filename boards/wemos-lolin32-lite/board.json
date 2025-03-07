@@ -1,0 +1,81 @@
+{
+  /* The name of the board */
+  "name": "Wemos Lolin32 lite",
+
+  /* Board version. Increment it whenever you make changes. */
+  "version": 1,
+
+  /* One-liner description of the board, it's capabilities, etc. */
+  "description": "A smaller ESP32 dev board by Wemos",
+
+  /* The name of the person who created this file */
+  "author": "Maxime Borges",
+
+  /* Microcontroller name. Valid values: atmega328p, atmega2560, attiny85, rp2040, esp32 */
+  "mcu": "esp32",
+
+  /* Fully Qualified Board Name (FQBN) for the Arduino CLI */
+  "fqbn": "esp32:esp32:lolin32-lite",
+
+  /* Width of the board graphics, in mm. Must match the width defined in board.svg */
+  "width": 25.6,
+
+  /* Height of the board graphics, in mm. Must match the height defined in board.svg */
+  "height": 50,
+
+  /* The pins available on the board.
+     "x"/"y" positions are in mm, and are relative to the top-left corner of the board.
+     "target" is either:
+     - an MCU pin name
+     - "GND" for ground
+     - "power(n)" for power supply pins, where n is the voltage. e.g. "power(3.3)"
+  */
+  "pins": {
+    "VP": { "x": 1.4, "y": 7.38, "target": "VP" },
+    "VN": { "x": 1.4, "y": 9.92, "target": "VN" },
+    "EN": { "x": 1.4, "y": 12.46, "target": "EN" },
+    "GPIO34": { "x": 1.4, "y": 15, "target": "GPIO34" },
+    "GPIO35": { "x": 1.4, "y": 17.54, "target": "GPIO35" },
+    "GPIO32": { "x": 1.4, "y": 20.08, "target": "GPIO32" },
+    "GPIO33": { "x": 1.4, "y": 22.62, "target": "GPIO33" },
+    "GPIO25": { "x": 1.4, "y": 25.16, "target": "GPIO25" },
+    "GPIO26": { "x": 1.4, "y": 27.7, "target": "GPIO26" },
+    "GPIO27": { "x": 1.4, "y": 30.24, "target": "GPIO27" },
+    "GPIO14": { "x": 1.4, "y": 32.78, "target": "GPIO14" },
+    "GPIO12": { "x": 1.4, "y": 35.32, "target": "GPIO12" },
+    "GND": { "x": 1.4, "y": 37.86, "target": "GND" },
+    
+    "GPIO13": { "x": 24.26, "y": 37.86, "target": "GPIO13" },
+    "GPIO15": { "x": 24.26, "y": 35.32, "target": "GPIO15" },
+    "GPIO2": { "x": 24.26, "y": 32.78, "target": "GPIO2" },
+    "GPIO0": { "x": 24.26, "y": 30.24, "target": "GPIO0" },
+    "GPIO4": { "x": 24.26, "y": 27.7, "target": "GPIO4" },
+    "GPIO16": { "x": 24.26, "y": 25.16, "target": "GPIO16" },
+    "GPIO17": { "x": 24.26, "y": 22.62, "target": "GPIO17" },
+    "GPIO5": { "x": 24.26, "y": 20.08, "target": "GPIO5" },
+    "GPIO18": { "x": 24.26, "y": 17.54, "target": "GPIO18" },
+    "GPIO23": { "x": 24.26, "y": 15, "target": "GPIO23" },
+    "GPIO19": { "x": 24.26, "y": 12.46, "target": "GPIO19" },
+    "GPIO22": { "x": 24.26, "y": 9.92, "target": "GPIO22" },
+    "3V": { "x": 24.26, "y": 7.38, "target": "power(3.3)" },
+
+    "BAT+": { "x": 2.87, "y": 49.3, "target": "power(bat)" },
+    "BAT-": { "x": 5.41, "y": 49.3, "target": "GND" }
+  },
+
+  /* On-board LED definitions. These only draw the light of the LED when it's on. 
+     You should draw the body of the LED in your .svg file. */
+  "leds": [
+    {
+      "id": "led1",
+      "x": 21.13,
+      "y": 8.6,
+      "type": "0603",
+      "color": "blue",
+      "pins": {
+        "A": "3V",
+        "C": "GPIO22"
+      }
+    }
+  ]
+}
