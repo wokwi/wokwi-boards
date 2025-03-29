@@ -1,0 +1,116 @@
+{
+  "name": "ESP32-C3 Super Mini",
+  "version": 1,
+  "description": "A popular ESP32-C3 Super Mini board",
+  "author": "Petr Gadorek",
+  "mcu": "esp32-c3",
+  "fqbn": "esp32:esp32:esp32c3",
+  "width": 20,
+  "height": 24.4,
+  "pins": {
+    "5V": {
+      "x": 17.5,
+      "y": 3.5,
+      "target": "power(5)"
+    },
+    "GND": {
+      "x": 17.5,
+      "y": 6,
+      "target": "GND"
+    },
+    "3V3": {
+      "x": 17.5,
+      "y": 8.5,
+      "target": "power(3.3)"
+    },
+    "4": {
+      "x": 17.5,
+      "y": 11,
+      "target": "GPIO4"
+    },
+    "3": {
+      "x": 17.5,
+      "y": 13.5,
+      "target": "GPIO3"
+    },
+    "2": {
+      "x": 17.5,
+      "y": 16.1,
+      "target": "GPIO2"
+    },
+    "1": {
+      "x": 17.5,
+      "y": 18.6,
+      "target": "GPIO1"
+    },
+    "0": {
+      "x": 17.5,
+      "y": 21.1,
+      "target": "GPIO0"
+    },
+    "5": {
+      "x": 2.5,
+      "y": 3.5,
+      "target": "GPIO5"
+    },
+    "6": {
+      "x": 2.5,
+      "y": 6,
+      "target": "GPIO6"
+    },
+    "7": {
+      "x": 2.5,
+      "y": 8.5,
+      "target": "GPIO7"
+    },
+    "8": {
+      "x": 2.5,
+      "y": 11,
+      "target": "GPIO8"
+    },
+    "9": {
+      "x": 2.5,
+      "y": 13.5,
+      "target": "GPIO9"
+    },
+    "10": {
+      "x": 2.5,
+      "y": 16.1,
+      "target": "GPIO10"
+    },
+    "20": {
+      "x": 2.5,
+      "y": 18.6,
+      "target": "GPIO20"
+    },
+    "21": {
+      "x": 2.5,
+      "y": 21.1,
+      "target": "GPIO21"
+    }
+  },
+  "leds": [
+    {
+      "id": "power",
+      "x": 4.15,
+      "y": 7.2,
+      "type": "0603",
+      "color": "red",
+      "pins": {
+        "A": "3V3", // This is a power LED, so it's always on
+        "C": "GND.1"
+      }
+    },
+    {
+      "id": "led1",
+      "x": 14.7,
+      "y": 13.2,
+      "type": "0603",
+      "color": "blue",
+      "pins": {
+        "A": "8", // The LED connects to GPIO pin 8
+        "C": "GND.1"
+      }
+    }
+  ]
+}
