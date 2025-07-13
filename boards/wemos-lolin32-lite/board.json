@@ -1,6 +1,6 @@
 {
   /* The name of the board */
-  "name": "Wemos Lolin32 lite",
+  "name": "Wemos Lolin32 Lite",
 
   /* Board version. Increment it whenever you make changes. */
   "version": 1,
@@ -31,9 +31,9 @@
      - "power(n)" for power supply pins, where n is the voltage. e.g. "power(3.3)"
   */
   "pins": {
-    "VP": { "x": 1.4, "y": 7.38, "target": "VP" },
-    "VN": { "x": 1.4, "y": 9.92, "target": "VN" },
-    "EN": { "x": 1.4, "y": 12.46, "target": "EN" },
+    "VP": { "x": 1.4, "y": 7.38, "target": "GPIO36" },
+    "VN": { "x": 1.4, "y": 9.92, "target": "GPIO39" },
+    "EN": { "x": 1.4, "y": 12.46, "target": "CHIP_PU" },
     "GPIO34": { "x": 1.4, "y": 15, "target": "GPIO34" },
     "GPIO35": { "x": 1.4, "y": 17.54, "target": "GPIO35" },
     "GPIO32": { "x": 1.4, "y": 20.08, "target": "GPIO32" },
@@ -60,7 +60,11 @@
     "3V": { "x": 24.26, "y": 7.38, "target": "power(3.3)" },
 
     "BAT+": { "x": 2.87, "y": 49.3, "target": "power(bat)" },
-    "BAT-": { "x": 5.41, "y": 49.3, "target": "GND" }
+    "BAT-": { "x": 5.41, "y": 49.3, "target": "GND" },
+
+    /* Virual UART pins, connected to the CH340C chip */
+    "TX": { "target": "GPIO1" },
+    "RX": { "target": "GPIO3" }
   },
 
   /* On-board LED definitions. These only draw the light of the LED when it's on. 
