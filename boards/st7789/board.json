@@ -1,0 +1,32 @@
+{
+  "name": "ST7789 1.54in Display",
+  "version": 1,
+  "description": "A common ST7789 240x240 display",
+  "author": "Christopher White",
+  "width": 32,
+  "height": 44,
+  "chips": [{ "id": "chip", "type": "github:Whiteeeey/chip-st7789@1.0.0"}],
+  "pins": {
+    "GND": { "x": 6.8, "y": 1.25, "target": "chip:GND" },
+    "VCC": { "x": 9.34, "y": 1.25, "target": "chip:VCC" },
+    "SCL": { "x": 11.88, "y": 1.25, "target": "chip:SCL" },
+    "SDA": { "x": 14.42, "y": 1.25, "target": "chip:SDA" },
+    "RST": { "x": 16.96, "y": 1.25, "target": "chip:RST" },
+    "DC": { "x": 19.50, "y": 1.25, "target": "chip:DC" },
+    "CS": { "x": 22.04, "y": 1.25, "target": "chip:CS" },
+    "BL": { "x": 24.58, "y": 1.25, "target": "chip:BL" },
+  },
+
+  "displays": [
+    {
+      "id": "chip",
+      "x": 0.459,
+      "y": 5.151,
+      "width": 31,
+      "height": 31,
+      "pixelWidth": 240,
+      "pixelHeight": 240,
+      "chip": "chip-st7789"
+      }
+  ]
+}
