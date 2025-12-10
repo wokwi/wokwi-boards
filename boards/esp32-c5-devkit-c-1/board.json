@@ -1,0 +1,59 @@
+{
+  "name": "ESP32-C5-DevKit-C-1",
+  "version": 1,
+  "description": "An entry-level ESP32-C5 development board",
+  "author": "Ariella Eliassaf",
+  "mcu": "esp32-c5",
+  "fqbn": "esp32:esp32:esp32c5",
+
+  "width": 26.214,
+  "height": 57.74,
+
+  "pins": {
+    "3V3": { "x": 1.45, "y": 8.76, "target": "power(3.3)" },
+    "RST": { "x": 1.45, "y": 11.3, "target": "CHIP_PU" },
+    "2": { "x": 1.45, "y": 13.84, "target": "GPIO2" },
+    "3": { "x": 1.45, "y": 16.38, "target": "GPIO3" },
+    "0": { "x": 1.45, "y": 18.92, "target": "GPIO0" },
+    "1": { "x": 1.45, "y": 21.46, "target": "GPIO1" },
+    "6": { "x": 1.45, "y": 24, "target": "GPIO6" },
+    "7": { "x": 1.45, "y": 26.54, "target": "GPIO7" },
+    "8": { "x": 1.45, "y": 29.08, "target": "GPIO8" },
+    "9": { "x": 1.45, "y": 31.62, "target": "GPIO9" },
+    "10": { "x": 1.45, "y": 34.16, "target": "GPIO10" },
+    "26": { "x": 1.45, "y": 36.7, "target": "GPIO26" },
+    "25": { "x": 1.45, "y": 39.24, "target": "GPIO25" },
+    "5V": { "x": 1.45, "y": 41.78, "target": "power(5)" },
+    "GND.1": { "x": 1.45, "y": 44.32, "target": "GND" }, 
+    "NC0": { "x": 1.45, "y": 46.86, "target": "" },
+
+    "NC1": { "x": 24.6, "y": 46.86, "target": "" },
+    "GND.2": { "x": 24.6, "y": 44.32, "target": "GND" },
+    "13": { "x": 24.6, "y": 41.78, "target": "GPIO13" },
+    "14": { "x": 24.6, "y": 39.24, "target": "GPIO14" },
+    "GND.3": { "x": 24.6, "y": 36.7, "target": "GND" },
+    "28": { "x": 24.6, "y": 34.16, "target": "GPIO28" },
+    "NC2": { "x": 24.6, "y": 31.62, "target": "" },
+    "5": { "x": 24.6, "y": 29.08, "target": "GPIO5" },
+    "4": { "x": 24.6, "y": 26.54, "target": "GPIO4" },
+    "27": { "x": 24.6, "y": 24, "target": "GPIO27" },
+    "15": { "x": 24.6, "y": 21.46, "target": "GPIO15" },
+    "23": { "x": 24.6, "y": 18.92, "target": "GPIO23" },
+    "24": { "x": 24.6, "y": 16.38, "target": "GPIO24" },
+    "RX": { "x": 24.6, "y": 13.84, "target": "GPIO12" },
+    "TX": { "x": 24.6, "y": 11.3, "target": "GPIO11" },
+    "GND.4": { "x": 24.6, "y": 8.76, "target": "GND" }
+  },
+
+  "leds": [
+    {
+      "id": "rgb",
+      "x": 8.56,
+      "y": 40.6,
+      "type": "ws2812",
+      "pins": {
+        "DI": "8"
+      }
+    }
+  ]
+}
