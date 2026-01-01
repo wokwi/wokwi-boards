@@ -1,0 +1,51 @@
+ svg width="27" height="40.5" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <rect id="svg_3" height="40.62397" width="26.99932" y="0.03176" x="0.06284" stroke-width="0" stroke="#000" fill="#293414"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_2" y="39.03078" x="6.31268" stroke-width="0" stroke="#000" fill="#ffffff">ESP32-CAM</text>
+  <rect stroke="#000" id="svg_4" height="3.56241" width="3.49991" y="28.71854" x="22.68727" stroke-width="0" fill="#ffffff"/>
+  <ellipse stroke="#000" ry="1.31247" rx="1.31247" id="svg_6" cy="30.46849" cx="24.56222" stroke-width="0" fill="#FFFA8D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_8" cy="25.93633" cx="24.49972" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_9" cy="22.87391" cx="24.56222" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_10" cy="19.56149" cx="24.49972" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_11" cy="16.37407" cx="24.49972" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_12" cy="13.18665" cx="24.43722" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_13" cy="10.06173" cx="24.37472" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_14" cy="6.62432" cx="24.31223" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_15" cy="3.5619" cx="24.24973" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_16" cy="25.87383" cx="2.68777" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_17" cy="22.81141" cx="2.75027" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_18" cy="19.49899" cx="2.68777" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_19" cy="16.31157" cx="2.68777" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_20" cy="13.12415" cx="2.62527" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_21" cy="9.99923" cx="2.50028" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_22" cy="6.56182" cx="2.50028" stroke-width="0" fill="#B8874D"/>
+  <ellipse stroke="#000" ry="0.81248" rx="1.46871" id="svg_23" cy="3.4994" cx="2.43778" stroke-width="0" fill="#B8874D"/>
+  <rect stroke="#000" id="svg_50" height="12.56218" width="12.31219" y="-0.12551" x="6.90642" stroke-width="0" fill="#999999"/>
+  <text transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_24" y="6.74772" x="17.65737" stroke-width="0" fill="#ffffff">3V3</text>
+  <text transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_26" y="12.08894" x="17.07012" stroke-width="0" fill="#ffffff">IO16</text>
+  <text transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_27" y="17.87527" x="18.34248" stroke-width="0" fill="#ffffff">IO0</text>
+  <text transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_28" y="23.77287" x="16.58076" stroke-width="0" fill="#ffffff">GND</text>
+  <text style="cursor: move;" transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_29" y="29.22536" x="16.58076" stroke-width="0" fill="#ffffff">VCC</text>
+  <text transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_30" y="35.12296" x="17.07012" stroke-width="0" fill="#ffffff">UOR</text>
+  <text style="cursor: move;" transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_31" y="40.90929" x="17.07012" stroke-width="0" fill="#ffffff">UOT</text>
+  <text transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_32" y="46.47306" x="14.23179" stroke-width="0" fill="#ffffff">GND/R</text>
+  <text style="cursor: move;" transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_33" y="18.43164" x="-4.07056" stroke-width="0" fill="#ffffff">IO12</text>
+  <text style="cursor: move;" transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_34" y="24.10669" x="-4.07056" stroke-width="0" fill="#ffffff">IO13</text>
+  <text style="cursor: move;" transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_35" y="29.67047" x="-4.16843" stroke-width="0" fill="#ffffff">IO15</text>
+  <text style="cursor: move;" transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_36" y="34.90041" x="-4.16843" stroke-width="0" fill="#ffffff">IO14</text>
+  <text style="cursor: move;" transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_37" y="40.57546" x="-3.97268" stroke-width="0" fill="#ffffff">IO2</text>
+  <text style="cursor: move;" transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_38" y="46.36179" x="-3.97268" stroke-width="0" fill="#ffffff">IO4</text>
+  <text transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_39" y="11.97767" x="-4.36418" stroke-width="0" fill="#ffffff">GND</text>
+  <text style="cursor: move;" transform="matrix(0.638563 0 0 0.561655 7.43769 0.226022)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="3" id="svg_40" y="6.52517" x="-4.55993" stroke-width="0" fill="#ffffff">5V</text>
+  <rect id="svg_41" height="5.99985" width="16.06209" y="28.24877" x="5.65645" stroke-width="0" stroke="#000" fill="#ffffff"/>
+  <rect stroke="#000" id="svg_48" height="17.99954" width="6.18734" y="10.56172" x="10.53133" stroke-width="0" fill="#B8874D"/>
+  <rect stroke="#000" id="svg_42" height="3.43741" width="14.06214" y="27.49879" x="6.53143" stroke-width="0" fill="#000000"/>
+  <g id="svg_52">
+   <rect id="svg_47" height="8.56228" width="8.74978" y="2.12443" x="9.03136" stroke-width="0" stroke="#000" fill="#000000"/>
+   <ellipse stroke="#000" ry="3.9999" rx="4.0624" id="svg_43" cy="6.31183" cx="13.46875" stroke-width="0" fill="#444444"/>
+   <ellipse stroke="#000" ry="3.24992" rx="3.24992" id="svg_45" cy="6.24933" cx="13.53125" stroke-width="0" fill="#666666"/>
+   <ellipse stroke="#000" ry="2.56244" rx="2.62493" id="svg_46" cy="6.31183" cx="13.46875" stroke-width="0" fill="#BBBBBB"/>
+  </g>
+ </g>
+</svg>
