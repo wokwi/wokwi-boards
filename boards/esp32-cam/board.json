@@ -1,0 +1,122 @@
+{
+  "name": "ESP32-CAM (AI Thinker)",
+  "version": 1,
+  "description": "ESP32-CAM development board with camera interface - AI Thinker module",
+  "author": "Edward Sumerfield (Claude)",
+  "mcu": "esp32",
+  "fqbn": "esp32:esp32:esp32cam",
+  "width": 27.0,
+  "height": 40.5,
+  "pins": {
+    "5V": {
+      "x": 2.43778,
+      "y": 3.4994,
+      "target": "power(5)"
+    },
+    "GND.1": {
+      "x": 2.50028,
+      "y": 6.56182,
+      "target": "GND"
+    },
+    "GPIO12": {
+      "x": 2.50028,
+      "y": 9.99923,
+      "target": "GPIO12"
+    },
+    "GPIO13": {
+      "x": 2.62527,
+      "y": 13.12415,
+      "target": "GPIO13"
+    },
+    "GPIO15": {
+      "x": 2.68777,
+      "y": 16.31157,
+      "target": "GPIO15",
+      "label": "SDA"
+    },
+    "GPIO14": {
+      "x": 2.68777,
+      "y": 19.49899,
+      "target": "GPIO14",
+      "label": "SCL"
+    },
+    "GPIO2": {
+      "x": 2.75027,
+      "y": 22.81141,
+      "target": "GPIO2"
+    },
+    "GPIO4": {
+      "x": 2.68777,
+      "y": 25.87383,
+      "target": "GPIO4",
+      "label": "LED"
+    },
+    "GND.2": {
+      "x": 24.24973,
+      "y": 3.5619,
+      "target": "GND"
+    },
+    "GPIO33": {
+      "x": 24.31223,
+      "y": 6.62432,
+      "target": "GPIO33"
+    },
+    "GPIO1": {
+      "x": 24.37472,
+      "y": 10.06173,
+      "target": "GPIO1",
+      "label": "TX"
+    },
+    "GPIO3": {
+      "x": 24.43722,
+      "y": 13.18665,
+      "target": "GPIO3",
+      "label": "RX"
+    },
+    "GPIO16": {
+      "x": 24.49972,
+      "y": 16.37407,
+      "target": "GPIO16"
+    },
+    "GPIO0": {
+      "x": 24.49972,
+      "y": 19.56149,
+      "target": "GPIO0",
+      "label": "BOOT"
+    },
+    "VCC": {
+      "x": 24.56222,
+      "y": 22.87391,
+      "target": "power(3.3)"
+    },
+    "GND.3": {
+      "x": 24.49972,
+      "y": 25.93633,
+      "target": "GND"
+    }
+  },
+  "leds": [
+    {
+      "id": "led_flash",
+      "x": 13.5,
+      "y": 35.0,
+      "type": "0603",
+      "color": "white",
+      "pins": {
+        "A": "GPIO4",
+        "C": "GND"
+      }
+    },
+    {
+      "id": "led_power",
+      "x": 13.5,
+      "y": 37.5,
+      "type": "0603",
+      "color": "red",
+      "pins": {
+        "A": "power(3.3)",
+        "C": "GND"
+      }
+    }
+  ]
+}
