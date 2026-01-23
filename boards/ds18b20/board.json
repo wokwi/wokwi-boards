@@ -6,7 +6,7 @@
   "width": 8.564,
   "height": 13.388,
 
-  "chips": [{ "id": "chip", "type": "github:bonnyr/wokwi-ds1820-custom-chip@0.4.5" }],
+  "chips": [{ "id": "chip", "type": "wokwi-ds18b20" }],
 
   "pins": {
     "GND": { "x": 1.46, "y": 13, "target": "chip:GND" },
