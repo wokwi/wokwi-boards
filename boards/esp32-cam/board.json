@@ -1,0 +1,72 @@
+{
+  "name": "ESP32-CAM",
+  "version": 1,
+  "description": "ESP32-CAM is a small, low-cost development board that combines the powerful ESP32 chip with a 2-megapixel camera and a microSD card slot for saving pictures and videos.",
+  "author": "Ariella Eliassaf",
+  "mcu": "esp32",
+  "fqbn": "esp32:esp32:esp32cam",
+
+  "width": 27.2,
+  "height": 40.42,
+
+  "pins": {
+    // left socket
+    "5V.1": { "x": 1.9, "y": 4.95, "target": "power(5)" },
+    "GND.1": { "x": 1.9, "y": 7.49, "target": "GND" },
+    "12": { "x": 1.9, "y": 10.03, "target": "GPIO12" },
+    "13": { "x": 1.9, "y": 12.57, "target": "GPIO13" },
+    "15": { "x": 1.9, "y": 15.11, "target": "GPIO15" },
+    "14": { "x": 1.9, "y": 17.65, "target": "GPIO14" },
+    "2": { "x": 1.9, "y": 20.19, "target": "GPIO2" },
+    "4": { "x": 1.9, "y": 22.73, "target": "GPIO4" },
+
+    "3V3": { "x":24.76, "y": 4.95, "target": "power(3.3)" },
+    "16": { "x": 24.76, "y": 7.49, "target": "GPIO16" },
+    "0": { "x": 24.76, "y": 10.03, "target": "GPIO0" },
+    "GND.2": { "x": 24.76, "y": 12.57, "target": "GND" },
+    "VCC": { "x": 24.76, "y": 15.11, "target": "power(5)" },
+    "RX": { "x": 24.76, "y": 17.65, "target": "GPIO3" },
+    "TX": { "x": 24.76, "y": 20.19, "target": "GPIO1" },
+    "GNd.3": { "x": 24.76, "y": 22.73, "target": "GND" },
+ 
+ // internals
+ "$gpio33": { "target": ["GPIO33", "LED1:C"] },
+ "$gpio4": { "target": ["GPIO4", "flash_led:C"] },
+  // SD card (SD_MMC, 4-bit)
+  "$sd_clk": { "target": "GPIO14" },
+  "$sd_cmd": { "target": "GPIO15" },
+  "$sd_d0": { "target": "GPIO2" },
+  "$sd_d1": { "target": "GPIO4" },
+  "$sd_d2": { "target": "GPIO12" },
+  "$sd_d3": { "target": "GPIO13" }
+  },
+
+ 
+
+  "leds": [
+    {
+      "id": "LED1",
+      "x": 4.4,
+      "y": 30.9,
+      "type": "0603",
+      "color": "red",
+      "pins": {
+        "A": "3V3",
+        "C": "$gpio33"
+      }
+    },
+    {
+      "id": "flash_led",
+      "x": 24,
+      "y": 31.25,
+      "type": "circle",
+      "color": "white",
+      "radius": 8,
+      "pins": {
+        "A": "3V3",
+        "C": "$gpio4"
+      }
+    }
+    
+  ]
+}
