@@ -1,0 +1,19 @@
+{
+  "name": "BMP180",
+  "version": 1,
+  "description": "BMP180 Pressure Sensor",
+  "author": "Ariella Eliassaf",
+ 
+  "chips": [{ "id": "chip", "type": "wokwi-bmp180" }],
+  
+  "width": 18.04,
+  "height": 12.38,
+
+  "pins": {
+    "VCC": { "x": 17.71, "y": 0.8, "target": "chip:VCC" },
+    "GND": { "x": 17.71, "y":3.34, "target": "chip:GND" },
+    "SCL": { "x": 17.71, "y":5.88, "target": "chip:SCL" },
+    "SDA": { "x": 17.71, "y": 8.42, "target": "chip:SDA" },
+    "3.3V": { "x": 17.71, "y": 10.96, "target": "power(3.3)" }
+  }
+}
