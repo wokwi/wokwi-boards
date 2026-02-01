@@ -10,10 +10,10 @@
   "height": 12.38,
 
   "pins": {
-    "VCC": { "x": 17.71, "y": 0.8, "target": "chip:VCC" },
-    "GND": { "x": 17.71, "y":3.34, "target": "chip:GND" },
-    "SCL": { "x": 17.71, "y":5.88, "target": "chip:SCL" },
-    "SDA": { "x": 17.71, "y": 8.42, "target": "chip:SDA" },
-    "3.3V": { "x": 17.71, "y": 10.96, "target": "power(3.3)" }
+    "VCC": { "x": 17.71, "y": 1.1, "target": "chip:VCC" },
+    "GND": { "x": 17.71, "y":3.59, "target": "chip:GND" },
+    "SCL": { "x": 17.71, "y":6.13, "target": "chip:SCL" },
+    "SDA": { "x": 17.71, "y": 8.67, "target": "chip:SDA" },
+    "3.3V": { "x": 17.71, "y": 11.21, "target": "power(3.3)" }
   }
 }
