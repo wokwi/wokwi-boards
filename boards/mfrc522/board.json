@@ -1,0 +1,22 @@
+{
+  "name": "MFRC522",
+  "version": 1,
+  "description": "MFRC522 RFID Reader",
+  "author": "Ariella Eliassaf",
+ 
+  "chips": [{ "id": "chip", "type": "wokwi-mfrc522" }],
+  
+  "width": 59.496,
+  "height": 39.964,
+
+  "pins": {
+    "SDA": { "x": 1.63, "y": 10.86, "target": "chip:SDA" },
+    "SCK": { "x": 1.63, "y":13.4, "target": "chip:SCK" },
+    "MOSI": { "x": 1.63, "y":15.94, "target": "chip:MOSI" },
+    "MISO": { "x": 1.63, "y":18.48, "target": "chip:MISO" },
+    "IRQ": { "x": 1.63, "y":21.02, "target": "chip:IRQ" },
+    "GND": { "x": 1.63, "y":23.56, "target": "chip:GND" },
+    "RST": { "x": 1.63, "y":26.1, "target": "chip:RST" },
+    "3.3V": { "x": 1.63, "y":28.64, "target": "chip:VCC" }
+  }
+}
