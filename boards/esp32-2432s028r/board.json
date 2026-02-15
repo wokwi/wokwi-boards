@@ -1,0 +1,178 @@
+{
+  "name": "ESP32-2432S028R",
+  "version": 1,
+  "description": "The ESP32-2432S028R (“Cheap Yellow Display”) is a development board based on an ESP32 microcontroller with a built-in 2.8 inch touchscreen, Wi-Fi, and Bluetooth.",
+  "author": "Ariella Eliassaf",
+  "mcu": "esp32",
+  "fqbn": "esp32:esp32:jczn_2432s028r",
+  "width": 86,
+  "height": 50,
+  "pins": {
+    // p1
+    "VIN": {
+      "x": 1.368,
+      "y": 7.18,
+      "target": "power(5)"
+    },
+    "TX": {
+      "x": 1.368,
+      "y": 9.72,
+      "target": "GPIO1"
+    },
+    "RX": {
+      "x": 1.368,
+      "y": 12.26,
+      "target": "GPIO3"
+    },
+    "GND.1": {
+      "x": 1.368,
+      "y": 14.8,
+      "target": "GND"
+    },
+    //P3
+    "IO21": {
+      "x": 1.368,
+      "y": 21.04,
+      "target": "GPIO21"
+    },
+    "IO22": {
+      "x": 1.368,
+      "y": 23.58,
+      "target": "GPIO22"
+    },
+    "IO35": {
+      "x": 1.368,
+      "y": 26.12,
+      "target": "GPIO35"
+    },
+    "GND.2": {
+      "x": 1.368,
+      "y": 28.66,
+      "target": "GND"
+    },
+    //CN1
+    "3.3V": {
+      "x": 1.368,
+      "y": 34.78,
+      "target": "power(3.3)"
+    },
+    "IO27": {
+      "x": 1.368,
+      "y": 37.32,
+      "target": "GPIO27"
+    },
+    "GND.3": {
+      "x": 1.368,
+      "y": 42.4,
+      "target": "GND"
+    },
+
+
+    // internals
+    "$gpio12": {
+      "target": [
+        "GPIO12",
+        "lcd1:MISO"
+      ]
+    },
+    "$gpio13": {
+      "target": [
+        "GPIO13",
+        "lcd1:MOSI"
+      ]
+    },
+    "$gpio14": {
+      "target": [
+        "GPIO14",
+        "lcd1:SCK"
+      ]
+    },
+    "$gpio15": {
+      "target": [
+        "GPIO15",
+        "lcd1:CS"
+      ]
+    },
+    "$gpio2": {
+      "target": [
+        "GPIO2",
+        "lcd1:D/C"
+      ]
+    },
+    "$gpio21": {
+      "target": [
+        "GPIO21",
+        "touch1:LED"
+      ]
+    }, //led pins
+    "$gpio4": {
+      "target": [
+        "GPIO4"      ]
+    },
+    "$gpio16": {
+      "target": [
+        "GPIO16"
+      ]
+    },
+    "$gpio17": {
+      "target": [
+        "GPIO17"
+      ]
+    },
+    "$3V3": {
+      "target": ["power(3.3)"]
+    },
+
+
+    // touch pins internal
+    "$gpio25": {
+      "target": ["GPIO25", "touch1:CLK"]
+    },
+    "$gpio32": {
+      "target": ["GPIO32", "touch1:MOSI"]
+    },
+    "$gpio33": {
+      "target": ["GPIO33", "touch1:CS"]
+    },
+    "$gpio36": {
+      "target": ["GPIO36", "touch1:IRQ"]
+    },
+    "$gpio39": {
+      "target": ["GPIO39", "touch1:MISO"]
+    }
+  },
+
+  // displays
+  "displays": [
+    {
+      "id": "lcd1",
+      "x": 20.2,
+      "y": -4.565,
+      "width": 43.2,
+      "height": 57.6,
+      "rotate": -90,
+      "pixelWidth": 240,
+      "pixelHeight": 320,
+      "chip": "ili9341",
+      "touch": {
+        "id": "touch1",
+        "chip": "xpt2046"
+      }
+    }
+  ],
+  "leds": [
+    {
+      "id": "rgb",
+      "x": 81.112,
+      "y": 39.07,
+      "type": "rgb",
+      "radius": 5.0,
+      "pins": {
+        "R": "$gpio4",
+        "G": "$gpio16",
+        "B": "$gpio17",
+        "COM": "$3V3"
+      }
+    }
+  ]
+}
