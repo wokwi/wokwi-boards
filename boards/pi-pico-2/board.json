@@ -4,7 +4,7 @@
   "description": "Raspberry Pi Pico 2 is a microcontroller board based on the Raspberry Pi RP2350 microcontroller chip",
   "author": "Ariella Eliassaf",
   "mcu": "rp2350",
-  "fqbn": "pico:rp2040:rpipico2",
+  "fqbn": "rp2040:rp2040:rpipico2",
   "width": 20.9,
   "height": 52.75,
  
