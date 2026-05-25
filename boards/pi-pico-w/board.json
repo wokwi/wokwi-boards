@@ -13,7 +13,7 @@
   "environments": {
     "micropython": {
       "firmware": "https://wokwi.github.io/firmware-assets/micropython/rp2-pico-w-$VERSION.uf2",
-      "defaultVersion": "20241129-v1.24.1",
+      "defaultVersion": "20260406-v1.28.0",
       "fs": {
         "type": "lfs",
         "flashOffset": 1228800,
