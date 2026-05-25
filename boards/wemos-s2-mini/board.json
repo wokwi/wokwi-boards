@@ -9,7 +9,7 @@
     "height": 34.32,
     "environments": {
         "micropython": {
-            "firmware": "https://wokwi.github.io/firmware-assets/micropython/GENERIC_S2-$VERSION.bin",
+            "firmware": "https://wokwi.github.io/firmware-assets/micropython/ESP32_GENERIC_S2-$VERSION.bin",
             "defaultVersion": "20220117-v1.18",
             "fs": {
                 "type": "lfs",
