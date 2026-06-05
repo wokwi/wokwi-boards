@@ -1,0 +1,88 @@
+{
+    "name": "ESP32-S31-Function-CoreBoard-1",
+    "version": 1,
+    "description": "A development board based on the ESP32-S31-WROOM-3 module with Wi-Fi, Bluetooth Classic, Bluetooth LE, and IEEE 802.15.4. It integrates Gigabit Ethernet, USB 2.0 OTG, and onboard audio peripherals for connected IoT applications.",
+    "author": "Kristaps Jurkans",
+    "mcu": "esp32-s31",
+    "mcuAttrs": {
+        "flashSize": "32",
+        "psramSize": "16",
+        "psramType": "octal"
+    },
+    "fqbn": "esp32:esp32:esp32s31",
+
+    "width": 71,
+    "height": 55,
+
+    "pins": {
+        // top row of j5
+        "GND.1": {"x": 14.37, "y": 1.73, "target": "GND"},
+        "RX0": {"x": 16.91, "y": 1.73, "target": "GPIO59"},
+        "60": {"x": 19.45, "y": 1.73, "target": "GPIO60"},
+        "GND.2": {"x": 21.99, "y": 1.73, "target": "GND"},
+        "3": {"x": 24.53, "y": 1.73, "target": "GPIO3"},
+        "1": {"x": 27.07, "y": 1.73, "target": "GPIO1"},
+        "48": {"x": 29.61, "y": 1.73, "target": "GPIO48"},
+        "46": {"x": 32.15, "y": 1.73, "target": "GPIO46"},
+        "44": {"x": 34.69, "y": 1.73, "target": "GPIO44"},
+        "42": {"x": 37.23, "y": 1.73, "target": "GPIO42"},
+        "38": {"x": 39.77, "y": 1.73, "target": "GPIO38"},
+        "36": {"x": 42.31, "y": 1.73, "target": "GPIO36"},
+        "D0": {"x": 44.85, "y": 1.73, "target": "GPIO20"},
+        "D2": {"x": 47.39, "y": 1.73, "target": "GPIO22"},
+        "CLK": {"x": 49.93, "y": 1.73, "target": "GPIO24"},
+        "4": {"x": 52.47, "y": 1.73, "target": "GPIO4"},
+        "GND.3": {"x": 55.01, "y": 1.73, "target": "GND"},
+        "3V3.1": {"x": 57.55, "y": 1.73, "target": "power(3.3)"},
+        "GND.4": {"x": 60.09, "y": 1.73, "target": "GND"},
+        "5V.1": {"x": 62.63, "y": 1.73, "target": "power(5)"},
+
+        // bottom row of j5
+        "GND.5": {"x": 14.37, "y": 4.27, "target": "GND"},
+        "TX0": {"x": 16.91, "y": 4.27, "target": "GPIO58"},
+        "61": {"x": 19.45, "y": 4.27, "target": "GPIO61"},
+        "2": {"x": 21.99, "y": 4.27, "target": "GPIO2"},
+        "0": {"x": 24.53, "y": 4.27, "target": "GPIO0"},
+        "49": {"x": 27.07, "y": 4.27, "target": "GPIO49"},
+        "47": {"x": 29.61, "y": 4.27, "target": "GPIO47"},
+        "45": {"x": 32.15, "y": 4.27, "target": "GPIO45"},
+        "43": {"x": 34.96, "y": 4.27, "target": "GPIO43"},
+        "40": {"x": 37.23, "y": 4.27, "target": "GPIO40"},
+        "39": {"x": 39.77, "y": 4.27, "target": "GPIO39"},
+        "37": {"x": 42.31, "y": 4.27, "target": "GPIO37"},
+        "35": {"x": 44.85, "y": 4.27, "target": "GPIO35"},
+        "D1": {"x": 47.39, "y": 4.27, "target": "GPIO21"},
+        "D3": {"x": 49.93, "y": 4.27, "target": "GPIO23"},
+        "CMD": {"x": 52.47, "y": 4.27, "target": "GPIO25"},
+        "GND.6": {"x": 55.01, "y": 4.27, "target": "GND"},
+        "3V3.2": {"x": 57.55, "y": 4.27, "target": "power(3.3)"},
+        "GND.7": {"x": 60.09, "y": 4.27, "target": "GND"},
+        "5V.2": {"x": 62.63, "y": 4.27, "target": "power(5)"}
+    },
+
+    "leds": [
+        {
+            "id": "power",
+            "x": 22.50,
+            "y": 53.73,
+            "type": "0603",
+            "color": "red",
+            "pins": {
+                "A": "3V3.1",
+                "C": "GND.1"
+            }
+        },
+        {
+            "id": "user",
+            "x": 8.28,
+            "y": 21.06,
+            "type": "ws2812",
+            "pins": {
+                "VDD": "3V3.1",
+                "VSS": "GND.1",
+                "DIN": "GPIO60"
+            }
+        }
+    ]
+
+}
