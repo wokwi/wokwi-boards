@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="19.812mm"
+   height="8.35mm"
+   viewBox="0 0 19.812 8.35"
+   version="1.1"
+   id="svg25"
+   sodipodi:docname="board.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="6.275006"
+     inkscape:cx="26.294796"
+     inkscape:cy="33.625466"
+     inkscape:window-width="1600"
+     inkscape:window-height="868"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg25" />
+  <defs
+     id="defs7">
+    <pattern
+       id="pins"
+       width="2.54"
+       height="8.4"
+       patternUnits="userSpaceOnUse">
+      <rect
+         x=".5"
+         width="1.2"
+         height="1"
+         fill="#ccc"
+         rx=".1"
+         id="rect2" />
+      <rect
+         x=".5"
+         y="7.35"
+         width="1.2"
+         height="1"
+         fill="#ccc"
+         rx=".1"
+         id="rect4" />
+    </pattern>
+  </defs>
+  <path
+     fill="#222"
+     d="M0 1h19.812v6.35H0z"
+     id="path9" />
+  <path
+     fill="url(#pins)"
+     d="M0 0h19.812v8.5H0z"
+     id="path11" />
+  <circle
+     cx="17.526"
+     cy="4.175"
+     r="1.25"
+     id="circle13" />
+  <circle
+     cy="4.175"
+     r="1"
+     id="circle15" />
+  <circle
+     cx="1.25"
+     cy="6.15"
+     fill="#444"
+     r=".5"
+     id="circle17" />
+  <text
+     fill="#808000"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="2px"
+     text-anchor="middle"
+     id="text23"
+     x="-0.026125146"
+     y="1.2127725"><tspan
+       sodipodi:role="line"
+       id="tspan18612"
+       x="9.8738737"
+       y="4.9627724"><tspan
+         x="9.8738737"
+         y="4.9627724"
+         id="tspan19"></tspan></tspan><tspan
+       sodipodi:role="line"
+       id="tspan18614"
+       x="9.8738737"
+       y="7.4627724"><tspan
+         x="9.8738737"
+         y="4.9627724"
+         id="tspan18616"></tspan></tspan><tspan
+       sodipodi:role="line"
+       x="9.8738737"
+       y="4.9627724"
+       id="tspan18618"><tspan
+         x="9.8738737"
+         y="4.9627724"
+         id="tspan18620">CD4026B</tspan></tspan></text>
+</svg>
