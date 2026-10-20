@@ -3,11 +3,11 @@
   "version": 1,
   "description": "Raspberry Pi Pico 2 W is a microcontroller board based on the Raspberry Pi RP2350 microcontroller chip, with a 2.4 GHz wireless interface and Bluetooth 5.2 support.",
   "author": "Ariella Eliassaf",
-  "mcu": "RP2350",
+  "mcu": "rp2350",
   "mcuAttrs": {
     "cyw43": "1"
   },
-  "fqbn": "RP2350:RP2350:rpipico2w",
+  "fqbn": "rp2040:rp2040:rpipico2w",
   "width": 20.9,
   "height": 52.75,
   
