@@ -22,8 +22,8 @@
         "17": {"x": 5.04, "y": 32.30, "target": "GPIO17"},
         "16": {"x": 5.04, "y": 34.84, "target": "GPIO16"},
         "15": {"x": 5.04, "y": 37.38, "target": "GPIO15"},
-        "USJ_DN": {"x": 5.04, "y": 39.92, "target": "GPIO33", "tooltip": "GPIO33"},
-        "USJ_DP": {"x": 5.04, "y": 42.46, "target": "GPIO34", "tooltip": "GPIO34"},
+        "USJ_DN": {"x": 5.04, "y": 39.92, "target": "GPIO33"},
+        "USJ_DP": {"x": 5.04, "y": 42.46, "target": "GPIO34"},
         "5V_IN.1": {"x": 5.04, "y": 45.00, "target": "power(5)"},
         "VCC_3V3.1": {"x": 5.04, "y": 47.54, "target": "power(3.3)"},
         // bottom row - bottom -> top
