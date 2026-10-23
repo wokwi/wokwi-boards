@@ -1,0 +1,63 @@
+{
+  "name": "Waveshare ESP32-S3-Zero",
+  "version": "1",
+  "description": "An IoT mini development board based on the Espressif ESP32-S3 WiFi/Bluetooth dual-mode chip",
+  "author": "Gavyn Lenyk",
+  "mcu": "esp32-s3",
+  "fqbn": "esp32:esp32:waveshare_esp32_s3_zero",
+  "width": 18,
+  "height": 25.2,
+  "mcuAttrs": {
+    "flashSize": "4",
+    "psramSize": "2",
+    "serialInterface": "USB_SERIAL_JTAG"
+  },
+  "environments": {
+    "micropython": {
+      "firmware": "https://wokwi.github.io/firmware-assets/micropython/ESP32_GENERIC_S3-$VERSION.bin",
+      "defaultVersion": "20260406-v1.28.0",
+      "type": "binary",
+      "fs": { "type": "lfs", "flashOffset": 2097152, "blockSize": 4096, "numBlocks": 512 }
+    }
+  },
+
+  "pins": {
+    "5V": { "x": 1.468, "y": 3.15, "target": "power(5)" },
+    "GND.1": { "x": 1.468, "y": 5.69, "target": "GND" },
+    "3V3": { "x": 1.468, "y": 8.254, "target": "power(3.3)" },
+    "G1": { "x": 1.468, "y": 10.818, "target": "GPIO1" },
+    "G2": { "x": 1.468, "y": 13.382, "target": "GPIO2" },
+    "G3": { "x": 1.468, "y": 15.946, "target": "GPIO3" },
+    "G4": { "x": 1.468, "y": 18.51, "target": "GPIO4" },
+    "G5": { "x": 1.468, "y": 21.075, "target": "GPIO5" },
+    "G6": { "x": 1.468, "y": 23.639, "target": "GPIO6" },
+
+    "TX": { "x": 16.532, "y": 3.15, "target": "GPIO43" },
+    "RX": { "x": 16.532, "y": 5.69, "target": "GPIO44" },
+    "G13": { "x": 16.532, "y": 8.254, "target": "GPIO13" },
+    "G12": { "x": 16.532, "y": 10.818, "target": "GPIO12" },
+    "G11": { "x": 16.532, "y": 13.382, "target": "GPIO11" },
+    "G10": { "x": 16.532, "y": 15.946, "target": "GPIO10" },
+    "G9": { "x": 16.532, "y": 18.51, "target": "GPIO9" },
+    "G8": { "x": 16.532, "y": 21.075, "target": "GPIO8" },
+    "G7": { "x": 16.532, "y": 23.639, "target": "GPIO7" },
+
+
+    "$gpio21": { "target": "GPIO21" },
+    "$gpio0": { "target": "GPIO0" }
+  },
+
+
+
+  "leds": [
+    {
+      "id": "led1",
+      "x": 9,
+      "y": 9.4,
+      "type": "ws2812",
+      "pins": {
+        "DI": "$gpio21"
+      }
+    }
+  ]
+}
