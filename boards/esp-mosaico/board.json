@@ -61,18 +61,18 @@
         "1.2": {"x": 69.24, "y": 32.05, "target": "GPIO1"},
         "0.2": {"x": 69.24, "y": 29.51, "target": "GPIO0"},
         "5V_OUT.2": {"x": 69.24, "y": 26.67, "target": "power(5)"},
-        "GND.2": {"x": 69.24, "y": 24.43, "target": "GND"}
-    },
+        "GND.2": {"x": 69.24, "y": 24.43, "target": "GND"},
 
-    "$gpio6": {"target": ["GPIO6", "touch1:INT"]},
-    "$gpio44": {"target": ["GPIO44", "touch1:RST", "lcd1:RST"]},
-    "$gpio43": {"target": ["GPIO43", "lcd1:TE"]},
-    "$gpio36": {"target": ["GPIO36", "lcd1:D0"]},
-    "$gpio50": {"target": ["GPIO50", "lcd1:CS"]},
-    "$gpio42": {"target": ["GPIO42", "lcd1:CLK"]},
-    "$gpio51": {"target": ["GPIO51", "lcd1:D1"]},
-    "$gpio35": {"target": ["GPIO35", "lcd1:D2"]},
-    "$gpio9": {"target": ["GPIO9", "lcd1:D3"]},
+        "$gpio6": {"target": ["GPIO6", "touch1:INT"]},
+        "$gpio44": {"target": ["GPIO44", "touch1:RST", "lcd1:RST"]},
+        "$gpio43": {"target": ["GPIO43", "lcd1:TE"]},
+        "$gpio36": {"target": ["GPIO36", "lcd1:D0"]},
+        "$gpio50": {"target": ["GPIO50", "lcd1:CS"]},
+        "$gpio42": {"target": ["GPIO42", "lcd1:CLK"]},
+        "$gpio51": {"target": ["GPIO51", "lcd1:D1"]},
+        "$gpio35": {"target": ["GPIO35", "lcd1:D2"]},
+        "$gpio9": {"target": ["GPIO9", "lcd1:D3"]},
+    },
 
     "displays": [
         {
