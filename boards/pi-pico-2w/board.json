@@ -8,9 +8,21 @@
     "cyw43": "1"
   },
   "fqbn": "rp2040:rp2040:rpipico2w",
+  "environments": {
+    "micropython": {
+      "firmware": "https://wokwi.github.io/firmware-assets/micropython/rp2-pico2-w-$VERSION.uf2",
+      "defaultVersion": "20260406-v1.28.0",
+      "fs": {
+        "type": "lfs",
+        "flashOffset": 1572864,
+        "blockSize": 4096,
+        "numBlocks": 640
+      }
+    }
+  },
   "width": 20.9,
   "height": 52.75,
-  
+
   "pins": {
     /* Physical pins */
     "GP0": { "y": 3.4, "x": 1.6, "target": "GPIO0" },
@@ -50,7 +62,7 @@
     "GP28": { "y": 18.64, "x": 19.3, "target": "GPIO28" },
     "ADC_VREF": { "y": 16.1, "x": 19.3 },
     "3V3": { "y": 13.56, "x": 19.3, "target": "power(3.3)" },
-    "3V3_EN": { "y": 11.02, "x": 19.3 }, 
+    "3V3_EN": { "y": 11.02, "x": 19.3 },
     "GND.8": { "y": 8.48, "x": 19.3, "target": "GND" },
     "VSYS": { "y": 5.94, "x": 19.3, "target": "power(3.3)" },
     "VBUS": { "y": 3.4, "x": 19.3, "target": "power(5)" },
