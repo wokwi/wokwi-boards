@@ -72,6 +72,8 @@
         "$gpio51": {"target": ["GPIO51", "lcd1:D1"]},
         "$gpio35": {"target": ["GPIO35", "lcd1:D2"]},
         "$gpio9": {"target": ["GPIO9", "lcd1:D3"]},
+        "$gpio56": {"target": ["GPIO56", "touch1:SDA"]},
+        "$gpio3": {"target": ["GPIO3", "touch1:SCL"]}
     },
 
     "displays": [
