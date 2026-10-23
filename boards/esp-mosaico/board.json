@@ -42,7 +42,7 @@
         // https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s31/esp-mosaico/user_guide.html#right-module-slot-h1-pins
         // top row - top -> bottom
         "3V3.2": {"x": 66.70, "y": 24.43, "target": "power(3.3)"},
-        "VIN.2": {"x": 66.70, "y": 26.67, "target": "power(5)"},
+        "VIN.2": {"x": 66.70, "y": 26.97, "target": "power(5)"},
         "TX0": {"x": 66.70, "y": 29.51, "target": "GPIO58"},
         "RX0": {"x": 66.70, "y": 32.05, "target": "GPIO59"},
         "38": {"x": 66.70, "y": 34.59, "target": "GPIO38"},
@@ -60,7 +60,7 @@
         "5": {"x": 69.24, "y": 34.59, "target": "GPIO5"},
         "1.2": {"x": 69.24, "y": 32.05, "target": "GPIO1"},
         "0.2": {"x": 69.24, "y": 29.51, "target": "GPIO0"},
-        "5V.2": {"x": 69.24, "y": 26.67, "target": "power(5)"},
+        "5V.2": {"x": 69.24, "y": 26.97, "target": "power(5)"},
         "GND.2": {"x": 69.24, "y": 24.43, "target": "GND"},
 
         "$gpio6": {"target": ["GPIO6", "touch1:INT"]},
