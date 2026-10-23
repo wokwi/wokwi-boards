@@ -24,11 +24,11 @@
         "15": {"x": 5.04, "y": 37.38, "target": "GPIO15"},
         "USJ_DN": {"x": 5.04, "y": 39.92, "target": "GPIO33"},
         "USJ_DP": {"x": 5.04, "y": 42.46, "target": "GPIO34"},
-        "5V_IN.1": {"x": 5.04, "y": 45.00, "target": "power(5)"},
-        "VCC_3V3.1": {"x": 5.04, "y": 47.54, "target": "power(3.3)"},
+        "VIN.1": {"x": 5.04, "y": 45.00, "target": "power(5)"},
+        "3V3.1": {"x": 5.04, "y": 47.54, "target": "power(3.3)"},
         // bottom row - bottom -> top
         "GND.1": {"x": 2.50, "y": 47.54, "target": "GND"},
-        "5V_OUT.1": {"x": 2.50, "y": 45.00, "target": "power(5)"},
+        "5V.1": {"x": 2.50, "y": 45.00, "target": "power(5)"},
         "0.1": {"x": 2.50, "y": 42.46, "target": "GPIO0"},
         "1.1": {"x": 2.50, "y": 39.92, "target": "GPIO1"},
         "4": {"x": 2.50, "y": 37.38, "target": "GPIO4"},
@@ -41,8 +41,8 @@
         // right module slot
         // https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s31/esp-mosaico/user_guide.html#right-module-slot-h1-pins
         // top row - top -> bottom
-        "VCC_3V3.2": {"x": 66.70, "y": 24.43, "target": "power(3.3)"},
-        "5V_IN.2": {"x": 66.70, "y": 26.67, "target": "power(5)"},
+        "3V3.2": {"x": 66.70, "y": 24.43, "target": "power(3.3)"},
+        "VIN.2": {"x": 66.70, "y": 26.67, "target": "power(5)"},
         "TX0": {"x": 66.70, "y": 29.51, "target": "GPIO58"},
         "RX0": {"x": 66.70, "y": 32.05, "target": "GPIO59"},
         "38": {"x": 66.70, "y": 34.59, "target": "GPIO38"},
@@ -60,7 +60,7 @@
         "5": {"x": 69.24, "y": 34.59, "target": "GPIO5"},
         "1.2": {"x": 69.24, "y": 32.05, "target": "GPIO1"},
         "0.2": {"x": 69.24, "y": 29.51, "target": "GPIO0"},
-        "5V_OUT.2": {"x": 69.24, "y": 26.67, "target": "power(5)"},
+        "5V.2": {"x": 69.24, "y": 26.67, "target": "power(5)"},
         "GND.2": {"x": 69.24, "y": 24.43, "target": "GND"},
 
         "$gpio6": {"target": ["GPIO6", "touch1:INT"]},
@@ -103,7 +103,7 @@
             "type": "0603",
             "color": "white",
             "pins": {
-                "A": "VCC_3V3.1",
+                "A": "3V3.1",
                 "C": "GND.1"
             }
         }
